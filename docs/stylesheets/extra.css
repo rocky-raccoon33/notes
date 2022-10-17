@@ -18,3 +18,7 @@
 	-webkit-mask-image: var(--md-admonition-icon--pied-piper);
 	mask-image: var(--md-admonition-icon--pied-piper);
 }
+
+h1 {
+	font-weight: bold;
+}

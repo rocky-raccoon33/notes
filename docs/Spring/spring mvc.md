@@ -4,9 +4,10 @@
 
 ## `Filters`
 
-> Filters are part of the web server and not the Spring framework.
+> `Filters` are part of the web server and not the Spring framework.
 
-> Filters intercept requests before they reach the DispatcherServlet, making them ideal for coarse-grained tasks such as:
+
+> `Filters` intercept requests before they reach the `DispatcherServlet`, making them ideal for coarse-grained tasks such as:
 
 - Authentication
 - Logging and auditing
@@ -33,6 +34,7 @@ public class LogFilter implements Filter {
 ## `HandlerInterceptors`
 
 > `HandlerInterceptors` are part of the Spring MVC framework and sit between the DispatcherServlet and the controllers.
+
 
 > `HandlerIntercepors` intercepts requests between the `DispatcherServlet` and the `Controllers`. This is done within the Spring MVC framework, providing access to the Handler and ModelAndView objects. This reduces duplication and allows for more fine-grained functionality such as:
 
