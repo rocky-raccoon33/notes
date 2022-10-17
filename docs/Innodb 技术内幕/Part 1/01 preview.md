@@ -1,0 +1,45 @@
+## **1 `定义`**
+
+> 数据库 `物理操作文件系统或其他形式文件类型的集合`
+
+> 实例 `由后台线程以及一个共享内存区组成`
+
+![](img/struct.png){: style="width:500px;"}
+
+!!! summary
+
+	```markdown
+    - Layer1：连接、线程处理
+
+    - Layer2: MySQL 的核心服务，包括了对 SQL 的解析、分析、优化和缓存等功能，存储过程、触发器和视图都是在这里实现的
+
+    - Layer3：负责数据的存储和提取的存储引擎
+	```
+___
+
+## **2 `Innodb 存储引擎`**
+
+### Key advantages
+
+- 实现了事务的ACID
+- 行锁设计，支持外键，支持类似Oracle的非锁定读，默认读操作不会产生锁
+- 使用MVCC获得高并发性
+- 使用 `next-key locking` 避免 `phantom`
+
+<center><code>Table 1.1 Innodb存储引擎特性</code></center>
+
+|  Feature  |    Support    |
+|:---------:|:-------------:|
+| b-tree 索引 |  是 |
+| 聚集索引|    是   |
+| 数据压缩 | 是 |
+| 数据缓存 | 是 |
+| 数据加密 | 是 `≥ 5.7` |
+| 外键支持 | 是 |
+| 全文索引 Full-text indexing | 是  `≥ 5.6`  |
+| 哈希索引 | 否 `Innodb 内部使用 hash index 建立自适应哈希索引(Adaptive Hash Index, AHI)` |
+| 锁粒度   | 行锁 |
+| MVCC   | 是 |
+| 主从复制 `server层面实现`   | 是 |
+| 单表限制 | 64TB |
+| 事务 | 是 |
