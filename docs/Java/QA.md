@@ -1,11 +1,16 @@
-# **QA**
+# QA
 
-## **Volatile**
+## Volatile
+
+> **answer in** [stackoverflow](https://stackoverflow.com/questions/106591/what-is-the-volatile-keyword-useful-for)
 
 - Shared Multiprocessor Architectur
 
 ![](img/cpu.webp)
 
+`volatile` has semantics for memory visibility. Basically, the value of a volatile field becomes visible to all readers (other threads in particular) after a write operation completes on it. Without `volatile`, readers could see some non-updated value.
+
+___
 
 ## How does  `compare and set` in `AtomicInteger` works
 
