@@ -1,4 +1,4 @@
-# Spring MVC
+# MVC
 
 ![](./img/filters_vs_interceptors.jpeg)
 
