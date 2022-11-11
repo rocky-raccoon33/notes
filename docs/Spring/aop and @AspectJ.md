@@ -3,9 +3,9 @@
 ## terms and AOP concepts
 
 
-> `Aspect` - **a standard code/feature that is scattered across multiple places in the application and is typically different than the actual Business Logic (for example, Transaction management). Each aspect focuses on a specific cross-cutting functionality**
+> `Aspect` - a standard code/feature that is scattered across multiple places in the application and is typically different than the actual Business Logic (for example, Transaction management). Each aspect focuses on a specific cross-cutting functionality
 ___
-> `Joinpoint` – **it's a particular point during execution of programs like method execution, constructor call, or field assignment**
+> `Joinpoint` – it's a particular point during execution of programs like method execution, constructor call, or field assignment
 ___
 > `Advice` – the action taken by the aspect in a specific joinpoint
 
