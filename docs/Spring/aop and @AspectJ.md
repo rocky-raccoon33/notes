@@ -3,14 +3,14 @@
 ## terms and AOP concepts
 
 
-> `Aspect` - a standard code/feature that is scattered across multiple places in the application and is typically different than the actual Business Logic (for example, Transaction management). Each aspect focuses on a specific cross-cutting functionality
+> `Aspect` - **a standard code/feature that is scattered across multiple places in the application and is typically different than the actual Business Logic (for example, Transaction management). Each aspect focuses on a specific cross-cutting functionality**
 ___
-> `Joinpoint` – it's a particular point during execution of programs like method execution, constructor call, or field assignment
+> `Joinpoint` – **it's a particular point during execution of programs like method execution, constructor call, or field assignment**
 ___
-> `Advice` – the action taken by the aspect in a specific joinpoint
+> `Advice` – **the action taken by the aspect in a specific joinpoint**
 
 ___
-> `Pointcut` – a regular expression that matches a joinpoint. Each time any join point matches a pointcut, a specified advice associated with that pointcut is executed
+> `Pointcut` – **a regular expression that matches a joinpoint. Each time any join point matches a pointcut, a specified advice associated with that pointcut is executed**
 ___
 
 > `Weaving` – the process of linking aspects with targeted objects to create an advised object
@@ -18,13 +18,13 @@ ___
 
 ## Spring AOP and AspectJ
 
-### capabilities
+### **capabilities**
 
 > Spring AOP can only be applied to beans that are managed by a Spring container.
 
 > AspectJ can applied across all domain objects.
 
-### Weaving
+### **Weaving**
 
 AspectJ makes use of three different tyeps of weaving:
 
@@ -38,13 +38,13 @@ Spring AOP use runtime weaving, the aspects are woven during the execution of th
 
 ![](./img/proxy.webp)
 
-### Structure
+### **Structure**
 
 Whenever the targeted object implement one interface, then JDK dynamic proxy will be used. If the target object doesn't implement an interface, the CGLIB proxy will be used.
 
 AspectJ on the hand doesn't do anything at runtime as the classes are compiled directly with the aspects.
 
-### Jointpoints
+### **Jointpoints**
 
 Spring AOP is based on proxy patterns. Because of this, it need to subclass the target class and apply the corss-cutting concerns accordingly.
 
@@ -53,4 +53,4 @@ The same applied for `static class` and `final methods`. Hence Spring AOP becaus
 
 > **It's also worth noting that Spring AOP, aspect aren't applied to the methods called within the same class.**
 
-That's obviously because when we call a method within the same class, then we aren't calling the method of the proxy that Spring supplies. If we need this functionality, we need to defind the method in different beans, or use AspectJ.
+- That's obviously because when we call a method within the same class, then we aren't calling the method of the proxy that Spring supplies. If we need this functionality, we need to defind the method in different beans, or use AspectJ.
