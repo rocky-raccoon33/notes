@@ -2,6 +2,12 @@
 
 ## Kafka 的消息可靠性策略
 
+> 从三个方面分析：
+
+- Topic 分区副本`数据一致性`
+- 生产者`消息确认机制`
+- 消费者`提交机制`
+
 ### 1 `Topic 分区副本` - 副本间的消息状态一致性
 
 > `副本间数据同步`
@@ -14,7 +20,7 @@
     padding: 2px;">leader 同步 follower</div>
 </center>
 
-- `Kafka` 中的每个主题分区都被复制了 n 次，其中的 n 是 `topic` 的 `replication factor`。这允许 Kafka 在集群服务器发生故障时自动切换到这些副本，以便在出现故障时消息仍然可用。Kafka 的复制是以 `partition` 为粒度的，分区的预写日志被复制到 `n` 个服务器。 在 `n` 个副本中，一个副本作为 `leader`，其他副本成为 `followers`。顾名思义，`producer` 只能往 `leader` 分区上写数据（读也只能从 `leader` 分区上进行），`followers` 只按顺序从 `leader` 上复制日志。
+- `Kafka` 中的每个主题分区都被复制了 `n` 次，其中的 `n` 是 `topic` 的 `replication factor`。这允许 `Kafka` 在集群服务器发生故障时自动切换到这些副本，以便在出现故障时消息仍然可用。`Kafka` 的复制是以 `partition` 为粒度的，分区的预写日志被复制到 `n` 个服务器。 在 `n` 个副本中，一个副本作为 `leader`，其他副本成为 `followers`。顾名思义，`producer` 只能往 `leader` 分区上写数据（读也只能从 `leader` 分区上进行），`followers` 只按顺序从 `leader` 上复制日志。
 
 > `ISR in-sync replica` 同步副本列表
 
@@ -36,7 +42,6 @@
 	- leader 允许 ISR 落后的消息数：replica.lag.max.messages （已废弃）
 	- follower 在不超过 replica.lag.time.max.ms 时间内向 leader 发送 fetch 请求
 	- 不同步的 follower 会从 ISR 中移除
-	-
 	```
 
 > `High Water` 机制，选择 `ISR` 中偏移量最小的分区
@@ -49,7 +54,7 @@
     padding: 2px;">HW</div>
 </center>
 
-Q：如何保证分区间数据一致性？
+**Q：如何保证分区间数据一致性？**
 
 A： `leader` **crash** 时，`Kafka` 会从 `ISR` 根据分区选择算法选择 `follower` 作为新的`Leader`，`follower`分区拥有最新的已经 `committed` 的消息。通过这个可以保证已经 `committed` 的消息的数据可靠性
 ___
