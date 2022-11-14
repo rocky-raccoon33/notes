@@ -8,7 +8,6 @@
 
 ![](./img/fig1.jpeg)
 <center>
-    <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
@@ -21,7 +20,6 @@
 
 ![](./img/fig22.jpeg)
 <center>
-    <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
@@ -32,14 +30,11 @@
 
 ![](./img/fig51.jpeg)
 <center>
-    <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
     padding: 2px;">ISR：和Leader保持同步的follower副本</div>
 </center>
-
-- `min.insync.replicas`：`ISR` 中同步的 `follower` 数量
 
 !!! note
 
@@ -49,10 +44,19 @@
 	- 不同步的 follower 会从 ISR 中移除
 	```
 
-> 如何保证？
+> `High Water` 机制，选择 `ISR` 中偏移量最小的分区
 
-- `Leader` **crash** 时，`Kafka`会从`ISR`列表中选择第一个`Follower`作为新的`Leader`，`follower`分区拥有最新的已经 `committed` 的消息。通过这个可以保证已经 `committed` 的消息的数据可靠性
+![](./img/OYEFY.png)
+<center>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">HW</div>
+</center>
 
+> `如何保证分区间数据一致性？`
+
+- `leader` **crash** 时，`Kafka` 会从 `ISR` 根据分区选择算法选择 `follower` 作为新的`Leader`，`follower`分区拥有最新的已经 `committed` 的消息。通过这个可以保证已经 `committed` 的消息的数据可靠性
 ___
 
 
@@ -69,15 +73,13 @@ ___
 
 > **`可用性保证：ack = -1`**：Leader在所有`Follower`收到消息后，才返回确认或错误响应
 
+- 异常情况下，当同步到所有`follower`前`leader` 奔溃，`producer`会重新发送
+
 ```yaml
 request.required.acks:-1 # 当leader 同步到所有follower后，才会返回响应
-unclean.leader.election.enable:false 
+unclean.leader.election.enable:false # 是否允许非同步副本参与leader选举
 min.insync.replicas:${N/2+2} # 用于保证当前集群中处于正常同步状态的副本数量，当实际值小于配置值时，集群停止服务
 ```
-
-- 异常情况下，当同步到所有`follower`前`leader` 奔溃，`producer`会重新发送，导致数据重复（需要业务端支持`幂等`）
-- 序列化失败，分区离线或整个集群长时间不可用，生产者均不会收到任何错误
-- 速度快，但无法保证`server`能收到消息
 
 
 ### 3 `Consumer 可靠性策略`
