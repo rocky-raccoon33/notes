@@ -4,7 +4,7 @@
 
 ### 1 `Topic 分区副本` - 副本间的消息状态一致性
 
-> `WAL`
+> `write-ahead log`
 
 ![](./img/fig1.jpeg)
 <center>
@@ -12,12 +12,12 @@
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">WAL (Write-Ahead Log)</div>
+    padding: 2px;">WAL</div>
 </center>
 
-`Kafka` `topic` 中的每个分区都有一个预写日志（`write-ahead log`），写入 `Kafka` 的消息就存储在这里面。这里面的每条消息都有一个唯一的偏移量，用于标识它在当前分区日志中的位置
+- `Kafka` `topic` 中的每个分区都有一个预写日志（`write-ahead log`），写入 `Kafka` 的消息就存储在这里面。这里面的每条消息都有一个唯一的偏移量，用于标识它在当前分区日志中的位置
 
-> `数据一致性`
+> `副本间数据同步`
 
 ![](./img/fig22.jpeg)
 <center>
@@ -25,7 +25,7 @@
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">leader同步follower</div>
+    padding: 2px;">leader 同步 follower</div>
 </center>
 
 > `ISR in-sync replica`
@@ -49,7 +49,7 @@
 	- 不同步的 follower 会从 ISR 中移除
 	```
 
-> `Leader` 选举如何保证可靠性？
+> 如何保证？
 
 - `Leader` **crash** 时，`Kafka`会从`ISR`列表中选择第一个`Follower`作为新的`Leader`，`follower`分区拥有最新的已经 `committed` 的消息。通过这个可以保证已经 `committed` 的消息的数据可靠性
 
@@ -82,10 +82,15 @@ min.insync.replicas:${N/2+2} # 用于保证当前集群中处于正常同步状�
 
 ### 3 `Consumer 可靠性策略`
 
-> `enable.auto.commit:true`：consumer 收到消息后即返回给broker，如果消费异常，则内容丢失
+> `enable.auto.commit:true`：
+
+- consumer 收到消息后即返回给broker，如果消费异常，则内容丢失
 ___
-> `enable.auto.commit:false`：consumer 处理流程后手动提交，如果未提交时发生重启，会导致重复消费（需实现幂等）
+> `enable.auto.commit:false`：
+
+- consumer 处理流程后手动提交，如果未提交时发生重启，会导致重复消费（需实现幂等）
 ___
+
 > `Exactly once`：....
 ___
 
