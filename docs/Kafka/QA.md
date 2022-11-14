@@ -43,11 +43,11 @@
 
 !!! note
 
- ```markdown
- - leader 允许 ISR 落后的消息数：replica.lag.max.messages
- - follower 在不超过 replica.lag.time.max.ms 时间内向 leader 发送 fetch 请求
- - 不同步的 follower 会从 ISR 中移除
- ```
+	```markdown
+	- leader 允许 ISR 落后的消息数：replica.lag.max.messages
+	- follower 在不超过 replica.lag.time.max.ms 时间内向 leader 发送 fetch 请求
+	- 不同步的 follower 会从 ISR 中移除
+	```
 
 > `Leader` 选举如何保证可靠性？
 
@@ -69,7 +69,7 @@ ___
 
 > **`可用性保证：ack = -1`**：Leader在所有`Follower`收到消息后，才返回确认或错误响应
 
-```yml
+```yaml
 request.required.acks:-1 # 当leader 同步到所有follower后，才会返回响应
 unclean.leader.election.enable:false 
 min.insync.replicas:${N/2+2} # 用于保证当前集群中处于正常同步状态的副本数量，当实际值小于配置值时，集群停止服务
@@ -82,11 +82,11 @@ min.insync.replicas:${N/2+2} # 用于保证当前集群中处于正常同步状�
 
 ### 3 `Consumer 可靠性策略`
 
-> **`enable.auto.commit:true`：consumer 收到消息后即返回给broker，如果消费异常，则内容丢失
+> `enable.auto.commit:true`：consumer 收到消息后即返回给broker，如果消费异常，则内容丢失
 ___
-> **`enable.auto.commit:false`：consumer 处理流程后手动提交，如果未提交时发生重启，会导致重复消费（需实现幂等）
+> `enable.auto.commit:false`：consumer 处理流程后手动提交，如果未提交时发生重启，会导致重复消费（需实现幂等）
 ___
-> **`Exactly once`：....
+> `Exactly once`：....
 ___
 
 ## 参考
