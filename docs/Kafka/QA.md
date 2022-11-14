@@ -4,18 +4,6 @@
 
 ### 1 `Topic 分区副本` - 副本间的消息状态一致性
 
-> `write-ahead log` 预写日志
-
-![](./img/fig1.jpeg)
-<center>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">WAL</div>
-</center>
-
-- `Kafka` `topic` 中的每个分区都有一个预写日志（`write-ahead log`），写入 `Kafka` 的消息就存储在这里面。这里面的每条消息都有一个唯一的偏移量，用于标识它在当前分区日志中的位置
-
 > `副本间数据同步`
 
 ![](./img/fig22.jpeg)
@@ -26,7 +14,7 @@
     padding: 2px;">leader 同步 follower</div>
 </center>
 
-- `Kafka` 中的每个主题分区都被复制了 n 次，其中的 n 是 `topic` 的 `replication factor`。这允许 Kafka 在集群服务器发生故障时自动切换到这些副本，以便在出现故障时消息仍然可用。Kafka 的复制是以 `partition` 为粒度的，分区的预写日志被复制到 `n` 个服务器。 在 `n` 个副本中，一个副本作为 `leader`，其他副本成为 `followers``。顾名思义，producer` 只能往 `leader` 分区上写数据（读也只能从 `leader` `分区上进行），followers` 只按顺序从 `leader` 上复制日志。
+- `Kafka` 中的每个主题分区都被复制了 n 次，其中的 n 是 `topic` 的 `replication factor`。这允许 Kafka 在集群服务器发生故障时自动切换到这些副本，以便在出现故障时消息仍然可用。Kafka 的复制是以 `partition` 为粒度的，分区的预写日志被复制到 `n` 个服务器。 在 `n` 个副本中，一个副本作为 `leader`，其他副本成为 `followers`。顾名思义，`producer` 只能往 `leader` 分区上写数据（读也只能从 `leader` 分区上进行），`followers` 只按顺序从 `leader` 上复制日志。
 
 > `ISR in-sync replica` 同步副本列表
 
@@ -48,6 +36,7 @@
 	- leader 允许 ISR 落后的消息数：replica.lag.max.messages （已废弃）
 	- follower 在不超过 replica.lag.time.max.ms 时间内向 leader 发送 fetch 请求
 	- 不同步的 follower 会从 ISR 中移除
+	-
 	```
 
 > `High Water` 机制，选择 `ISR` 中偏移量最小的分区
@@ -60,9 +49,9 @@
     padding: 2px;">HW</div>
 </center>
 
-> `如何保证分区间数据一致性？`
+Q：如何保证分区间数据一致性？
 
-- `leader` **crash** 时，`Kafka` 会从 `ISR` 根据分区选择算法选择 `follower` 作为新的`Leader`，`follower`分区拥有最新的已经 `committed` 的消息。通过这个可以保证已经 `committed` 的消息的数据可靠性
+A： `leader` **crash** 时，`Kafka` 会从 `ISR` 根据分区选择算法选择 `follower` 作为新的`Leader`，`follower`分区拥有最新的已经 `committed` 的消息。通过这个可以保证已经 `committed` 的消息的数据可靠性
 ___
 
 
