@@ -4,10 +4,8 @@
 
 ### `1 Topic 分区副本` - **副本间的消息状态一致性**
 
+![](./img/fig1.jpeg)
 <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="./img/fig1.jpeg">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -17,33 +15,30 @@
 
 `Kafka` `topic` 中的每个分区都有一个预写日志（`write-ahead log`），写入 `Kafka` 的消息就存储在这里面。这里面的每条消息都有一个唯一的偏移量，用于标识它在当前分区日志中的位置
 
+![](./img/fig22.jpeg)
 <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="./img/fig22.jpeg">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">Leader同步Follower</div>
+    padding: 2px;">Leader同步follower</div>
 </center>
 
 > ISR in-sync replica
 
+![](./img/fig51.jpeg)
 <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="./img/fig51.jpeg">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">ISR：和Leader保持同步的Follower副本</div>
+    padding: 2px;">ISR：和Leader保持同步的follower副本</div>
 </center>
 
 注：判断副本是否和 `Leader` 同步：
 - `Leader` 允许 `ISR` 落后的消息数：`replica.lag.max.messages`
 - `Follower` 在不超过 `replica.lag.time.max.ms` 时间内向 `Leader` 发送 `fetch` 请求
+- 不同步的 `follower` 会从 `ISR` 中移除
 
 > `Leader` 选举如何保证可靠性？
 
@@ -67,7 +62,7 @@ ___
 
 - 配置 `replication.factor` 副本数
 
-
+### 3 `Producer 消息确认机制`
 
 
 ## 参考
