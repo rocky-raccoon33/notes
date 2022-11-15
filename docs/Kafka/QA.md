@@ -73,7 +73,9 @@ ___
 
 > **`可用性保证：ack = -1`**：Leader在所有`Follower`收到消息后，才返回确认或错误响应
 
+- `producer` 发送消息可以选择同步/异步，异步能提高消息发送的性能，但是会增加消息丢失的风险。为了确保消息可靠性，需要设置为同步：`producer.type = sync`
 - 异常情况下，当同步到所有`follower`前`leader` 奔溃，`producer`会重新发送
+
 
 ```yaml
 request.required.acks:-1 # 当leader 同步到所有follower后，才会返回响应
