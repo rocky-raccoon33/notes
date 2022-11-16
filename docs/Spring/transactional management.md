@@ -1,4 +1,4 @@
-# `Spring Transaction management`
+# Spring Transaction management
 
 ## 1 基本原理
 
