@@ -1,6 +1,6 @@
-# Spring Transaction management
+# `Spring Transaction management`
 
-## 基本原理
+## 1 基本原理
 
 > `Spring` 事务的本质其实就是数据库对事务的支持。对于纯JDBC操作数据库，想要用到事务，可以按照以下步骤进行：
 
@@ -10,13 +10,13 @@
 4. 提交事务/回滚事务 `con.commit() / con.rollback();`
 5. 关闭连接 `conn.close();`
 
-> 通过Spring事务管理，可以自动完成2，4：
+> 通过 `Spring` 事务管理，可以自动完成2，4：
 ___
 
-> Spring Boot自动开启了对注解事务的支持
+> `Spring Boot`自动开启了对注解事务的支持
 
 1. 在相关的类和方法上添加 `@Transactional`
-2. Spring 启动时解析生成相关 `bean` 并生成代理，根据`@Transactional`的相关参数进行配置注入，在代理中开启正常提交事务以及异常回滚事务
+2. `Spring` 启动时解析生成相关 `bean` 并生成代理，根据`@Transactional`的相关参数进行配置注入，在代理中开启正常提交事务以及异常回滚事务
 3. 数据库的事务提交和回滚是通过`binlog`和`redo log`实现
 
 
@@ -91,8 +91,15 @@ public interface TransactionDefinition {
 
 ### 事务注解
 
-如果类或者方法的 `public` 方法被标注 `@Transactional` ，Spring 容器在启动的时候为其创建一个代理类，方法调用时实际调用的是 `TransactionInterceptor` 类中的 `invoke()`，在目标方法之前开启事务，执行过程中如果遇到异常时回滚事务，方法调用完成后提交事务。
+> 如果类或者方法的 `public` 方法被标注 `@Transactional` ，Spring 容器在启动的时候为其创建一个代理类，方法调用时实际调用的是 `TransactionInterceptor` 类中的 `invoke()`，在目标方法之前开启事务，执行过程中如果遇到异常时回滚事务，方法调用完成后提交事务。
 
-> `TransactionInterceptor` 类中的 `invoke()` 方法内部实际调用的是 `TransactionAspectSupport` 类的 `invokeWithinTransaction()` 方法
+- `TransactionInterceptor` 的 `invoke()` 方法内部实际调用的是 `TransactionAspectSupport` 的 `invokeWithinTransaction()` 方法
 
-## 动态数据源
+## 2 动态数据源
+
+## 参考
+
+- [1] [Spring事务管理详解](https://juejin.cn/post/6844903608224333838)
+
+- [2] [深入理解Spring事务原理](https://cloud.tencent.com/developer/article/1832182)
+
