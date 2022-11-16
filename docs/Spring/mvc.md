@@ -2,7 +2,7 @@
 
 ![](./img/filters_vs_interceptors.jpeg)
 
-## `Filters`
+## `1` Filters
 
 > `Filters` are part of the web server and not the Spring framework.
 
@@ -32,7 +32,7 @@ public class LogFilter implements Filter {
 
 ```
 
-## `HandlerInterceptors`
+## `2` HandlerInterceptors
 
 > `HandlerInterceptors` are part of the Spring MVC framework and sit between the DispatcherServlet and the controllers.
 

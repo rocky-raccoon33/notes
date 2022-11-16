@@ -1,6 +1,6 @@
-# Spring Transaction management
+# Transaction
 
-## 1 基本原理
+## `1` 基本原理
 
 > `Spring` 事务的本质其实就是数据库对事务的支持。对于纯JDBC操作数据库，想要用到事务，可以按照以下步骤进行：
 
@@ -33,7 +33,7 @@ ___
 
 - `分布式事务` - `JtaTransactionManager`
 
-> **编程式事务**
+### `1.1` 编程式事务
 
 ```java
 public void test() {
@@ -52,7 +52,7 @@ public void test() {
 }
 ```
 
-> **声明式事务**
+### `1.2` 声明式事务
 
 ```java
 @Transactional
@@ -89,13 +89,15 @@ public interface TransactionDefinition {
 - 是否只读
 - 事务超时
 
-### 事务注解
+### `1.3` 事务注解
 
 > 如果类或者方法的 `public` 方法被标注 `@Transactional` ，Spring 容器在启动的时候为其创建一个代理类，方法调用时实际调用的是 `TransactionInterceptor` 类中的 `invoke()`，在目标方法之前开启事务，执行过程中如果遇到异常时回滚事务，方法调用完成后提交事务。
 
 - `TransactionInterceptor` 的 `invoke()` 方法内部实际调用的是 `TransactionAspectSupport` 的 `invokeWithinTransaction()` 方法
 
-## 2 动态数据源
+## `2` 动态数据源
+
+> 待办
 
 ## 参考
 

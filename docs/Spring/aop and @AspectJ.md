@@ -1,6 +1,6 @@
 # AOP
 
-## terms and AOP concepts
+## `1` terms and AOP concepts
 
 
 > `Aspect` - a standard code/feature that is scattered across multiple places in the application and is typically different than the actual Business Logic (for example, Transaction management). Each aspect focuses on a specific cross-cutting functionality
@@ -16,9 +16,9 @@ ___
 > `Weaving` – the process of linking aspects with targeted objects to create an advised object
 
 
-## Spring AOP and AspectJ
+## `2` Spring AOP and AspectJ
 
-### capabilities
+### `2.1` capabilities
 
 > Spring AOP can only be applied to beans that are managed by a Spring container.
 
@@ -26,7 +26,7 @@ ___
 
 > AspectJ can applied across all domain objects.
 
-### Weaving
+### `2.2` Weaving
 
 AspectJ makes use of three different tyeps of weaving:
 
@@ -40,13 +40,13 @@ Spring AOP use runtime weaving, the aspects are woven during the execution of th
 
 ![](./img/proxy.webp)
 
-### Structure
+### `2.3` Structure
 
 Whenever the targeted object implement one interface, then JDK dynamic proxy will be used. If the target object doesn't implement an interface, the CGLIB proxy will be used.
 
 AspectJ on the hand doesn't do anything at runtime as the classes are compiled directly with the aspects.
 
-### Jointpoints
+### `s` Jointpoints
 
 Spring AOP is based on proxy patterns. Because of this, it need to subclass the target class and apply the corss-cutting concerns accordingly.
 
