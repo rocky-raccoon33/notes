@@ -46,13 +46,13 @@ Whenever the targeted object implement one interface, then JDK dynamic proxy wil
 
 AspectJ on the hand doesn't do anything at runtime as the classes are compiled directly with the aspects.
 
-### `s` Jointpoints
+### `2.4` Jointpoints
 
 Spring AOP is based on proxy patterns. Because of this, it need to subclass the target class and apply the corss-cutting concerns accordingly.
 
 We cannot apply cross-cutting concerns(aspects) accross class that are "final" because they cannot be overrided thus it would result in runtime exception.
 The same applied for `static class` and `final methods`. Hence Spring AOP because of these limitations, can only support method execution joinpoints.
 
-> **It's also worth noting that Spring AOP, aspect aren't applied to the methods called within the same class.**
+> It's also worth noting that Spring AOP, aspect aren't applied to the methods called within the same class.
 
-- That's obviously because when we call a method within the same class, then we aren't calling the method of the proxy that Spring supplies. If we need this functionality, we need to defind the method in different beans, or use AspectJ.
+:	That's obviously because when we call a method within the same class, then we aren't calling the method of the proxy that Spring supplies. If we need this functionality, we need to defind the method in different beans, or use AspectJ.

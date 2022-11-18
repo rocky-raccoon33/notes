@@ -1,6 +1,6 @@
 # QA
 
-## Volatile
+## `1` Volatile
 
 > **answer in** [stackoverflow](https://stackoverflow.com/questions/106591/what-is-the-volatile-keyword-useful-for)
 
