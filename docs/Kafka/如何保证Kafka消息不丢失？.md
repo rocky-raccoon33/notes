@@ -1,6 +1,6 @@
-# QA
+# 如何保证 Kafka 消息不丢失？
 
-## `1` Kafka 的消息可靠性策略
+## `1` Kafka 架构
 
 > 从三个方面分析：
 
@@ -98,6 +98,21 @@ ___
 > `Exactly once`：....
 ___
 
+## 2 可靠性级别
+
+> kafka 服务崩溃 / 服务器宕机
+
+1. kafka 接收到服务消息后，先写入内存，再刷磁盘
+2. kafka 对生产者返回确认后，消息存入 Kafka 服务器的 PageCache 中，并未写入磁盘
+    - `log.flush.interval.messages = 1`，同步刷盘，减少消息丢失概率
+
+```yaml
+# 数据达到多少条就将消息刷到磁盘
+#log.flush.interval.messages=10000
+# 多久将累积的消息刷到磁盘，任何一个达到指定值就触发写入
+#log.flush.interval.ms=1000
+```
+
 ## 参考
 
 - [1] [图文了解 Kafka 的副本复制机制](https://mp.weixin.qq.com/s?__biz=MzA5MTc0NTMwNQ==&mid=2650716907&idx=1&sn=3aaf4be490baf2697633b7470cf76457&chksm=887da79dbf0a2e8b31983bf37018adb0e9026c87dff5d1d43a3b4209580d71ecbe1f085be96f&scene=21#wechat_redirect)
@@ -105,4 +120,3 @@ ___
 - [2] [Kafka 是如何保证数据可靠性和一致性](https://cloud.tencent.com/developer/article/1488458)
 
 - [3] [简单理解 Kafka 的消息可靠性策略](https://cloud.tencent.com/developer/article/1752150)
-
