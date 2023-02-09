@@ -3,11 +3,11 @@
 ## `Cache-Aside`
 
 > 最常用的的缓存策略
-___
+
 > 适合 `读多` 的场景，如果 `Cache` 发生故障，可以直接访问 `Datastore` 进行操作
-___
+
 > 先更新 `datastore`，再更新 `Cache`
-___
+
 > 不能保证 `Cache` 和 `Datastore` 的一致性，需要配合使用其他策略更新缓存；另外，首次请求缓存无法命中，可以通过手动触发查询操作 `预热`
 
 ![](./img/cache-aside-read-1.svg)
@@ -23,7 +23,7 @@ ___
 
 > `多次请求相同数据`的场景
 
-> 将 `datastore` 的同步委托给 `Cache`,所有数据交互通过`Cache`完成
+> 将 `datastore` 的同步委托给 `Cache`，所有数据交互通过`Cache`完成
 
 ![](./img/read-through.svg)
 
