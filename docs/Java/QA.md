@@ -1,6 +1,15 @@
 # QA
 
-## `1` Volatile
+## `1` Jvm SafePoint
+
+> JVM 会在以下情况进入 `safePoint`，确保所有线程都暂停，以便进行关键操作，保证系统的正确性
+
+- `GC` 操作：`STW`
+- `JIT`（即时编译优化）：JIT编译器需要自方法去进行内存重构
+- 线程操作：创建、终止或者暂停线程
+- 系统调用：如创建文件或网络连接
+
+## `2` Volatile
 
 > **answer in** [stackoverflow](https://stackoverflow.com/questions/106591/what-is-the-volatile-keyword-useful-for)
 

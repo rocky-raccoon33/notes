@@ -200,3 +200,4 @@ WARNING: Unmatched cancel notification for request id 5
 2023.02.08 13:34:01 WARN  no build target for: /Users/10018920/Learning/notes/Main.java[0m
 2023.02.08 13:34:03 WARN  no build target for: /Users/10018920/Learning/notes/Main.java[0m
 2023.02.08 13:34:09 WARN  no build target for: /Users/10018920/Learning/notes/Main.java[0m
+2023.02.10 10:03:08 INFO  shutting down Metals[0m
