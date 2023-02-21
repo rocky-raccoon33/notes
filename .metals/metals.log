@@ -675,3 +675,36 @@ WARNING: Unmatched cancel notification for request id 939
 2023.02.16 10:37:07 WARN  no build target for: /Users/10018920/Learning/notes/F.java
 2023.02.16 10:37:09 WARN  no build target for: /Users/10018920/Learning/notes/F.java
 2023.02.16 15:33:32 INFO  shutting down Metals
+2023.02.21 15:46:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/10018920/Learning/notes/.metals/lsp.trace.json or /Users/10018920/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.21 15:46:22 INFO  logging to file /Users/10018920/Learning/notes/.metals/metals.log
+2023.02.21 15:46:22 INFO  Started: Metals version 0.11.10 in workspace '/Users/10018920/Learning/notes' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/10018920/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.21 15:46:23 INFO  time: initialize in 1.15s
+2023.02.21 15:46:24 WARN  Build server is not auto-connectable.
+2023.02.21 15:46:24 WARN  no build tool detected in workspace '/Users/10018920/Learning/notes'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.21 15:46:24 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
+Feb 21, 2023 3:46:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Feb 21, 2023 3:46:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Feb 21, 2023 3:46:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2023.02.21 15:46:25 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
+2023.02.21 15:46:25 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
+Feb 21, 2023 3:46:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2023.02.21 15:46:29 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
+2023.02.21 15:46:33 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
+2023.02.21 15:46:33 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/docs/F.java. Output:
+/Users/10018920/Learning/notes/docs/F.java:6: error: ';' expected
+		List<Object> oomList = new ArrayList<>()
+		                                        ^
+1 error
+2023.02.21 15:46:33 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
+2023.02.21 15:46:36 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
+2023.02.21 15:46:37 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java

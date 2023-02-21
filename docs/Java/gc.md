@@ -1,4 +1,4 @@
-# GC
+# JVM 垃圾收集器
 
 ![](./img/gc.webp)
 
