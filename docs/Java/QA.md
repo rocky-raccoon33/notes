@@ -26,6 +26,22 @@
 - 线程操作：创建、终止或者暂停线程
 - 系统调用：如创建文件或网络连接
 
+## `4` 线程状态
+
+1. `deadlock`：死锁线程，一般指多个线程调用期间进入了相互资源占用，导致一直等待无法释放的情况。
+
+2. `runnable`：一般指该线程正在执行状态中。
+
+3. `blocked`：线程正处于阻塞状态。
+
+4. `waiting on condition`：线程正处于等待资源或等待某个条件的发生，具体的原因需要结合堆栈信息进行分析。
+
+- 可能是在等待锁资源
+- 可能是在 `sleep`
+- 可能是网络资源不足，这个要结合系统的使用信息来看。
+- waiting for monitor entry 或 in Object.wait()
+java中 `synchronized` 的重量级锁借助 `Moniter` 来实现。`Moniter` 有两个队列。一个是 `entry set`，另一个是 `wait set`。当 `synchronized` 升级到重量级锁后，竞争锁失败的线程将记录到 `entry set` 中，这时线程状态是 `waiting for monitor entry`；而竞争到锁的线程若调用锁对象的 `wait` 方法时，则记录 到 `wait set` 中，这时线程状态是 `in Object.wait()`。
+
 ## `4` Java 线程池的状态
 
 > `RUNNING（运行状态）`
