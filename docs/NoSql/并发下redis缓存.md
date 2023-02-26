@@ -1,5 +1,20 @@
 # 缓存 / 数据库 一致性
 
+```flow
+  start=>start: API请求
+  cache=>operation: 读取Redis缓存
+  cached=>condition: 是否有缓存？
+  sendMq=>operation: 发送MQ，后台服务更新缓存
+  info=>operation: 读取信息
+  setCache=>operation: 保存缓存
+  end=>end: 返回信息
+  start->cache->cached
+  cached(yes)->sendMq
+  cached(no)->info
+  info->setCache
+  setCache->end
+  sendMq->end
+
 > `方案A`：删除缓存 THEN 更新数据库
 
 并发「读写」数据：
