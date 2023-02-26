@@ -48,6 +48,9 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - navigation.tabs.sticky
 
   font:
     text: Noto Serif Simplified Chinese
@@ -57,3 +60,7 @@ site_author: dinghesheng
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - social:
+      cards_font: Noto Sans SC
