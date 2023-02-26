@@ -47,6 +47,7 @@ theme:
   features:
     - content.code.annotate
     - content.tabs.link
+    - navigation.tabs
 
   font:
     text: Noto Serif Simplified Chinese
