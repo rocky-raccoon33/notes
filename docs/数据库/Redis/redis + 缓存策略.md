@@ -1,4 +1,4 @@
-# Redis + 缓存策略
+# 缓存策略
 
 ## `Cache-Aside`
 

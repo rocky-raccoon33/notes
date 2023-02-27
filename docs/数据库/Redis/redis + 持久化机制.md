@@ -1,4 +1,4 @@
-# Redis + 持久化机制
+# 持久化机制
 
 === RDB `Redis Data Base` 快照
 
