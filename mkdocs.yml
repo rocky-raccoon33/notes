@@ -31,6 +31,26 @@ markdown_extensions:
 theme:
   name: material
   language: zh
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   icon:
     admonition:
       note: octicons/tag-16
@@ -51,7 +71,6 @@ theme:
     - navigation.tabs
     - navigation.top
     - toc.integrate
-
   font:
     text: Noto Serif Simplified Chinese
     code: Roboto Mono
@@ -61,9 +80,6 @@ site_author: dinghesheng
 extra_css:
   - stylesheets/extra.css
 
-nav:
-  - Blog:
-      - blog/index.md
 plugins:
   - social:
       cards_font: Noto Sans SC
