@@ -61,6 +61,12 @@ site_author: dinghesheng
 extra_css:
   - stylesheets/extra.css
 
+nav:
+  - Blog:
+      - blog/index.md
 plugins:
   - social:
       cards_font: Noto Sans SC
+  - blog:
+      post_date_format: full
+      blog_toc: true
