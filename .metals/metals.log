@@ -708,3 +708,3108 @@ WARNING: Unmatched cancel notification for request id 18
 2023.02.21 15:46:33 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
 2023.02.21 15:46:36 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
 2023.02.21 15:46:37 WARN  no build target for: /Users/10018920/Learning/notes/docs/F.java
+2023.02.23 14:33:58 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:33:59 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:03 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:16 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:17 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:7: error: ';' expected
+		list.add(2)
+		           ^
+1 error
+2023.02.23 14:34:19 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:22 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:22 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:8: error: ';' expected
+		list.add(3)
+		           ^
+1 error
+2023.02.23 14:34:23 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:24 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:29 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:29 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:9: error: ';' expected
+		list.subList(0, 0)
+		                  ^
+1 error
+2023.02.23 14:34:31 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:35 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:36 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:9: error: ';' expected
+		list.subList(0, 2)
+		                  ^
+1 error
+2023.02.23 14:34:36 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:37 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:34:40 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:03 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:06 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:06 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:10: error: '(' expected
+		if
+		  ^
+/Users/10018920/Learning/notes/F.java:11: error: ')' expected
+		list.subList(0, 3);
+		                  ^
+2 errors
+2023.02.23 14:35:10 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:10 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:14 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:16 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:18 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:21 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:21 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:21 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:21 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:35:23 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:10 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+Feb 23, 2023 2:56:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 245
+2023.02.23 14:56:14 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:14 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1 G2 G3
+^
+1 error
+2023.02.23 14:56:17 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:17 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1   G2   G3
+^
+1 error
+2023.02.23 14:56:29 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:29 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1   G2   G3	G4  	G5 		
+^
+1 error
+2023.02.23 14:56:31 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:31 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1   G2   G3	G4  	G5 		G6
+^
+1 error
+2023.02.23 14:56:33 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:34 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1    G2    G3	G4  	G5 		G6
+^
+1 error
+2023.02.23 14:56:36 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:36 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1    G2    G3	  G4  	G5 		G6
+^
+1 error
+2023.02.23 14:56:45 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:45 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+ \
+ ^
+2 errors
+2023.02.23 14:56:50 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:50 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+ \		
+ ^
+2 errors
+2023.02.23 14:56:52 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:52 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+ \	  
+ ^
+2 errors
+2023.02.23 14:56:54 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:54 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+ \	  /
+ ^
+2 errors
+2023.02.23 14:56:56 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:56 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+ \	  /
+ ^
+2 errors
+2023.02.23 14:56:58 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:56:58 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+ \	  /
+ ^
+2 errors
+2023.02.23 14:57:01 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:01 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+ \	  /
+ ^
+2 errors
+2023.02.23 14:57:04 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:05 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	  /
+ ^
+2 errors
+2023.02.23 14:57:08 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:08 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+    G1    G2    G3	  G4  	G5 		G6
+    ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	  /
+ ^
+2 errors
+2023.02.23 14:57:11 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:11 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	  /
+ ^
+2 errors
+Feb 23, 2023 2:57:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 396
+2023.02.23 14:57:16 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:16 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+		\	  /
+		^
+2 errors
+2023.02.23 14:57:19 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:20 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	   \	  /
+	   ^
+2 errors
+2023.02.23 14:57:22 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:22 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	   \	/
+	   ^
+2 errors
+2023.02.23 14:57:24 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:24 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	   \	/
+	   ^
+2 errors
+2023.02.23 14:57:27 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:27 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ 	   \	/
+ 	   ^
+2 errors
+2023.02.23 14:57:28 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:28 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   \	/
+ ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   \	/
+  	   ^
+3 errors
+2023.02.23 14:57:31 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:31 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+3 errors
+2023.02.23 14:57:35 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:35 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+3 errors
+2023.02.23 14:57:37 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:37 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+3 errors
+2023.02.23 14:57:38 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:57:38 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2    G3	  G4  	G5 		G6
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+3 errors
+2023.02.23 14:58:03 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:03 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:2: error: class, interface, enum, or record expected
+G0    G1    G2   
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+3 errors
+2023.02.23 14:58:09 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:09 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:4: error: class, interface, enum, or record expected
+G0    G1    G2   
+^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+3 errors
+2023.02.23 14:58:11 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:11 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:4: error: class, interface, enum, or record expected
+G0    G1    G2   
+^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+3 errors
+2023.02.23 14:58:12 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:13 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+		\
+		^
+/Users/10018920/Learning/notes/F.java:4: error: class, interface, enum, or record expected
+G0    G1    G2   
+      ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:58:14 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:14 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	 \
+	 ^
+/Users/10018920/Learning/notes/F.java:4: error: class, interface, enum, or record expected
+G0    G1    G2   
+      ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:58:16 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:17 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \ 
+	  ^
+/Users/10018920/Learning/notes/F.java:4: error: class, interface, enum, or record expected
+G0    G1    G2   
+      ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:58:19 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:19 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:4: error: class, interface, enum, or record expected
+G0    G1    G2   
+^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:58:41 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:41 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+3 errors
+2023.02.23 14:58:47 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:48 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:58:50 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:51 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:58:56 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:58:56 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:59:02 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:02 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:59:04 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:04 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+Feb 23, 2023 2:59:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 583
+2023.02.23 14:59:10 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:10 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:59:14 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:14 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:5: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+4 errors
+2023.02.23 14:59:21 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:21 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+5 errors
+2023.02.23 14:59:24 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:24 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+5 errors
+2023.02.23 14:59:25 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:25 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+5 errors
+2023.02.23 14:59:32 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:32 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+5 errors
+2023.02.23 14:59:35 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:35 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+5 errors
+2023.02.23 14:59:40 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:40 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+5 errors
+2023.02.23 14:59:43 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:43 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+5 errors
+2023.02.23 14:59:46 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:46 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+5 errors
+2023.02.23 14:59:49 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:49 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+ ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ \	   /\	/
+  	    ^
+5 errors
+2023.02.23 14:59:50 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:51 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	/
+ 	    ^
+4 errors
+2023.02.23 14:59:52 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:53 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	/
+ 	    ^
+4 errors
+2023.02.23 14:59:53 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:54 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+4 errors
+2023.02.23 14:59:58 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 14:59:58 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+5 errors
+2023.02.23 15:00:00 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:00:00 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+5 errors
+2023.02.23 15:00:02 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:00:03 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: class, interface, enum, or record expected
+G4			G5
+^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+5 errors
+2023.02.23 15:02:27 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:34 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:34 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）			G5
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）			G5
+     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+6 errors
+2023.02.23 15:02:36 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:36 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）	G5
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）	G5
+     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+6 errors
+2023.02.23 15:02:38 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:38 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）	G5（R）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）	G5（R）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）	G5（R）
+      	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）	G5（R）
+      	    ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:02:40 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:40 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）	G5（R5）
+      	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）	G5（R5）
+      	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:02:42 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:42 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4） G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4） G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4） G5（R5）
+         ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4） G5（R5）
+            ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:02:44 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:45 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4） G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4） G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4） G5（R5）
+         ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4） G5（R5）
+            ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（）  UR3
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（）  UR3
+       ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+10 errors
+2023.02.23 15:02:47 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:48 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4） G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4） G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4） G5（R5）
+         ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4） G5（R5）
+            ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3
+         ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+10 errors
+2023.02.23 15:02:51 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:51 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       /
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3
+         ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+10 errors
+2023.02.23 15:02:53 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:53 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3
+         ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+10 errors
+2023.02.23 15:02:56 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:02:56 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（）
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（）
+         ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（）
+               ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（）
+                ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+12 errors
+2023.02.23 15:03:00 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:00 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+         ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+               ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+                  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \/ 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+12 errors
+2023.02.23 15:03:04 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:04 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+         ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+               ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+                  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+12 errors
+2023.02.23 15:03:07 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:07 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+         ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+               ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+                  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+12 errors
+2023.02.23 15:03:11 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:12 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+         ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+               ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+                  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+12 errors
+2023.02.23 15:03:13 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:13 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+         ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+               ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+                  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+12 errors
+2023.02.23 15:03:15 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:16 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+         ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3（R3）
+               ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3（R3）
+                  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+12 errors
+2023.02.23 15:03:19 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:19 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff08'
+   UR2（R2）  UR3
+      ^
+/Users/10018920/Learning/notes/F.java:3: error: illegal character: '\uff09'
+   UR2（R2）  UR3
+         ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+10 errors
+2023.02.23 15:03:21 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:21 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+Feb 23, 2023 3:03:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 911
+2023.02.23 15:03:23 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:24 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:25 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:26 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /\	
+ 	    ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:31 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:32 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:33 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:34 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:38 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:39 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:45 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:45 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:48 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:48 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:49 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:49 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:52 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:52 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:54 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:55 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G5（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G5（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:56 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:56 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R5）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R5）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R5）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R5）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:03:57 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:03:57 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			\
+   			^
+8 errors
+2023.02.23 15:04:25 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:04:26 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /   \	
+ 	       ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			 \
+   			 ^
+8 errors
+2023.02.23 15:04:30 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:04:30 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /    \	
+ 	        ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			 \
+   			 ^
+8 errors
+2023.02.23 15:04:30 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:04:31 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /    \	
+ 	        ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			 \
+   			 ^
+8 errors
+2023.02.23 15:04:33 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:04:33 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /    \	
+ 	        ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			  \
+   			  ^
+8 errors
+2023.02.23 15:04:36 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:04:36 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /    \	
+ 	        ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+  /			  \
+   			  ^
+8 errors
+2023.02.23 15:04:37 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:04:37 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /    \	
+ 	        ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+   /			  \
+    			  ^
+8 errors
+2023.02.23 15:04:38 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:04:39 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /    \	
+ 	        ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+   /			  \
+    			  ^
+8 errors
+2023.02.23 15:04:42 WARN  no build target for: /Users/10018920/Learning/notes/F.java
+2023.02.23 15:04:42 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/F.java. Output:
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+     ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff08'
+G4（R4）    	G3（R3）
+          	  ^
+/Users/10018920/Learning/notes/F.java:1: error: illegal character: '\uff09'
+G4（R4）    	G3（R3）
+          	     ^
+/Users/10018920/Learning/notes/F.java:2: error: illegal character: '\'
+  \       		/
+  ^
+/Users/10018920/Learning/notes/F.java:4: error: illegal character: '\'
+	  \      / 
+	  ^
+/Users/10018920/Learning/notes/F.java:6: error: illegal character: '\'
+ 	   /    \	
+ 	        ^
+/Users/10018920/Learning/notes/F.java:8: error: illegal character: '\'
+   /		  \
+    		  ^
+8 errors
+2023.02.24 09:47:52 INFO  shutting down Metals
+2023.02.24 16:48:48 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/10018920/Learning/notes/.metals/lsp.trace.json or /Users/10018920/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.02.24 16:48:48 INFO  logging to file /Users/10018920/Learning/notes/.metals/metals.log[0m
+2023.02.24 16:48:48 INFO  Started: Metals version 0.11.10 in workspace '/Users/10018920/Learning/notes' for client Visual Studio Code 1.75.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/10018920/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.24 16:48:49 INFO  time: initialize in 1.02s[0m
+2023.02.24 16:48:50 WARN  Build server is not auto-connectable.[0m
+2023.02.24 16:48:50 WARN  no build tool detected in workspace '/Users/10018920/Learning/notes'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.02.24 16:48:50 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+Feb 24, 2023 4:48:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Feb 24, 2023 4:48:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2023.02.24 16:48:52 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:48:55 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:48:56 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:02 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:03 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:06 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:07 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: ';' expected
+	int get
+	       ^
+1 error[0m
+2023.02.24 16:49:11 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:13 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:15 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:17 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:36 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:36 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:4: error: ';' expected
+	ExecutorService es = Executor
+	                             ^
+1 error[0m
+2023.02.24 16:49:44 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:44 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:6: error: illegal start of expression
+}
+^
+1 error[0m
+2023.02.24 16:49:58 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:49:59 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:5: error: ';' expected
+	ExecutorService es = Executors.newFixedThreadPool(0)
+	                                                    ^
+1 error[0m
+2023.02.24 16:49:59 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:00 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:00 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:5: error: ';' expected
+	ExecutorService es = Executors.newFixedThreadPool(20)
+	                                                     ^
+1 error[0m
+2023.02.24 16:50:03 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:05 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:05 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:7: error: <identifier> expected
+	Runn
+	    ^
+1 error[0m
+2023.02.24 16:50:07 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:08 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:09 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:7: error: <identifier> expected
+	Cal
+	   ^
+1 error[0m
+2023.02.24 16:50:11 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:11 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:7: error: <identifier> expected
+	Callable
+	        ^
+1 error[0m
+2023.02.24 16:50:12 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:13 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: <identifier> expected
+	Callable
+	        ^
+1 error[0m
+2023.02.24 16:50:15 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:15 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: ';' expected
+	Callable callable 
+	                 ^
+1 error[0m
+2023.02.24 16:50:17 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:18 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:23 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:26 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:35 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+Feb 24, 2023 4:50:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "jdt://contents/java.base/java.util.concurrent/Callable.class?%3Dnotes_f0d2be6a%2F%5C%2FLibrary%5C%2FJava%5C%2FJavaVirtualMachines%5C%2Ftemurin-17.jdk%5C%2FContents%5C%2FHome%5C%2Flib%5C%2Fjrt-fs.jar%60java.base%3D%2Fjavadoc_location%3D%2Fhttps%3A%5C%2F%5C%2Fdocs.oracle.com%5C%2Fen%5C%2Fjava%5C%2Fjavase%5C%2F17%5C%2Fdocs%5C%2Fapi%5C%2F%3D%2F%3Cjava.util.concurrent%28Callable.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "jdt" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:119)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1200)
+	... 16 more
+
+2023.02.24 16:50:39 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:51 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:52 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:10: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:50:59 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:50:59 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:11: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:00 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:00 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:11: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:04 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:04 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:11: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:07 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:07 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:10: error: not a statement
+		b.get
+		 ^
+/Users/10018920/Learning/notes/Demo.java:10: error: ';' expected
+		b.get
+		     ^
+/Users/10018920/Learning/notes/Demo.java:11: error: ';' expected
+	}
+	 ^
+3 errors[0m
+2023.02.24 16:51:08 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:09 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:10: error: ';' expected
+		b.getValue()
+		            ^
+/Users/10018920/Learning/notes/Demo.java:11: error: ';' expected
+	}
+	 ^
+2 errors[0m
+2023.02.24 16:51:16 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:16 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:11: error: ';' expected
+		b.getValue()
+		            ^
+/Users/10018920/Learning/notes/Demo.java:12: error: ';' expected
+	}
+	 ^
+2 errors[0m
+2023.02.24 16:51:18 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:18 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:12: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:23 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:12: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:23 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:23 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:24 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:24 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:30 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:30 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:10: error: ';' expected
+	Callable<Integer> callable = ()->{
+	        ^
+/Users/10018920/Learning/notes/Demo.java:10: error: <identifier> expected
+	Callable<Integer> callable = ()->{
+	                          ^
+/Users/10018920/Learning/notes/Demo.java:10: error: '(' expected
+	Callable<Integer> callable = ()->{
+	                           ^
+3 errors[0m
+2023.02.24 16:51:39 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:39 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:13: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:43 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:44 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:13: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:46 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:46 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:13: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:46 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:47 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:48 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:52 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:52 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:14: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:56 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:56 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:14: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:51:56 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:51:56 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:14: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:52:04 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:04 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:12: error: illegal start of expression
+		if(cache!=)
+		          ^
+/Users/10018920/Learning/notes/Demo.java:15: error: ';' expected
+	}
+	 ^
+2 errors[0m
+2023.02.24 16:52:05 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:05 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:15: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:52:07 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:07 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:17: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:52:14 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:14 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:17: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:52:20 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:21 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:19: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:52:21 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:21 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:19: error: ';' expected
+	}
+	 ^
+1 error[0m
+2023.02.24 16:52:21 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:28 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:31 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:40 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:41 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:14: error: not a statement
+			System.out.prin
+			          ^
+/Users/10018920/Learning/notes/Demo.java:14: error: ';' expected
+			System.out.prin
+			               ^
+2 errors[0m
+2023.02.24 16:52:42 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:47 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:48 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:55 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:52:56 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:18: error: illegal start of expression
+		}
+		^
+1 error[0m
+2023.02.24 16:52:59 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:00 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:01 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:03 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:05 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:10 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:10 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:22: error: illegal start of type
+	for()
+	^
+1 error[0m
+2023.02.24 16:53:22 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:23 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:22: error: illegal start of type
+	for(
+	^
+/Users/10018920/Learning/notes/Demo.java:23: error: illegal start of type
+	int i = 0;i<20;i++)
+	            ^
+/Users/10018920/Learning/notes/Demo.java:23: error: <identifier> expected
+	int i = 0;i<20;i++)
+	                ^
+3 errors[0m
+2023.02.24 16:53:32 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:43 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:43 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:22: error: illegal start of type
+	for(
+	^
+/Users/10018920/Learning/notes/Demo.java:23: error: illegal start of type
+	int i = 0;i<20;i++)
+	            ^
+/Users/10018920/Learning/notes/Demo.java:23: error: <identifier> expected
+	int i = 0;i<20;i++)
+	                ^
+/Users/10018920/Learning/notes/Demo.java:28: error: class, interface, enum, or record expected
+}
+^
+4 errors[0m
+2023.02.24 16:53:44 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:44 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:22: error: illegal start of type
+	for(
+	^
+/Users/10018920/Learning/notes/Demo.java:23: error: illegal start of type
+	int i = 0;i<20;i++)
+	            ^
+/Users/10018920/Learning/notes/Demo.java:23: error: <identifier> expected
+	int i = 0;i<20;i++)
+	                ^
+3 errors[0m
+2023.02.24 16:53:47 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:47 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:26: error: illegal start of type
+	for(
+	^
+/Users/10018920/Learning/notes/Demo.java:27: error: illegal start of type
+	int i = 0;i<20;i++)
+	            ^
+/Users/10018920/Learning/notes/Demo.java:27: error: <identifier> expected
+	int i = 0;i<20;i++)
+	                ^
+3 errors[0m
+2023.02.24 16:53:51 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:52 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:53:52 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:11: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:53:54 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:12 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:13 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:13 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:11: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		  ^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                      ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                           ^
+/Users/10018920/Learning/notes/Demo.java:31: error: class, interface, enum, or record expected
+5 errors[0m
+2023.02.24 16:54:13 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:11: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:54:16 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:16 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:17 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:11: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:54:26 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:26 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:27 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:25: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:25: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:25: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:31: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:54:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:28 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:54:42 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:42 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile  cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:8: error: <identifier> expected
+		volatile  cache = null;
+		               ^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+6 errors[0m
+Feb 24, 2023 4:54:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 758
+2023.02.24 16:54:45 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:54:45 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:55:01 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:02 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:25: error: not a statement
+			ex
+			^
+/Users/10018920/Learning/notes/Demo.java:25: error: ';' expected
+			ex
+			  ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+7 errors[0m
+2023.02.24 16:55:03 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:04 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:25: error: <identifier> expected
+			es.
+			   ^
+/Users/10018920/Learning/notes/Demo.java:25: error: not a statement
+			es.
+			  ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+7 errors[0m
+2023.02.24 16:55:08 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:08 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:25: error: not a statement
+			es.ex
+			  ^
+/Users/10018920/Learning/notes/Demo.java:25: error: ';' expected
+			es.ex
+			     ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+7 errors[0m
+2023.02.24 16:55:09 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:09 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:25: error: not a statement
+			es.su
+			  ^
+/Users/10018920/Learning/notes/Demo.java:25: error: ';' expected
+			es.su
+			     ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+7 errors[0m
+2023.02.24 16:55:15 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:16 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:25: error: not a statement
+			es.su
+			  ^
+/Users/10018920/Learning/notes/Demo.java:25: error: ';' expected
+			es.su
+			     ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+7 errors[0m
+2023.02.24 16:55:18 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:18 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:25: error: not a statement
+			es.su
+			  ^
+/Users/10018920/Learning/notes/Demo.java:25: error: ';' expected
+			es.su
+			     ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+7 errors[0m
+2023.02.24 16:55:25 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:25 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:25: error: not a statement
+			es.su
+			  ^
+/Users/10018920/Learning/notes/Demo.java:25: error: ';' expected
+			es.su
+			     ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+7 errors[0m
+2023.02.24 16:55:26 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:26 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:24: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:24: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:25: error: not a statement
+			es.su
+			  ^
+/Users/10018920/Learning/notes/Demo.java:25: error: ';' expected
+			es.su
+			     ^
+/Users/10018920/Learning/notes/Demo.java:30: error: class, interface, enum, or record expected
+}
+^
+7 errors[0m
+2023.02.24 16:55:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:26 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:23: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:23: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:23: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:24: error: not a statement
+			es.su
+			  ^
+/Users/10018920/Learning/notes/Demo.java:24: error: ';' expected
+			es.su
+			     ^
+/Users/10018920/Learning/notes/Demo.java:29: error: class, interface, enum, or record expected
+}
+^
+7 errors[0m
+2023.02.24 16:55:30 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:31 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:23: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:23: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:23: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:24: error: ';' expected
+			es.submit(callable)
+			                   ^
+/Users/10018920/Learning/notes/Demo.java:29: error: class, interface, enum, or record expected
+}
+^
+6 errors[0m
+2023.02.24 16:55:32 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:33 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:34 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:23: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:23: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:23: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:29: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:55:35 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:55:36 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:56:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:56:27 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:18: error: '{' expected
+				synchronized(cache)
+				                   ^
+/Users/10018920/Learning/notes/Demo.java:27: error: ';' expected
+	}
+	 ^
+3 errors[0m
+2023.02.24 16:56:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:56:28 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:26: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:26: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:26: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:32: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:56:30 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:56:31 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:26: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:26: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:26: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:32: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:56:36 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:56:36 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:20: error: illegal start of statement
+				}
+				^
+/Users/10018920/Learning/notes/Demo.java:26: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:26: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:26: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:32: error: class, interface, enum, or record expected
+}
+^
+6 errors[0m
+2023.02.24 16:56:36 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:56:37 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:28: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:28: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:28: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:34: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:56:38 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:56:38 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:28: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:28: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:28: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:34: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:56:40 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:56:41 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:28: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:28: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:28: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:34: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:56:43 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:56:43 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:27: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:27: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:27: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:33: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:57:06 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:57:07 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile static Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:27: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:27: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:27: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:33: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:57:07 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:57:08 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:57:10 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:57:12 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:57:12 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: illegal start of expression
+		volatile Integer cache = null;
+		^
+/Users/10018920/Learning/notes/Demo.java:27: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		^
+/Users/10018920/Learning/notes/Demo.java:27: error: illegal start of type
+		for (int i = 0; i < 20; i++) {
+		                    ^
+/Users/10018920/Learning/notes/Demo.java:27: error: <identifier> expected
+		for (int i = 0; i < 20; i++) {
+		                         ^
+/Users/10018920/Learning/notes/Demo.java:33: error: class, interface, enum, or record expected
+}
+^
+5 errors[0m
+2023.02.24 16:57:13 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:57:20 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:58:02 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:58:02 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:8: error: ';' expected
+		final vo Integer cache = null;
+		                ^
+1 error[0m
+2023.02.24 16:58:08 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:58:09 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:58:15 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:58:15 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:58:17 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:58:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:58:28 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:08 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:10 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:18 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:36 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:36 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:37 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:37 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:45 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:45 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 16:59:46 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:00:02 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:00:04 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:00:06 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:00:21 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:00:21 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:00:34 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:00:40 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:00:58 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:01:01 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:01:03 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:01:19 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:11:52 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:11:53 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:11:54 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:11:56 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:11:56 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:15: error: '(' expected
+				synchronized
+				            ^
+/Users/10018920/Learning/notes/Demo.java:16: error: illegal start of expression
+			}
+			^
+/Users/10018920/Learning/notes/Demo.java:35: error: ';' expected
+	}
+	 ^
+/Users/10018920/Learning/notes/Demo.java:46: error: reached end of file while parsing
+}
+ ^
+4 errors[0m
+2023.02.24 17:12:04 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:12:08 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:12:08 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:15: error: <identifier> expected
+				synchronized (this.class) {
+				                   ^
+1 error[0m
+2023.02.24 17:12:10 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:12:10 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:12:12 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:12:31 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:12:31 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:17: error: illegal start of expression
+				}
+				^
+1 error[0m
+2023.02.24 17:12:33 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:00 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:02 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:07 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:15 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:25 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:28 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:33 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:36 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:38 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:48 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:49 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:52 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:52 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:55 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:13:59 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:11 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:28 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:15: error: illegal start of expression
+					if(null == )
+					           ^
+1 error[0m
+Feb 24, 2023 5:14:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1499
+2023.02.24 17:14:31 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:32 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:33 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:36 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:40 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:43 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:44 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:46 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:53 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:14:58 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:15:02 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:15:04 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:15:21 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:15:21 WARN  Running javac-semanticdb failed for file:///Users/10018920/Learning/notes/Demo.java. Output:
+/Users/10018920/Learning/notes/Demo.java:17: error: not a statement
+						sou
+						^
+/Users/10018920/Learning/notes/Demo.java:17: error: ';' expected
+						sou
+						   ^
+2 errors[0m
+2023.02.24 17:15:26 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:15:27 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:15:44 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+2023.02.24 17:24:35 WARN  no build target for: /Users/10018920/Learning/notes/Demo.java[0m
+Feb 27, 2023 9:52:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "jdt://contents/java.base/java.util.concurrent/Callable.class?%3Dnotes_f0d2be6a%2F%5C%2FLibrary%5C%2FJava%5C%2FJavaVirtualMachines%5C%2Ftemurin-17.jdk%5C%2FContents%5C%2FHome%5C%2Flib%5C%2Fjrt-fs.jar%60java.base%3D%2Fjavadoc_location%3D%2Fhttps%3A%5C%2F%5C%2Fdocs.oracle.com%5C%2Fen%5C%2Fjava%5C%2Fjavase%5C%2F17%5C%2Fdocs%5C%2Fapi%5C%2F%3D%2F%3Cjava.util.concurrent%28Callable.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "jdt" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:119)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1200)
+	... 16 more
+
+Feb 27, 2023 9:52:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "jdt://contents/java.base/java.util.concurrent/Callable.class?%3Dnotes_f0d2be6a%2F%5C%2FLibrary%5C%2FJava%5C%2FJavaVirtualMachines%5C%2Ftemurin-17.jdk%5C%2FContents%5C%2FHome%5C%2Flib%5C%2Fjrt-fs.jar%60java.base%3D%2Fjavadoc_location%3D%2Fhttps%3A%5C%2F%5C%2Fdocs.oracle.com%5C%2Fen%5C%2Fjava%5C%2Fjavase%5C%2F17%5C%2Fdocs%5C%2Fapi%5C%2F%3D%2F%3Cjava.util.concurrent%28Callable.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "jdt" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:119)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1200)
+	... 16 more
+
+Feb 27, 2023 9:52:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "jdt://contents/java.base/java.util.concurrent/Callable.class?%3Dnotes_f0d2be6a%2F%5C%2FLibrary%5C%2FJava%5C%2FJavaVirtualMachines%5C%2Ftemurin-17.jdk%5C%2FContents%5C%2FHome%5C%2Flib%5C%2Fjrt-fs.jar%60java.base%3D%2Fjavadoc_location%3D%2Fhttps%3A%5C%2F%5C%2Fdocs.oracle.com%5C%2Fen%5C%2Fjava%5C%2Fjavase%5C%2F17%5C%2Fdocs%5C%2Fapi%5C%2F%3D%2F%3Cjava.util.concurrent%28Callable.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "jdt" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:119)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1200)
+	... 16 more
+
+Feb 27, 2023 9:52:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 27, 2023 10:06:58 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
