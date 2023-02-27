@@ -51,7 +51,6 @@ theme:
     - navigation.tabs
     - navigation.top
     - toc.integrate
-    - navigation.instant
 
   font:
     text: Noto Serif Simplified Chinese
