@@ -83,4 +83,3 @@ extra_css:
 plugins:
   - social:
       cards_font: Noto Sans SC
-  - blog
