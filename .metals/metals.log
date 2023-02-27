@@ -3813,3 +3813,6 @@ Feb 27, 2023 9:52:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 Feb 27, 2023 10:06:58 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Feb 27, 2023 4:30:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.27 16:32:11 INFO  shutting down Metals[0m
