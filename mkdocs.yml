@@ -90,3 +90,5 @@ plugins:
       archive_name: Archive
   - social:
       cards_font: Noto Sans SC
+  - search:
+      lang: zh

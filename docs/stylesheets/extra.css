@@ -23,3 +23,7 @@ h1 {
 	font-weight: bold;
 	color: aqua;
 }
+
+.md-grid {
+	max-width: 1440px;
+}
