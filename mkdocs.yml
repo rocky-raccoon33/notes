@@ -32,6 +32,7 @@ theme:
   name: material
   language: zh
   palette:
+    primary: white
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -42,14 +43,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-4
         name: Switch to system preference
   icon:
     admonition:
