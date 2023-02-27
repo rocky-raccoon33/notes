@@ -30,7 +30,7 @@ markdown_extensions:
 
 theme:
   name: material
-  language: zh
+  language: zh-TW
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -91,4 +91,4 @@ plugins:
   - social:
       cards_font: Noto Sans SC
   - search:
-      lang: zh
+      lang: zh-TW
