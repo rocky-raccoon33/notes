@@ -81,5 +81,7 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
+  - blog:
+      archive_name: Archive
   - social:
       cards_font: Noto Sans SC
