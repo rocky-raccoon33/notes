@@ -82,7 +82,7 @@ theme:
   font:
     text: Noto Serif Simplified Chinese
     code: Roboto Mono
-repo_url: https://github.com/rocky-raccoon33/ops-doc
+repo_url: https://github.com/rocky-raccoon33/notes
 site_author: dinghesheng
 
 extra_css:
