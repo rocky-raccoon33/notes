@@ -7,6 +7,8 @@
 - 除最后一个级别外，每个级别都已填充
 - 所有节点都尽可能地向左
 
+<center>
+
 ```mermaid
 graph TB
     A((1))-->B((2))
@@ -20,9 +22,13 @@ graph TB
     E-->J((10))
 ```
 
+</center>
+
 堆属性是其中节点的属性
 
 - （对于最大堆）每个节点的键始终大于其子节点，并且根节点的键在所有其他节点中最大
+
+<center>
 
 ```mermaid
 graph TB
@@ -32,8 +38,12 @@ graph TB
     B-->E((3))
     C-->F((2))
 ```
+</center>
+
 
 - （对于最小堆）每个节点的键始终小于子节点，而根节点的键在所有其他节点中最小
+
+<center>
 
 ```mermaid
 graph TB
@@ -43,8 +53,9 @@ graph TB
     B-->E((5))
     C-->F((9))
 ```
+</center>
 
-```java
+```java title="Heap.java" hl_lines="3"
  // Max-Heap data structure in Java
 
 import java.util.ArrayList;

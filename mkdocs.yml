@@ -76,6 +76,9 @@ theme:
     - navigation.top
     - toc.integrate
     - navigation.expand
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
   font:
     text: Noto Serif Simplified Chinese
     code: Roboto Mono
@@ -92,4 +95,3 @@ plugins:
       cards_font: Noto Sans SC
   - search:
       lang: zh-TW
-  - mermaid2
