@@ -1,5 +1,8 @@
 # Heap
 
+
+> Build Heap
+
 堆数据结构是满足堆属性的完全二叉树，也称为二叉堆。
 
 完全二叉树是一种特殊的二叉树，其中
@@ -54,6 +57,101 @@ graph TB
     C-->F((9))
 ```
 </center>
+
+1. 输入数组：
+<center>
+
+```mermaid
+
+flowchart LR;
+3---9---2---1---4---5
+
+```
+
+</center>
+
+2. 从数组创建二叉树：
+
+<center>
+
+```mermaid
+graph TB
+    A((3))-->B((9))
+    A-->C((2))
+    B-->D((1))
+    B-->E((4))
+    C-->F((5))
+```
+</center>
+
+3. 从索引为`n/2 - 1`的非叶节点的第一个索引开始。`heapify` 将当前元素i设置为 `largest`
+4. 左子索引由`2i + 1`给出，右子索引由`2i + 2`给出。 如果`leftChild`大于`currentElement`，则将`leftChildIndex`设置为最大。 如果`rightChild`大于`largest`中的元素，将`rightChildIndex`设置为`largest`
+5. 将`largest`与`currentElement`交换
+
+<center>
+
+```mermaid
+graph TB
+    A((3))-->B((9))
+    A-->C((2))
+    B-->D((1))
+    B-->E((4))
+    C-->F((5))
+    class C dif
+    classDef dif fill:#f96
+```
+
+</center>
+
+6. 重复 3-5，直到所有节点都被 `heapify`
+
+```c
+Heapify(array, size, i)
+  set i as largest
+  leftChild = 2i + 1
+  rightChild = 2i + 2
+
+  if leftChild > array[largest]
+    set leftChildIndex as largest
+  if rightChild > array[largest]
+    set rightChildIndex as largest
+
+  swap array[i] and array[largest]
+```
+```c
+MaxHeap(array, size)
+  loop from the first index of non-leaf node down to zero
+    call heapify
+```
+
+___
+
+> Insert Node
+
+```c
+If there is no node, 
+  create a newNode.
+else (a node is already present)
+  insert the newNode at the end (last node from left to right.)
+
+heapify the array
+```
+
+- 在树的末尾插入新元素
+- 对树建堆
+___
+
+> Delete Node
+
+```c
+If nodeToBeDeleted is the leafNode
+  remove the node
+Else swap nodeToBeDeleted with the lastLeafNode
+  remove noteToBeDeleted
+
+heapify the array
+```
+___
 
 ```java title="Heap.java"
  // Max-Heap data structure in Java
