@@ -57,6 +57,9 @@ theme:
         name: Switch to system preference
 
   icon:
+    edit: material/pencil
+    view: material/eye
+    repo: fontawesome/brands/git-alt
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -80,10 +83,12 @@ theme:
     - content.code.select
     - content.code.annotate
     - toc.follow
+    - content.action.edit
   font:
     text: Noto Serif Simplified Chinese
     code: Roboto Mono
 repo_url: https://github.com/rocky-raccoon33/notes
+repo_name: rocky-raccoon33/notes
 site_author: dinghesheng
 
 extra_css:
