@@ -1,7 +1,6 @@
 # Heap
 
-
-> Build Heap
+> 堆的特性
 
 堆数据结构是满足堆属性的完全二叉树，也称为二叉堆。
 
@@ -58,7 +57,10 @@ graph TB
 ```
 </center>
 
-1. 输入数组：
+> 构建堆
+
+- 输入数组：
+
 <center>
 
 ```mermaid
@@ -70,7 +72,7 @@ flowchart LR;
 
 </center>
 
-2. 从数组创建二叉树：
+- 从数组创建二叉树：
 
 <center>
 
@@ -84,9 +86,9 @@ graph TB
 ```
 </center>
 
-3. 从索引为`n/2 - 1`的非叶节点的第一个索引开始。`heapify` 将当前元素i设置为 `largest`
-4. 左子索引由`2i + 1`给出，右子索引由`2i + 2`给出。 如果`leftChild`大于`currentElement`，则将`leftChildIndex`设置为最大。 如果`rightChild`大于`largest`中的元素，将`rightChildIndex`设置为`largest`
-5. 将`largest`与`currentElement`交换
+- 从索引为`n/2 - 1`的非叶节点的第一个索引开始。`heapify` 将当前元素i设置为 `largest`
+- 左子索引由`2i + 1`给出，右子索引由`2i + 2`给出。 如果`leftChild`大于`currentElement`，则将`leftChildIndex`设置为最大。 如果`rightChild`大于`largest`中的元素，将`rightChildIndex`设置为`largest`
+- 将`largest`与`currentElement`交换
 
 <center>
 
@@ -103,7 +105,7 @@ graph TB
 
 </center>
 
-6. 重复 3-5，直到所有节点都被 `heapify`
+- 重复 3-5，直到所有节点都被 `heapify`
 
 ```c
 Heapify(array, size, i)
@@ -126,7 +128,7 @@ MaxHeap(array, size)
 
 ___
 
-> Insert Node
+> 插入节点
 
 ```c
 If there is no node, 
@@ -141,7 +143,7 @@ heapify the array
 - 对树建堆
 ___
 
-> Delete Node
+> 删除节点
 
 ```c
 If nodeToBeDeleted is the leafNode
