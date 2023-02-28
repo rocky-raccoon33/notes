@@ -85,7 +85,7 @@ theme:
     - content.action.edit
   font:
     text: Noto Serif Simplified Chinese
-    code: PT Sans
+    code: Roboto Mono
 repo_url: https://github.com/rocky-raccoon33/notes
 repo_name: rocky-raccoon33/notes
 site_author: dinghesheng
