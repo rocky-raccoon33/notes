@@ -96,3 +96,5 @@ plugins:
   - search:
       lang: zh-TW
   - git-authors
+  - git-committers:
+    repository: https://github.com/rocky-raccoon33/notes
