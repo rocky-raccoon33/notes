@@ -26,3 +26,8 @@ header h1 h2 h3 {
 	background-clip: text;
 	-webkit-background-clip: text;
 }
+
+.navbar {
+	background-image: none;
+	background-color: grey;
+}
