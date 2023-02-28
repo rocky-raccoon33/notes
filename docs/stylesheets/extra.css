@@ -1,5 +1,6 @@
-h1 {
+:root>h1 {
 	font-weight: 600;
+	background-color: aqua;
 }
 
 .navbar {
