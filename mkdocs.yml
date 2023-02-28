@@ -30,7 +30,6 @@ markdown_extensions:
 
 theme:
   name: material
-  primary: stylesheets/extra.css
   language: zh-TW
   palette:
     # Palette toggle for automatic mode
