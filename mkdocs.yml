@@ -28,6 +28,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+docs_dir: sources
 theme:
   name: material
   custom_dir: overrides
@@ -91,7 +92,6 @@ extra_css:
 
 plugins:
   - blog:
-      archive_name: Archive
   - social:
       cards_font: Noto Sans SC
   - search:
