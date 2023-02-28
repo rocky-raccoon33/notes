@@ -95,3 +95,4 @@ plugins:
       cards_font: Noto Sans SC
   - search:
       lang: zh-TW
+  - git-authors

@@ -1,3 +1,4 @@
-![](index.jpeg)
-
- 
+---
+title: Title
+template: home.html
+---
