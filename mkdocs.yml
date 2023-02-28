@@ -75,10 +75,10 @@ theme:
     - navigation.tabs
     - navigation.top
     - toc.integrate
-    - navigation.expand
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - toc.follow
   font:
     text: Noto Serif Simplified Chinese
     code: Roboto Mono
