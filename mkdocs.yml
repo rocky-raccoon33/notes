@@ -27,6 +27,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.mark
+  - pymdownx.smartsymbols
 
 theme:
   name: material
@@ -79,7 +81,7 @@ theme:
     code: Roboto Mono
 repo_url: https://github.com/rocky-raccoon33/notes
 repo_name: rocky-raccoon33/notes
-site_author: dinghesheng
+site_author: Maurice
 edit_uri: blob/main/docs
 
 extra_css:
@@ -87,6 +89,11 @@ extra_css:
 
 extra:
   generator: false
+  annotate:
+    json: [.s2]
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
 
 plugins:
   - blog:
