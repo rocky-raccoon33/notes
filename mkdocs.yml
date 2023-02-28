@@ -32,28 +32,18 @@ theme:
   name: material
   language: zh-TW
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
+    - scheme: default
       primary: white
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: white
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: grey
+      accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to light mode
 
   icon:
     edit: material/pencil
