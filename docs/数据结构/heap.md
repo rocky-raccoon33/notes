@@ -55,7 +55,7 @@ graph TB
 ```
 </center>
 
-```java title="Heap.java" hl_lines="3"
+```java title="Heap.java"
  // Max-Heap data structure in Java
 
 import java.util.ArrayList;
