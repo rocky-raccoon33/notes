@@ -94,7 +94,7 @@ plugins:
   - social:
       cards_font: Noto Sans SC
   - search:
-      lang: zh-TW
+      lang: zh
   - git-authors
   - git-committers:
-    repository: https://github.com/rocky-raccoon33/notes
+      repository: https://github.com/rocky-raccoon33/notes
