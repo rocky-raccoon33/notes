@@ -19,8 +19,7 @@
 	mask-image: var(--md-admonition-icon--pied-piper);
 }
 
-header h1 {
-	font-size: 70px;
+header h1 h2 h3 {
 	font-weight: 600;
 	background-image: linear-gradient(to left, #553c9a, #b393d3);
 	color: transparent;
