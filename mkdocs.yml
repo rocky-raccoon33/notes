@@ -83,6 +83,7 @@ theme:
     - content.code.annotate
     - toc.follow
     - content.action.edit
+    - navigation.prune
   font:
     text: Noto Serif Simplified Chinese
     code: Roboto Mono
