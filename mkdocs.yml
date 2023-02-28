@@ -90,7 +90,7 @@ theme:
 repo_url: https://github.com/rocky-raccoon33/notes
 repo_name: rocky-raccoon33/notes
 site_author: dinghesheng
-edit_uri: main/docs/
+edit_uri: notes/blob/main/docs
 
 extra_css:
   - stylesheets/extra.css
