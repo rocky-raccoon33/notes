@@ -7,11 +7,13 @@
 	background-clip: text;
 	-webkit-background-clip: text;
 	font-family: 'Exo 2', 'Noto Sans Simplified Chinese';
-
 }
 
 
-blockquote {
-	font-weight: 600;
-	color: #773fb7 !important;
+blockquote > p {
+	font-weight: 600 !important;
+}
+
+.highlight .sb {
+  background-color: #df5f7f;
 }
