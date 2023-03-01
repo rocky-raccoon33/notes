@@ -10,13 +10,8 @@
 
 }
 
-.highlight,
-.sb {
-	font-weight: 600;
-	color: #773fb7 !important;
-	;
-}
 
 blockquote {
+	font-weight: 600;
 	color: #773fb7 !important;
 }
