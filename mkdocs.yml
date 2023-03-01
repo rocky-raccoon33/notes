@@ -119,3 +119,4 @@ plugins:
 
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - extra/optionConfig.js
