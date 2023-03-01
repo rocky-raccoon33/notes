@@ -1,3 +1,3 @@
 # 主页
 
-！[](./index.jpeg)
+![](./index.jpeg)
