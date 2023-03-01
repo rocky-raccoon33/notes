@@ -22,11 +22,6 @@ markdown_extensions:
       alternate_style: true
   - toc:
       permalink: true
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.mark
   - pymdownx.smartsymbols
 
@@ -104,3 +99,6 @@ plugins:
   - git-authors
   - git-committers:
       repository: https://github.com/rocky-raccoon33/notes
+  - mermaid2:
+      arguments:
+        theme: "forest"
