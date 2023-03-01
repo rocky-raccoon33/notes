@@ -102,12 +102,12 @@ plugins:
   - blog:
       pagination_per_page: 5
   - rss:
-    match_path: blog/posts/.*
-    date_from_meta:
-      as_creation: date
-    categories:
-      - categories
-      - tags
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
   - social:
       cards_font: Noto Sans SC
   - search:
