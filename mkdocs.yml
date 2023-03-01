@@ -8,14 +8,13 @@ markdown_extensions:
   - pymdownx.tilde
   - admonition
   - footnotes
-  - pymdownx.superfences
   - tables
   - def_list
+  - pymdownx.highlight
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
