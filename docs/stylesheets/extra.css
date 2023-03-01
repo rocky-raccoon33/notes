@@ -6,4 +6,9 @@
 	color: transparent;
 	background-clip: text;
 	-webkit-background-clip: text;
+
+}
+
+.highlight .sb {
+	color: #773fb7;
 }
