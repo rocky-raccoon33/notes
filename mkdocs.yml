@@ -110,7 +110,3 @@ plugins:
         # for mkdocs-material >=8.0.0
         theme: |
           ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
-
-extra_javascript:
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
-  - extra/refresh_on_toggle_dark_light.js
