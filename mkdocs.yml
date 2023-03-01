@@ -9,8 +9,6 @@ markdown_extensions:
   - admonition
   - footnotes
   - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
   - tables
   - def_list
   - pymdownx.tasklist:
