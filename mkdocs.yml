@@ -102,3 +102,6 @@ plugins:
   - mermaid2:
       arguments:
         theme: "forest"
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
