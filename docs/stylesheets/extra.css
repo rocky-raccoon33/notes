@@ -13,8 +13,8 @@
 .highlight,
 .sb {
 	font-weight: 600;
-	color: #773fb7;
-	background-color: yellow;
+	color: #773fb7 !important;
+	;
 }
 
 blockquote {
