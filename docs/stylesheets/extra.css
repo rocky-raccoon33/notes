@@ -11,4 +11,10 @@
 
 .highlight .sb {
 	color: #773fb7;
+	background-color: yellow;
+}
+
+blockquote {
+	color: #773fb7;
+	background-color: yellow;
 }
