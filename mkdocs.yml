@@ -24,6 +24,12 @@ markdown_extensions:
       permalink: true
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
 
 theme:
   name: material
@@ -95,7 +101,7 @@ plugins:
   - social:
       cards_font: Noto Sans SC
   - search:
-      lang: zh
+      lang: zh-TW
   - git-authors
   - git-committers:
       repository: https://github.com/rocky-raccoon33/notes
