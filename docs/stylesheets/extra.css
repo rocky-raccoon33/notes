@@ -10,7 +10,8 @@
 
 }
 
-.highlight .sb {
+.highlight,
+.sb {
 	color: #773fb7;
 	background-color: yellow;
 }
