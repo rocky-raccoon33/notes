@@ -36,6 +36,7 @@ markdown_extensions:
 theme:
   name: material
   language: zh-TW
+  logo: assets/logo.png
   palette:
     - scheme: default
       primary: white
@@ -100,21 +101,10 @@ extra:
 
 plugins:
   - blog
-  - rss:
-      match_path: blog/posts/.*
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
-  - social:
-      cards_font: Noto Sans SC
   - search:
       lang: zh-TW
   - git-authors
-  - git-committers:
-      repository: https://github.com/rocky-raccoon33/notes
 
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
-  - extra/optionConfig.js
+  - javascripts/optionConfig.js
