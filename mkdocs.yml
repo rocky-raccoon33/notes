@@ -107,10 +107,3 @@ plugins:
   - git-authors
   - git-committers:
       repository: https://github.com/rocky-raccoon33/notes
-  - mermaid2:
-      theme: forest
-      arguments:
-        # test if its __palette_1 (dark) or __palette_2 (light)
-        # for mkdocs-material >=8.0.0
-        theme: |
-          ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
