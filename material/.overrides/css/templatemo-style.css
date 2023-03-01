@@ -6,8 +6,8 @@ https://templatemo.com/tm-527-sided
 
 
 
-    Primary color         #99ccff
-    Primary bright color  #3399FF
+    Primary color         #eeeeee
+    Primary bright color  #f6f6f6
     Gray bg               #f6f6f6
     Dark Gray bg          #eeeeee
 */
@@ -62,12 +62,10 @@ p {
 }
 
 .columns-bg {
-  background-image: linear-gradient(
-    to right,
-    #99ccff,
-    #99ccff 50%,
-    #ffffff 50%
-  );
+  background-image: linear-gradient(to right,
+      #eeeeee,
+      #eeeeee 50%,
+      #ffffff 50%);
 }
 
 .container-fluid {
@@ -117,19 +115,19 @@ p {
 }
 
 .tm-bg-primary {
-  background-color: #99ccff;
+  background-color: #f6f6f6;
 }
 
 .tm-text-primary {
-  color: #99ccff;
+  color: #b277ec;
 }
 
 .tm-text-primary-bright {
-  color: #3399ff;
+  color: #b277ec;
 }
 
 .tm-hr-primary-bright {
-  border-color: #3399ff;
+  border-color: #f6f6f6;
 }
 
 .tm-hr-white {
@@ -145,7 +143,7 @@ p {
 }
 
 .tm-text-accent {
-  color: #3698cc;
+  color: #f6f6f6;
 }
 
 .tm-section-title-2 {
@@ -164,7 +162,7 @@ p {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 1px solid #99ccff;
+  border-bottom: 1px solid #f6f6f6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -236,7 +234,8 @@ p {
 }
 
 .tm-img-right {
-  margin-left: -1px; /* to fix 1 px gap in Chrome */
+  margin-left: -1px;
+  /* to fix 1 px gap in Chrome */
 }
 
 .tm-img-left-container,
@@ -290,7 +289,7 @@ p {
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   position: absolute;
   top: 0;
   left: 0;
@@ -300,7 +299,7 @@ p {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -406,7 +405,7 @@ figure.effect-duke:hover p {
 .tm-contact-icon-container {
   display: inline-block;
   background-color: white;
-  color: #99ccff;
+  color: #eeeeee;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -424,7 +423,7 @@ figure.effect-duke:hover p {
   cursor: pointer;
   width: 62px;
   height: 62px;
-  background-color: #99ccff;
+  background-color: #eeeeee;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -479,8 +478,8 @@ figure.effect-duke:hover p {
 }
 
 .tm-btn-submit:hover {
-  color: #99ccff;
-  border-color: #99ccff;
+  color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .tm-social-icon-container:hover {
@@ -496,7 +495,7 @@ figure.effect-duke:hover p {
 }
 
 .tm-copyright-link {
-  color: #99ccff;
+  color: #eeeeee;
 }
 
 .tm-p-2-section-1 {
@@ -528,18 +527,18 @@ figure.effect-duke:hover p {
 }
 
 .btn-primary {
-  background-color: #99ccff;
-  border-color: #99ccff;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 
 .btn-secondary {
   background-color: white;
   border-color: white;
-  color: #3399ff;
+  color: #f6f6f6;
 }
 
 .btn-secondary:hover {
-  color: #3399ff;
+  color: #f6f6f6;
   background-color: #c5c7ca;
   border-color: #c5c7ca;
 }
@@ -743,7 +742,7 @@ hr {
   #intro,
   #section_4,
   #contact {
-    background-color: #99ccff;
+    background-color: #353333;
   }
 
   #our_place {
@@ -794,7 +793,7 @@ hr {
   }
 
   #outro .tm-text-white {
-    color: #99ccff;
+    color: #363535;
   }
 
   .tm-contact-left,
@@ -826,7 +825,8 @@ hr {
   .form-control::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
-    opacity: 1; /* Firefox */
+    opacity: 1;
+    /* Firefox */
   }
 
   .form-control:-ms-input-placeholder {
@@ -845,7 +845,7 @@ hr {
   }
 
   .tm-sm-bg-blue {
-    background-color: #99ccff;
+    background-color: #eeeeee;
   }
 
   .tm-section-icon-container {
@@ -902,6 +902,7 @@ hr {
     max-width: 300px;
     overflow-x: hidden;
   }
+
   .grid figure {
     flex: 1 0 100%;
   }
