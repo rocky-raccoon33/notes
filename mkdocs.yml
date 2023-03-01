@@ -100,7 +100,7 @@ extra:
 
 plugins:
   - blog:
-    pagination_per_page: 5
+      pagination_per_page: 5
   - rss:
     match_path: blog/posts/.*
     date_from_meta:
@@ -109,9 +109,9 @@ plugins:
       - categories
       - tags
   - social:
-    cards_font: Noto Sans SC
+      cards_font: Noto Sans SC
   - search:
-    lang: zh-TW
+      lang: zh-TW
   - git-authors
   - git-committers:
       repository: https://github.com/rocky-raccoon33/notes
