@@ -35,6 +35,7 @@ markdown_extensions:
 
 theme:
   name: material
+  custom_dir: material/.overrides
   language: zh-TW
   palette:
     - scheme: default
