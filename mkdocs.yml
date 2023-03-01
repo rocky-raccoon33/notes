@@ -1,5 +1,7 @@
 site_name: NOTE
 markdown_extensions:
+  - md_in_html
+  - abbr
   - attr_list
   - pymdownx.critic
   - pymdownx.caret
@@ -10,7 +12,10 @@ markdown_extensions:
   - footnotes
   - tables
   - def_list
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.inlinehilite
@@ -26,7 +31,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 theme:
   name: material
