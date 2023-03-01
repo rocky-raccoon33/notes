@@ -1,4 +1,1 @@
----
-title: 主页
-template: home.html
----
+# 主页
