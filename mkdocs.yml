@@ -107,3 +107,6 @@ plugins:
   - git-authors
   - git-committers:
       repository: https://github.com/rocky-raccoon33/notes
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
