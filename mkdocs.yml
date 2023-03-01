@@ -35,7 +35,6 @@ markdown_extensions:
 
 theme:
   name: material
-  custom_dir: material/.overrides
   language: zh-TW
   palette:
     - scheme: default
@@ -100,8 +99,7 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
 
 plugins:
-  - blog:
-      pagination_per_page: 5
+  - blog
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
