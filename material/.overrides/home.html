@@ -1,31 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+{#-
+This file was automatically generated - do not edit
+-#}
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+  .md-header {
+    position: initial
+  }
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
-    <meta name="author" content="maurice">
-    <title>landing page</title>
-    <!-- font icons -->
-    <!-- Bootstrap + Meyawo main styles -->
-    <link rel="stylesheet" href="assets/css/meyawo.css">
-</head>
+  .md-main__inner {
+    margin: 0
+  }
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+  .md-content {
+    display: none
+  }
 
-    <!-- page header -->
-    <header id="home" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">HI!</span>
-                <span class="down">I am Maurice</span>
-            </h1>
-            <p class="header-subtitle">Developer</p>
-        </div>
-    </header><!-- end of page header -->
+  @media screen and (min-width:60em) {
+    .md-sidebar--secondary {
+      display: none
+    }
+  }
 
-</body>
+  @media screen and (min-width:76.25em) {
+    .md-sidebar--primary {
+      display: none
+    }
+  }
+</style>
+<section class="mdx-container">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero">
+      <div class="mdx-hero__image">
+        <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+      </div>
+      <div class="mdx-hero__content">
+        <h1>I'm Maurice</h1>
+        <p> ... Developmet</p>
 
-</html>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
