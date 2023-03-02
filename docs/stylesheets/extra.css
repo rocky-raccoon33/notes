@@ -34,7 +34,7 @@
 	font-weight: 600;
 	position: relative;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
-	font-size: 25px;
+	font-size: 24px;
 	line-height: 1.5em;
 	color: #34568B;
 	text-transform: uppercase;
@@ -51,4 +51,10 @@
 	color: #34568B;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
+}
+
+
+li::marker {
+	content: counter(list-item) "› ";
+	color: #34568B;
 }
