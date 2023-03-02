@@ -6,7 +6,6 @@
 	color: transparent;
 	background-clip: text;
 	-webkit-background-clip: text;
-	font-family: 'Exo 2', 'Noto Sans Simplified Chinese';
 }
 
 
@@ -15,5 +14,5 @@ blockquote>p {
 }
 
 .highlight .sb {
-	background-color: #df5f7f;
+	background-color: #df5f7f !important;
 }
