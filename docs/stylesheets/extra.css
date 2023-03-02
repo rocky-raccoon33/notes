@@ -81,7 +81,7 @@ blockquote p {
 	border: 1px solid rgba(53, 86, 129, 0.3);
 }
 
-code {
-	overflow: scroll;
+pre {
+	overflow-y: scroll;
 	height: 50%;
 }
