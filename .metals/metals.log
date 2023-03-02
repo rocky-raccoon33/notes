@@ -3829,3 +3829,4 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.03.01 14:25:27 WARN  Build server is not auto-connectable.[0m
 2023.03.01 14:25:27 WARN  no build tool detected in workspace '/Users/10018920/Learning/notes'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 2023.03.01 14:25:27 WARN  no build target for: /Users/10018920/Learning/notes/docs/WEB/Java/四种饮用类型.java[0m
+2023.03.02 10:06:26 INFO  shutting down Metals[0m
