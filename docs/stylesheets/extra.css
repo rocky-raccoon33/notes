@@ -10,10 +10,10 @@
 }
 
 
-blockquote > p {
+blockquote>p {
 	font-weight: 600 !important;
 }
 
 .highlight .sb {
-  background-color: #df5f7f;
+	background-color: #df5f7f;
 }
