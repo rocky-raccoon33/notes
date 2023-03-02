@@ -54,6 +54,6 @@
 }
 
 .md-typeset li::marker {
-	content: counter(list-item) "> ";
+	content: "× ";
 	color: #34568B;
 }
