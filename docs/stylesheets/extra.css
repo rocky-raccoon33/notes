@@ -55,5 +55,6 @@
 
 .md-typeset li::marker {
 	content: "× ";
+	font-weight: bold;
 	color: #34568B;
 }
