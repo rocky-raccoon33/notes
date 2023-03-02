@@ -1,0 +1,57 @@
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+	font-weight: 600;
+	background-image: linear-gradient(to left, #553c9a, #b277ec);
+	color: transparent;
+	background-color: lightslategray;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+$blue: #0000FF;
+
+body {
+	color: $blue;
+	font-family: 'Noto Sans';
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+	padding-bottom: 50px;
+}
+
+blockquote {
+	background: white;
+	padding: 20px 30px 20px 30px;
+	margin: 50px auto;
+	width: 50%;
+	max-width: 500px;
+}
+
+.stacked {
+	border: solid 2px;
+	padding: 20px 30px 20px 30px;
+	box-shadow: 13px 13px 0 0 white,
+		15px 15px 0 0 $blue,
+		15px 11px 0 0 $blue,
+		11px 15px 0 0 $blue;
+}
+
+.shadow {
+	border: solid 2px;
+	box-shadow: 15px 15px 0 0 $blue;
+}
+
+.rule {
+	position: relative;
+	left: 7px;
+	background: lighten($blue, 40%);
+	box-shadow: -2px 0 0 $blue,
+		-4px 0 0 lighten($blue, 40%),
+		-7px 0 0 $blue;
+}
