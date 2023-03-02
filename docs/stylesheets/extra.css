@@ -4,6 +4,7 @@
 	font-weight: 600;
 	background-image: linear-gradient(to left, #553c9a, #b277ec);
 	color: transparent;
+	background-color: lightslategray;
 	background-clip: text;
 	-webkit-background-clip: text;
 }
