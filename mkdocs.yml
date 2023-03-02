@@ -41,13 +41,13 @@ theme:
   palette:
     - scheme: default
       primary: white
-      accent: #355681
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: slate
-      accent: #355681
+      primary: blue grey
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

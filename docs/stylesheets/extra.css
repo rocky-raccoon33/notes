@@ -1,6 +1,6 @@
 .md-typeset h1 {
 	font-size: 28px;
-	color: #6B5B95;
+	color: #34568B;
 	font-weight: 500;
 	letter-spacing: 0;
 	line-height: 1.5em;
@@ -15,7 +15,7 @@
 	bottom: 0;
 	height: 5px;
 	width: 55px;
-	background-color: #6B5B95;
+	background-color: #34568B;
 }
 
 .md-typeset h1:after {
@@ -26,7 +26,7 @@
 	height: 1px;
 	width: 95%;
 	max-width: 255px;
-	background-color: #6B5B95;
+	background-color: #34568B;
 }
 
 .md-typeset h2 {
@@ -36,7 +36,7 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 25px;
 	line-height: 1.5em;
-	color: #6B5B95;
+	color: #34568B;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
@@ -48,7 +48,7 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 20px;
 	line-height: 1.5em;
-	color: #6B5B95;
+	color: #34568B;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
