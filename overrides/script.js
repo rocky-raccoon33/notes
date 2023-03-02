@@ -1,9 +1,9 @@
 console.clear();
 
 var s = Snap();
-var sMaxX = 800;
-var sMaxY = 600;
-var viewBoxList = [0, 0, sMaxX, sMaxY];
+var sMaxX = 600;
+var sMaxY = 400;
+var viewBoxList = [100, 100, sMaxX, sMaxY];
 s.attr({
     viewBox: viewBoxList
 });
@@ -25,17 +25,17 @@ var delay = 250;
 
 var colorSteps = maxLines / 2;
 var colors = ['purple',
-              'crimson',
-              'orangered',
-              'orange',
-              'gold',
-              'yellowgreen',
-              'steelblue',
-              'teal',
-              'purple'
-             ]
+    'crimson',
+    'orangered',
+    'orange',
+    'gold',
+    'yellowgreen',
+    'steelblue',
+    'teal',
+    'purple'
+]
 
-var lineLength = Math.sqrt( Math.pow( pSize, 2 ) * 2);
+var lineLength = Math.sqrt(Math.pow(pSize, 2) * 2);
 
 
 var lineObj = function () {
@@ -46,15 +46,15 @@ var lineObj = function () {
     var pathDelay = 0;
     var dashArray = 0;
     var strokeW = 0;
-    
-    this.init = function ( params ) {
+
+    this.init = function (params) {
         pos = params.pos;
         strokeW = params.strokeW;
         var strokeColor = params.color || 'hotpink'
         var offsetX = params.offsetX || 0;
         var x = pSize - lineStep * (pos + .5) + offsetX;
         var translateParams = [x, 0];
-        
+
         pathDelay = params.delay || delay;
         dashArray = lineLength;
         addMask = params.addMask || false;
@@ -67,59 +67,59 @@ var lineObj = function () {
             'stroke-dashoffset': lineLength,
             'stroke-dasharray': dashArray
         });
-        
+
         gLines.add(path);
-        
+
     }// Init
-    
+
     this.reset = function () {
         path.attr({
             'stroke-dashoffset': lineLength,
             'stroke-dasharray': dashArray
         });
     }
-    
-    this.animdDelay = function() {
-        setTimeout(pathAnim, 
-                   (maxLinesDouble - pos) * pathDelay
-                  );
+
+    this.animdDelay = function () {
+        setTimeout(pathAnim,
+            (maxLinesDouble - pos) * pathDelay
+        );
     }
-    
+
     var countNextAnim = 0;
-    
+
     function runNextAnim() {
-        if ( addMask == true ) {
+        if (addMask == true) {
             // Why 0?
-            if ( pos == 0) {
+            if (pos == 0) {
                 countNextAnim++;
-                
+
                 maskObj.maskAnim();
             }
         }
     }
-    
-    function pathAnim () {
+
+    function pathAnim() {
 
         path.animate({
             'stroke-dashoffset': '0'
-        	},
-			pathDur,
-			runNextAnim
-            );
+        },
+            pathDur,
+            runNextAnim
+        );
     }
-    
+
 }// lineObj
 
 // ------------------------------------
 
-function createLines( params ) {
-    
+function createLines(params) {
+
     var strokeW = params.strokeW;
-    
-    for ( var i = 0; i < maxLinesDouble; i++ ) {
+
+    for (var i = 0; i < maxLinesDouble; i++) {
         var line = new lineObj;
         var color = params.color || colors[i % colorSteps];
-        
+
         line.init({
             pos: i,
             strokeW: params.strokeW,
@@ -128,7 +128,7 @@ function createLines( params ) {
             addMask: params.addMask || false,
             color: color,
         });
-        
+
         lines.push(line);
     }
 }
@@ -136,38 +136,38 @@ function createLines( params ) {
 // ------------------------------------
 
 function createPattern() {
-    
-//     console.log('* - createPattern');
-    
-    var rect = s.rect(0,0, pSize, pSize);
+
+    //     console.log('* - createPattern');
+
+    var rect = s.rect(0, 0, pSize, pSize);
     rect.attr({
         fill: 'white',
     });
-    
+
     gLines.add(rect);
-    
+
     createLines({
         strokeW: lineStep / 1.4,
         addMask: false
-        });
-    
+    });
+
     createLines({
         strokeW: 2,
         color: '#002',
         offsetX: lineStep / 2 + 7,
         delay: 300,
         addMask: true
-    	});
-    
-  	patt = gLines.toPattern(0,0, pSize, pSize);    
-    
+    });
+
+    patt = gLines.toPattern(0, 0, pSize, pSize);
+
 }
 
 function animatePattern() {
-  
-    for ( var i = 0; i < lines.length; i++ ) {
+
+    for (var i = 0; i < lines.length; i++) {
         var line = lines[i];
-        
+
         line.reset();
         line.animdDelay();
     }
@@ -176,21 +176,21 @@ function animatePattern() {
 // ------------------------------------
 
 var textObj = function () {
-    
+
     var textDur = 1500;
     var dashoffset = 1200;
     var textGInit = s.g();
-        var text1 = s.text('50%','34%','Hello');
-        var text2 = s.text('50%','73%','world');
+    var text1 = s.text('50%', '34%', 'Hello');
+    var text2 = s.text('50%', '73%', 'world');
 
     text1.attr({
-       dy: '.3em',
-       'font-size': '1.15em'
+        dy: '.3em',
+        'font-size': '1.15em'
     });
     text2.attr({
-       dy: '.3em'
+        dy: '.3em'
     });
-    
+
     textGInit.add(text1, text2);
 
     textGInit.attr({
@@ -208,47 +208,47 @@ var textObj = function () {
     textGInit.attr({
         transform: 'translate(10,10)'
     });
-    
+
     gText.add(textGInit, textGFill);
-    
+
     this.textAnim = function () {
         textGFill.animate({
             'stroke-dashoffset': 0
-	        },
+        },
             textDur,
             setTextStroke);
     }
-    
-    function setTextStroke () {
+
+    function setTextStroke() {
         setTextFill();
-        
+
         textGInit.animate({
             'stroke-dashoffset': 0
-            },
+        },
             textDur
-            );
+        );
     }
-    
-    function setTextFill () {
-        
+
+    function setTextFill() {
+
         animatePattern();
-        
+
         textGFill.attr({
             fill: patt
         });
     }
-    
+
     this.reset = function () {
-        
+
         var initState = {
             fill: 'white',
             'stroke-dasharray': dashoffset,
             'stroke-dashoffset': dashoffset
         };
-        
-        textGInit.attr( initState );
-        textGFill.attr( initState );
-        
+
+        textGInit.attr(initState);
+        textGFill.attr(initState);
+
         this.textAnim();
     }
 }
@@ -256,7 +256,7 @@ var textObj = function () {
 // ------------------------------------
 
 function createText() {
-//     console.log('* - createText');
+    //     console.log('* - createText');
     text = new textObj;
     text.textAnim();
 }
@@ -265,17 +265,17 @@ function createText() {
 
 var maskObjInit = function () {
     var maskShape;
-    
+
     var currentStep = 0;
     var steps = [
-        {rx: '10%', ry: "10%"},
-        {rx: '35%', ry: "35%"},
-        {rx: '0%', ry: "0%"}
+        { rx: '10%', ry: "10%" },
+        { rx: '35%', ry: "35%" },
+        { rx: '0%', ry: "0%" }
     ];
-    
+
     this.init = function () {
         maskShape = s.ellipse('50%', '50%', '100%', '100%');
-    
+
         maskShape.attr({
             fill: "white"
         });
@@ -286,15 +286,15 @@ var maskObjInit = function () {
             mask: maskElem
         });
     }
-    
+
     this.maskAnim = function () {
-//         console.log('- * - anim mask');
-        
-        if ( currentStep == steps.length ) {
+        //         console.log('- * - anim mask');
+
+        if (currentStep == steps.length) {
             setTimeout(reRun, 1000);
             return;
         }
-        
+
         maskShape.animate(
             steps[currentStep]
             ,
@@ -302,21 +302,21 @@ var maskObjInit = function () {
             maskObj.maskAnim);
         currentStep++;
     }
-    
+
     this.reset = function () {
         currentStep = 0;
-        
+
         var initState = {
-            rx: '100%', 
+            rx: '100%',
             ry: "100%"
         };
-        
+
         maskShape.attr(initState);
     }
 }
 
 function createMask() {
-//     console.log('* - createMask');
+    //     console.log('* - createMask');
     maskObj = new maskObjInit;
     maskObj.init();
 }
@@ -328,7 +328,7 @@ createText();
 createMask();
 
 function reRun() {
-    
+
     maskObj.reset();
     text.reset();
 }
