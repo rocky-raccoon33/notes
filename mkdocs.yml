@@ -38,6 +38,7 @@ theme:
   language: zh-TW
   favicon: assets/logo.png
   logo: assets/logo.png
+  custom_dir: overrides
   palette:
     - scheme: default
       primary: white
