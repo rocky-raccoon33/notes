@@ -1,29 +1,29 @@
 .md-typeset h1 {
-	text-align: center;
-	text-transform: uppercase;
-	padding-bottom: 5px;
+	font-size: 28px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 1.5em;
+	padding-bottom: 15px;
+	position: relative;
 }
 
 .md-typeset h1:before {
-	width: 28px;
-	height: 5px;
-	display: block;
 	content: "";
 	position: absolute;
-	bottom: 3px;
-	left: 50%;
-	margin-left: -14px;
-	background-color: #b80000;
+	left: 0;
+	bottom: 0;
+	height: 5px;
+	width: 55px;
+	background-color: #111;
 }
 
 .md-typeset h1:after {
-	width: 100px;
-	height: 1px;
-	display: block;
 	content: "";
-	position: relative;
-	margin-top: 25px;
-	left: 50%;
-	margin-left: -50px;
-	background-color: #b80000;
+	position: absolute;
+	left: 0;
+	bottom: 2px;
+	height: 1px;
+	width: 95%;
+	max-width: 255px;
+	background-color: #d96b6b;
 }
