@@ -1,6 +1,6 @@
 # HEAP
 
-## 1 堆的特性
+## `1` 堆的特性
 
 堆数据结构是满足堆属性的完全二叉树，也称为二叉堆。
 
@@ -59,7 +59,7 @@ graph TB
 
 ___
 
-## 2 构建堆
+## `2` 构建堆
 
 - 输入数组：
 
@@ -130,7 +130,7 @@ MaxHeap(array, size)
 
 ___
 
-## 3 插入节点
+## `3` 插入节点
 
 ```c
 If there is no node, 
@@ -145,7 +145,7 @@ heapify the array
 - 对树建堆
 ___
 
-## 4 删除节点
+## `4` 删除节点
 
 ```c
 If nodeToBeDeleted is the leafNode
@@ -157,7 +157,7 @@ heapify the array
 ```
 ___
 
-## 5 实现
+## `5` 实现
 
 ```java title="Heap.java"
  // Max-Heap data structure in Java
