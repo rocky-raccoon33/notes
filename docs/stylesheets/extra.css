@@ -80,3 +80,8 @@ blockquote p {
 	font-weight: bold;
 	border: 1px solid rgba(53, 86, 129, 0.3);
 }
+
+code {
+	overflow: scroll;
+	height: 50%;
+}
