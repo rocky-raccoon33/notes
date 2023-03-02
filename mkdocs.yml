@@ -70,6 +70,9 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
   features:
+    - navigation.indexes
+    - navigation.path
+    - navigation.instant
     - content.code.annotate
     - content.tabs.link
     - navigation.tabs
