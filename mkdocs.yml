@@ -93,7 +93,7 @@ site_author: Maurice
 edit_uri: blob/main/docs
 
 extra_css:
-  - stylesheets/extra.scss
+  - stylesheets/extra.css
 
 extra:
   generator: false
