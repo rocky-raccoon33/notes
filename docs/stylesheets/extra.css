@@ -1,29 +1,37 @@
 .md-typeset h1 {
-	font-size: 28px;
-	font-weight: 500;
-	letter-spacing: 0;
-	line-height: 1.5em;
-	padding-bottom: 15px;
-	position: relative;
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	width: 160px;
+	text-align: center;
+	margin: auto;
+	white-space: nowrap;
+	padding-bottom: 13px;
 }
 
 .md-typeset h1:before {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 5px;
-	width: 55px;
-	background-color: #111;
+	background-color: #c50000;
+	content: '';
+	display: block;
+	height: 3px;
+	width: 75px;
+	margin-bottom: 5px;
 }
 
 .md-typeset h1:after {
-	content: "";
+	background-color: #c50000;
+	content: '';
+	display: block;
 	position: absolute;
-	left: 0;
-	bottom: 2px;
-	height: 1px;
-	width: 95%;
-	max-width: 255px;
-	background-color: #333;
+	right: 0;
+	bottom: 0;
+	height: 3px;
+	width: 75px;
+	margin-bottom: 0.25em;
+}
+
+h1:before,
+h1:after {
+	background-color: #c50000;
 }
