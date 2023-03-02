@@ -41,13 +41,13 @@ theme:
   palette:
     - scheme: default
       primary: white
-      accent: deep purple
+      accent: light blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
       primary: grey
-      accent: deep purple
+      accent: light blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
