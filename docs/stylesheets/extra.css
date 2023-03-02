@@ -28,3 +28,16 @@
 	max-width: 255px;
 	background-color: #dc6e6e;
 }
+
+.md-typeset h3 {
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
+	font-size: 22px;
+	line-height: 1.5em;
+	color: #355681;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
+}
