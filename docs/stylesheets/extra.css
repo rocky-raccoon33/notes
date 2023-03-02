@@ -11,11 +11,12 @@
 
 
 blockquote>p {
-	font-weight: 600 !important;
+	font-weight: 500 !important;
+	background-color: lightsteelblue !important;
 }
 
 
 .highlight,
 .sb {
-	color: #df5f7f;
+	color: #df5f7f !important;
 }
