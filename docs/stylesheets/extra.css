@@ -13,6 +13,7 @@ blockquote>p {
 	font-weight: 600 !important;
 }
 
+
 .highlight .sb {
-	background-color: #df5f7f !important;
+	color: #df5f7f;
 }
