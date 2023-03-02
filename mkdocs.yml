@@ -46,7 +46,7 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: grey
+      primary: slate
       accent: #355681
       toggle:
         icon: material/brightness-4
