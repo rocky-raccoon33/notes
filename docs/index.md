@@ -1,6 +1,5 @@
----
-template: home.html
-title: Material for MkDocs
----
+# 主页
 
-Welcome to Material for MkDocs.
+![](./index.jpeg)
+
+Made with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
