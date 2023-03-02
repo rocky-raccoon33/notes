@@ -1,9 +1,9 @@
 console.clear();
 
 var s = Snap();
-var sMaxX = 600;
-var sMaxY = 400;
-var viewBoxList = [100, 100, sMaxX, sMaxY];
+var sMaxX = 800;
+var sMaxY = 600;
+var viewBoxList = [0, 0, sMaxX, sMaxY];
 s.attr({
     viewBox: viewBoxList
 });
