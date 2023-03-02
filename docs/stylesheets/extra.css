@@ -1,4 +1,4 @@
- h1 {
+ .md-typeset h1 {
  	margin: 1em 0 0.5em 0;
  	font-weight: 600;
  	font-family: 'Titillium Web', sans-serif;
@@ -15,7 +15,7 @@
  	background: #fff url(../images/bartoszkosowski.jpg) no-repeat center left;
  }
 
- h2 {
+ .md-typeset h2 {
  	margin: 1em 0 0.5em 0;
  	font-weight: normal;
  	position: relative;
@@ -32,7 +32,7 @@
  	font-family: 'Muli', sans-serif;
  }
 
- h3 {
+ .md-typeset h3 {
  	margin: 1em 0 0.5em 0;
  	font-weight: 600;
  	font-family: 'Titillium Web', sans-serif;
@@ -45,7 +45,7 @@
  	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
  }
 
- h4 {
+ .md-typeset h4 {
  	margin: 1em 0 0.5em 0;
  	font-weight: 600;
  	font-family: 'Titillium Web', sans-serif;
