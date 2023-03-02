@@ -75,7 +75,8 @@ span.md-ellipsis {
 	color: #34568B;
 }
 
+
 blockquote p {
 	font-weight: bold;
-	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
+	border: 1px solid rgba(53, 86, 129, 0.3);
 }
