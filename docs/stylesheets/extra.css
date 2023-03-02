@@ -1,5 +1,6 @@
 .md-typeset h1 {
 	font-size: 28px;
+	color: #dc6e6e;
 	font-weight: 500;
 	letter-spacing: 0;
 	line-height: 1.5em;
@@ -25,5 +26,5 @@
 	height: 1px;
 	width: 95%;
 	max-width: 255px;
-	background-color: #b45c5c;
+	background-color: #dc6e6e;
 }
