@@ -9,7 +9,7 @@
 }
 
 .md-typeset h1 {
-	font-family: 'Bebas Neue', 'Noto Sans Simplified Chinese';
+	font-family: 'Work Sans', 'Noto Sans Simplified Chinese';
 	font-size: 28px;
 	color: #186cb8;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
@@ -43,7 +43,7 @@
 }
 
 .md-typeset h2 {
-	font-family: 'Bebas Neue', 'Noto Sans Simplified Chinese';
+	font-family: 'Work Sans', 'Noto Sans Simplified Chinese';
 	margin: 1em 0 0.5em 0;
 	font-weight: 600;
 	position: relative;
@@ -56,7 +56,7 @@
 }
 
 .md-typeset h3 {
-	font-family: 'Bebas Neue', 'Noto Sans Simplified Chinese';
+	font-family: 'Work Sans', 'Noto Sans Simplified Chinese';
 	margin: 1em 0 0.5em 0;
 	font-weight: 600;
 	position: relative;
