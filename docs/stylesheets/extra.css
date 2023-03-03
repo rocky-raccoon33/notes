@@ -124,7 +124,7 @@
 }
 
 .md-ellipsis {
-	font-family: system-ui, sans-serif;
+	font-family: 'Titillium Web', sans-serif, 'Noto Sans Simplified Chinese';
 	font-size: 1rem;
 	font-weight: bold;
 	cursor: pointer;
