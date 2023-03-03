@@ -88,7 +88,7 @@ pre {
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-span {
+.new-span {
 	font-family: 'Bebas Neue', cursive;
 	font-size: 3em;
 	position: absolute;
@@ -102,7 +102,7 @@ span {
 	transition: background-size .7s, background-position .5s ease-in-out;
 }
 
-span:hover {
+.new-span:hover {
 	background-size: 100% 100%;
 	background-position: 0% 100%;
 	transition: background-position .7s, background-size .5s ease-in-out;
