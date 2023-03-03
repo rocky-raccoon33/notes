@@ -109,7 +109,7 @@
 	--c: #2c4bff;
 	/* the color */
 
-	color: #0000;
+	color: #4e5154;
 	padding-bottom: var(--s);
 	background:
 		linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
@@ -127,9 +127,4 @@
 	font-family: system-ui, sans-serif;
 	font-size: 1rem;
 	cursor: pointer;
-}
-
-.md-nav__title {
-	color: red !important;
-	font-size: 1rem !important;
 }
