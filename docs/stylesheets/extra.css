@@ -124,7 +124,7 @@ span.md-ellipsis::before {
 	position: absolute;
 	left: 0;
 	right: 0;
-	height: 15px;
+	height: 5px;
 	background: #000;
 	bottom: 9px;
 	transition: all 0.2s ease-out;
