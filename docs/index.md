@@ -2,7 +2,7 @@
 
 ![](./index.jpeg)
 
-<a class="tech">
+<a >
  <span>T</span>
  <span>E</span>
  <span>C</span>
