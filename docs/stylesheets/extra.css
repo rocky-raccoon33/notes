@@ -126,5 +126,6 @@
 .md-ellipsis {
 	font-family: system-ui, sans-serif;
 	font-size: 1rem;
+	font-weight: bold;
 	cursor: pointer;
 }
