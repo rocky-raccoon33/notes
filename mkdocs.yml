@@ -85,7 +85,7 @@ theme:
     - content.action.edit
     - navigation.prune
   font:
-    text: Exo 2,Noto Sans Simplified Chinese
+    text: Noto Sans Simplified Chinese
     code: Roboto Mono
 repo_url: https://github.com/rocky-raccoon33/notes
 repo_name: rocky-raccoon33/notes
