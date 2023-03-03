@@ -73,9 +73,6 @@
 	text-transform: uppercase;
 }
 
-span.md-ellipsis {
-	color: #34568B;
-}
 
 
 blockquote p {
@@ -106,4 +103,37 @@ pre {
 	background-size: 100% 100%;
 	background-position: 0% 100%;
 	transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+span.md-ellipsis p {
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	font-size: 3rem;
+	background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-repeat: no-repeat;
+	transition: background 0.2s ease-out;
+	white-space: nowrap;
+}
+
+span.md-ellipsis::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15px;
+	background: #000;
+	bottom: 9px;
+	transition: all 0.2s ease-out;
+}
+
+span.md-ellipsis p:hover {
+	background-position: 0 11px;
+}
+
+span.md-ellipsis:hover:before {
+	transform: translateY(10px)
 }
