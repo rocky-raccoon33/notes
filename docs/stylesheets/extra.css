@@ -6,12 +6,12 @@
 	--color-3: #f1b211;
 	--color-4: #e83611;
 	--color-5: #f9002f;
-	--color-6: #34568B;
+	--color-6: #186cb8;
 }
 
 .md-typeset h1 {
 	font-size: 28px;
-	color: --color-1;
+	color: #186cb8;
 	font-weight: 500;
 	letter-spacing: 0;
 	line-height: 1.5em;
@@ -26,7 +26,7 @@
 	bottom: 0;
 	height: 5px;
 	width: 55px;
-	background-color: #34568B;
+	background-color: #186cb8;
 }
 
 .md-typeset h1:after {
@@ -38,7 +38,7 @@
 	height: 1px;
 	width: 95%;
 	max-width: 255px;
-	background-color: #34568B;
+	background-color: #186cb8;
 }
 
 .md-typeset h2 {
@@ -48,7 +48,7 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 24px;
 	line-height: 1.5em;
-	color: #34568B;
+	color: #186cb8;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
@@ -60,7 +60,7 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 20px;
 	line-height: 1.5em;
-	color: #34568B;
+	color: #186cb8;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
@@ -68,34 +68,25 @@
 .md-typeset ul li::marker {
 	content: "×  ";
 	font-weight: bold;
-	color: #34568B;
+	color: #186cb8;
 }
 
 .md-typeset ol li::marker {
 	font-weight: bold;
-	color: #34568B;
+	color: #186cb8;
 }
 
 .md-nav__title {
 	font-size: 15px;
 	font-weight: bold;
-	color: #34568B;
+	color: #186cb8;
 	text-transform: uppercase;
 }
 
-
-
 blockquote p {
-	color: #34568B;
+	color: #186cb8;
 	border: thin solid rgba(53, 86, 129, 0.3);
 }
-
-pre {
-	overflow-y: scroll;
-	height: 50%;
-}
-
-
 
 .new-span {
 	font-size: 3em;
