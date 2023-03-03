@@ -1,4 +1,4 @@
-# <span class="new-span">HOME</span>
+# HOME
 
 <span class="new-span">KEEP MOVING</span>
 
