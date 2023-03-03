@@ -4,17 +4,17 @@
 
 
 :root {
-	--color-1: #d03a55;
+	--color-1: #2c4bff;
 	--color-2: #2a9a9f;
 	--color-3: #f1b211;
-	--color-4: #d03a55;
-	--color-5: #d03a55;
+	--color-4: #2c4bff;
+	--color-5: #2c4bff;
 }
 
 .md-typeset h1 {
 	font-family: 'Fira Mono', 'Noto Sans Simplified Chinese';
 	font-size: 28px;
-	color: #d03a55;
+	color: #2c4bff;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-weight: 500;
 	letter-spacing: 0;
@@ -30,7 +30,7 @@
 	bottom: 0;
 	height: 5px;
 	width: 55px;
-	background-color: #d03a55;
+	background-color: #2c4bff;
 }
 
 .md-typeset h1:after {
@@ -42,7 +42,7 @@
 	height: 1px;
 	width: 95%;
 	max-width: 255px;
-	background-color: #d03a55;
+	background-color: #2c4bff;
 }
 
 .md-typeset h2 {
@@ -53,7 +53,7 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 24px;
 	line-height: 1.5em;
-	color: #d03a55;
+	color: #2c4bff;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
 
@@ -65,31 +65,31 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 20px;
 	line-height: 1.5em;
-	color: #d03a55;
+	color: #2c4bff;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
 
 .md-typeset ul li::marker {
 	content: "×  ";
 	font-weight: bold;
-	color: #d03a55;
+	color: #2c4bff;
 }
 
 .md-typeset ol li::marker {
 	font-weight: bold;
-	color: #d03a55;
+	color: #2c4bff;
 }
 
 .md-nav__title {
 	font-size: 15px;
 	font-weight: bold;
-	color: #d03a55;
+	color: #2c4bff;
 	text-transform: uppercase;
 }
 
 
 .new-span {
-	color: #d03a55;
+	color: #2c4bff;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 3em;
 	transform: translate(-50%, -50%);
@@ -134,6 +134,5 @@
 }
 
 p code {
-
 	color: pink;
 }
