@@ -130,6 +130,6 @@
 }
 
 .md-nav__title {
-	color: red;
-	font-size: 1rem;
+	color: red !important;
+	font-size: 1rem !important;
 }
