@@ -1,6 +1,4 @@
-# 主页
-
-<span class="new-span">I love to learn more!</span>
+# <span class="new-span">I love to learn more!</span>
 
 ![](./index.jpeg)
 
