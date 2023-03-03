@@ -86,11 +86,9 @@ pre {
 	height: 50%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 .new-span {
-	font-family: 'Bebas Neue', cursive;
 	font-size: 3em;
+	font-weight: bold;
 	transform: translate(-50%, -50%);
 	background-image: linear-gradient(gold, gold);
 	background-size: 100% 10px;
