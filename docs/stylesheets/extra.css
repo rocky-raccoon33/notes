@@ -109,7 +109,7 @@
 	--c: #2c4bff;
 	/* the color */
 
-	color: #4e5154;
+	color: #000;
 	padding-bottom: var(--s);
 	background:
 		linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
