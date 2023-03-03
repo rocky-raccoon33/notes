@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .md-typeset h1 {
 	font-size: 28px;
 	color: #34568B;
@@ -86,8 +88,11 @@ pre {
 	height: 50%;
 }
 
+
+
 .new-span {
-	font-size: 3em;
+	font-size: 2em;
+	font-family: 'Bebas Neue', cursive;
 	font-weight: bold;
 	transform: translate(-50%, -50%);
 	background-image: linear-gradient(gold, gold);
