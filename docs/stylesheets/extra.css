@@ -95,9 +95,6 @@ blockquote p {
 	color: #f9002f;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 3em;
-	position: absolute;
-	top: 50%;
-	left: 50%;
 	transform: translate(-50%, -50%);
 	background-image: linear-gradient(gold, gold);
 	background-size: 100% 10px;
