@@ -130,3 +130,8 @@
 	font-weight: bold;
 	cursor: pointer;
 }
+
+p code {
+
+	color: pink;
+}
