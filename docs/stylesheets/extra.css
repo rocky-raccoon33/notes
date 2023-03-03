@@ -128,3 +128,8 @@
 	font-size: 1rem;
 	cursor: pointer;
 }
+
+.md-nav__title {
+	color: red;
+	font-size: 1rem;
+}
