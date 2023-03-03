@@ -5,13 +5,13 @@
 ![](./index.jpeg)
 
 <div class="center">
-  <h1>
+  <h5>
     <span>Text</span>
   
     <span>Text</span>
     <span>Text</span>
   
-  </h1>
+  </h5>
 </div>
 
 
