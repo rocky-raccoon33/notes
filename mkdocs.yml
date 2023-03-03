@@ -94,7 +94,6 @@ edit_uri: blob/main/docs
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/mermaid.min.css
 
 extra:
   generator: false
@@ -107,8 +106,9 @@ extra:
 plugins:
   - blog
   - search:
-      lang: zh-TW
+      lang: en
   - git-authors
+  - extra-sass
 
 extra_javascript:
   - https://unpkg.com/browse/mermaid@9.4.0/dist/mermaid.min.js
