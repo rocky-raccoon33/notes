@@ -4,7 +4,7 @@
 
 ## `1` Filters
 
-> `Filters` are part of the web server and not the Spring framework.
+- `Filters` are part of the web server and not the Spring framework.
 
 ___
 

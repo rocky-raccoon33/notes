@@ -3,18 +3,15 @@
 ## `1` terms and AOP concepts
 
 
-> `Aspect` - a standard code/feature that is scattered across multiple places in the application and is typically different than the actual Business Logic (for example, Transaction management). Each aspect focuses on a specific cross-cutting functionality
-___
-> `Joinpoint` – it's a particular point during execution of programs like method execution, constructor call, or field assignment
-___
-> `Advice` – the action taken by the aspect in a specific joinpoint
+- `Aspect` - a standard code/feature that is scattered across multiple places in the application and is typically different than the actual Business Logic (for example, Transaction management). Each aspect focuses on a specific cross-cutting functionality
 
-___
-> `Pointcut` – a regular expression that matches a joinpoint. Each time any join point matches a pointcut, a specified advice associated with that pointcut is executed
-___
+- `Joinpoint` – it's a particular point during execution of programs like method execution, constructor call, or field assignment
 
-> `Weaving` – the process of linking aspects with targeted objects to create an advised object
+- `Advice` – the action taken by the aspect in a specific joinpoint
 
+- `Pointcut` – a regular expression that matches a joinpoint. Each time any join point matches a pointcut, a specified advice associated with that pointcut is executed
+
+- `Weaving` – the process of linking aspects with targeted objects to create an advised object
 
 ## `2` Spring AOP and AspectJ
 
