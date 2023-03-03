@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https: //fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+
+
 :root {
-	--color-1: #f9002f;
+	--color-1: #186cb8;
 	--color-2: #2a9a9f;
 	--color-3: #f1b211;
 	--color-4: #f9002f;
@@ -9,9 +13,9 @@
 }
 
 .md-typeset h1 {
-	font-family: 'Bebas Neue', cursive, 'Noto Sans Simplified Chinese';
+	font-family: 'Fira Mono', 'Noto Sans Simplified Chinese';
 	font-size: 28px;
-	color: #f9002f;
+	color: #186cb8;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-weight: 500;
 	letter-spacing: 0;
@@ -27,7 +31,7 @@
 	bottom: 0;
 	height: 5px;
 	width: 55px;
-	background-color: #f9002f;
+	background-color: #186cb8;
 }
 
 .md-typeset h1:after {
@@ -39,48 +43,48 @@
 	height: 1px;
 	width: 95%;
 	max-width: 255px;
-	background-color: #f9002f;
+	background-color: #186cb8;
 }
 
 .md-typeset h2 {
-	font-family: 'Bebas Neue', cursive, 'Noto Sans Simplified Chinese';
+	font-family: 'Fira Mono', 'Noto Sans Simplified Chinese';
 	margin: 1em 0 0.5em 0;
 	font-weight: 600;
 	position: relative;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 24px;
 	line-height: 1.5em;
-	color: #f9002f;
+	color: #186cb8;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
 
 .md-typeset h3 {
-	font-family: 'Bebas Neue', cursive, 'Noto Sans Simplified Chinese';
+	font-family: 'Fira Mono', 'Noto Sans Simplified Chinese';
 	margin: 1em 0 0.5em 0;
 	font-weight: 600;
 	position: relative;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 20px;
 	line-height: 1.5em;
-	color: #f9002f;
+	color: #186cb8;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
 
 .md-typeset ul li::marker {
 	content: "×  ";
 	font-weight: bold;
-	color: #f9002f;
+	color: #186cb8;
 }
 
 .md-typeset ol li::marker {
 	font-weight: bold;
-	color: #f9002f;
+	color: #186cb8;
 }
 
 .md-nav__title {
 	font-size: 15px;
 	font-weight: bold;
-	color: #f9002f;
+	color: #186cb8;
 	text-transform: uppercase;
 }
 
@@ -124,7 +128,7 @@
 }
 
 .md-ellipsis {
-	font-family: 'Bebas Neue', cursive, 'Noto Sans Simplified Chinese';
+	font-family: 'Fira Mono', 'Noto Sans Simplified Chinese';
 	font-size: 1rem;
 	font-weight: bold;
 	cursor: pointer;
