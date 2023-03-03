@@ -4,17 +4,17 @@
 
 
 :root {
-	--color-1: #DF2E38;
+	--color-1: #FF597B;
 	--color-2: #2a9a9f;
 	--color-3: #f1b211;
-	--color-4: #DF2E38;
-	--color-5: #DF2E38;
+	--color-4: #FF597B;
+	--color-5: #FF597B;
 }
 
 .md-typeset h1 {
 	font-family: 'Fira Mono', 'Noto Sans Simplified Chinese';
 	font-size: 28px;
-	color: #DF2E38;
+	color: #FF597B;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-weight: 500;
 	letter-spacing: 0;
@@ -30,7 +30,7 @@
 	bottom: 0;
 	height: 5px;
 	width: 55px;
-	background-color: #DF2E38;
+	background-color: #FF597B;
 }
 
 .md-typeset h1:after {
@@ -42,7 +42,7 @@
 	height: 1px;
 	width: 95%;
 	max-width: 255px;
-	background-color: #DF2E38;
+	background-color: #FF597B;
 }
 
 .md-typeset h2 {
@@ -53,7 +53,7 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 24px;
 	line-height: 1.5em;
-	color: #DF2E38;
+	color: #FF597B;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
 
@@ -65,31 +65,31 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 20px;
 	line-height: 1.5em;
-	color: #DF2E38;
+	color: #FF597B;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
 
 .md-typeset ul li::marker {
 	content: "×  ";
 	font-weight: bold;
-	color: #DF2E38;
+	color: #FF597B;
 }
 
 .md-typeset ol li::marker {
 	font-weight: bold;
-	color: #DF2E38;
+	color: #FF597B;
 }
 
 .md-nav__title {
 	font-size: 15px;
 	font-weight: bold;
-	color: #DF2E38;
+	color: #FF597B;
 	text-transform: uppercase;
 }
 
 
 .new-span {
-	color: #DF2E38;
+	color: #FF597B;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 3em;
 	transform: translate(-50%, -50%);
@@ -109,7 +109,7 @@
 .md-ellipsis {
 	--s: 0.2em;
 	/* the thickness of the line */
-	--c: #DF2E38;
+	--c: #FF597B;
 	/* the color */
 
 	color: #0000;
