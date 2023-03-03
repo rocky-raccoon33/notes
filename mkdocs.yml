@@ -108,7 +108,6 @@ plugins:
   - search:
       lang: en
   - git-authors
-  - extra-sass
 
 extra_javascript:
   - https://unpkg.com/browse/mermaid@9.4.0/dist/mermaid.min.js
