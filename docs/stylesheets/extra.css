@@ -91,7 +91,6 @@ blockquote p {
 	border: thin solid rgba(53, 86, 129, 0.3);
 }
 
-.md-typeset h1,
 .new-span {
 	color: #f9002f;
 	font-size: 3em;
@@ -105,7 +104,6 @@ blockquote p {
 	transition: background-size .7s, background-position .5s ease-in-out;
 }
 
-.md-typeset h1,
 .new-span:hover {
 	background-size: 100% 100%;
 	background-position: 0% 100%;
