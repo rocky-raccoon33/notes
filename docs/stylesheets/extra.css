@@ -109,7 +109,7 @@ blockquote p {
 	transition: background-position .7s, background-size .5s ease-in-out;
 }
 
-.md-nav__title {
+.md-ellipsis {
 	--s: 0.1em;
 	/* the thickness of the line */
 	--c: #2c4bff;
@@ -125,11 +125,11 @@ blockquote p {
 	transition: 0.5s;
 }
 
-.md-nav__title:hover {
+.md-ellipsis:hover {
 	--_p: 100%
 }
 
-.md-nav__title {
+.md-ellipsis {
 	font-family: system-ui, sans-serif;
 	font-size: 5rem;
 	cursor: pointer;
