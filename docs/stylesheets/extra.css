@@ -84,10 +84,6 @@
 	text-transform: uppercase;
 }
 
-/* blockquote p {
-	color: #186cb8;
-	border: thin solid rgba(53, 86, 129, 0.3);
-} */
 
 .new-span {
 	color: #f9002f;
@@ -110,10 +106,10 @@
 .md-ellipsis {
 	--s: 0.1em;
 	/* the thickness of the line */
-	--c: #0000;
+	--c: #2c4bff;
 	/* the color */
 
-	color: #186cb8;
+	color: #0000;
 	padding-bottom: var(--s);
 	background:
 		linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
