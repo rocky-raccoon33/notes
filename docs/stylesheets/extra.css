@@ -4,13 +4,14 @@
 	--color-1: #186cb8;
 	--color-2: #2a9a9f;
 	--color-3: #f1b211;
-	--color-4: #e83611;
+	--color-4: #f9002f;
 	--color-5: #f9002f;
 }
 
 .md-typeset h1 {
 	font-size: 28px;
-	color: #e83611;
+	color: #f9002f;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-weight: 500;
 	letter-spacing: 0;
 	line-height: 1.5em;
@@ -25,7 +26,7 @@
 	bottom: 0;
 	height: 5px;
 	width: 55px;
-	background-color: #e83611;
+	background-color: #f9002f;
 }
 
 .md-typeset h1:after {
@@ -37,7 +38,7 @@
 	height: 1px;
 	width: 95%;
 	max-width: 255px;
-	background-color: #e83611;
+	background-color: #f9002f;
 }
 
 .md-typeset h2 {
@@ -47,7 +48,7 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 24px;
 	line-height: 1.5em;
-	color: #e83611;
+	color: #f9002f;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
@@ -59,7 +60,7 @@
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
 	font-size: 20px;
 	line-height: 1.5em;
-	color: #e83611;
+	color: #f9002f;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(53, 86, 129, 0.3);
 }
@@ -67,28 +68,28 @@
 .md-typeset ul li::marker {
 	content: "×  ";
 	font-weight: bold;
-	color: #e83611;
+	color: #f9002f;
 }
 
 .md-typeset ol li::marker {
 	font-weight: bold;
-	color: #e83611;
+	color: #f9002f;
 }
 
 .md-nav__title {
 	font-size: 15px;
 	font-weight: bold;
-	color: #e83611;
+	color: #f9002f;
 	text-transform: uppercase;
 }
 
 blockquote p {
-	color: #e83611;
+	color: #f9002f;
 	border: thin solid rgba(53, 86, 129, 0.3);
 }
 
 .new-span {
-	color: #e83611;
+	color: #f9002f;
 	font-size: 3em;
 	font-family: 'Bebas Neue', cursive;
 	font-weight: bold;
