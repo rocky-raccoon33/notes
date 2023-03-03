@@ -4,7 +4,7 @@
 
 ![](./index.jpeg)
 
-<div class="center">
+<div class="paper">
   <h5>
     <span>Text</span>
   
