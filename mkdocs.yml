@@ -34,7 +34,7 @@ theme:
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
-    text: "Noto Sans TC", Inconsolata
+    text: "Noto Sans TC"
     code: Cutive Mono
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
@@ -204,19 +204,7 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 
-  disqus: "vuquangtrong-github-io"
-
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/vuquangtrong
-      name: vuquangtrong
-    - icon: fontawesome/brands/facebook-f
-      link: https://facebook.com/trongvq
-      name: trongvq
-    - icon: fontawesome/brands/linkedin-in
-      link: https://www.linkedin.com/in/vqtrong
-      name: vqtrong
+  disqus: "rocky-raccoon33.github.io"
   generator: false # hide the line "Made with Material for MkDocs"
 
 #
