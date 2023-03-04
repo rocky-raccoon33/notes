@@ -688,7 +688,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 
 h1.page-title {
-
+    position: relative;
     color: #0000;
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
