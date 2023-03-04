@@ -1,4 +1,4 @@
-site_name: Code Inside Out
+site_name: いけいけ 団長！
 site_url: https://rocky-raccoon33.github.io/notes/ # must have the trailing slash
 site_author: Maurice (morse2work@gmail.com)
 site_description: notes and useful stuff for learning things.
@@ -60,7 +60,6 @@ theme:
     - search.suggest # display the likeliest completion for the last word
     - search.highlight # highlight all occurrences
     - search.share # show a share button of the current search
-
     # Header
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/
     # - header.autohide # hide the post title when scroll down
