@@ -687,7 +687,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 
 
-h1.page-title {
+.md-typeset h1.page-title {
     position: relative;
     color: #0000;
     font-family: 'Bebas Neue', cursive;
@@ -700,7 +700,7 @@ h1.page-title {
     transition: background-size .7s, background-position .5s ease-in-out;
 }
 
-h1.page-title:hover {
+.md-typeset h1.page-title:hover {
     background-size: 100% 100%;
     background-position: 0% 100%;
     transition: background-position .7s, background-size .5s ease-in-out;
