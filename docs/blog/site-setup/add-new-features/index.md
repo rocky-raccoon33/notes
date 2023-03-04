@@ -18,9 +18,6 @@ The tag page is the place to list all tags, and list all pages that have a commo
 
 I use Jinja syntax to create the content of the Tags page, therefore, create a new file at `overrides\tags.html` and use it as the template for the Tags page:
 
-``` yaml title="docs\tags\index.md" hl_lines="4"
----8<--- "docs\tags\index.md"
-```
 
 The `tags.html` template to include 2 parts:
 
