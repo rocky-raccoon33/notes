@@ -12,6 +12,9 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
+      - run: pip install -U mkdocs-material
+      - run: pip install -U mkdocs-awesome-pages-plugin
+
       - run: pip install -U git+https://github.com/frankkopp/mkdocs-redirects.git
       - run: pip install -U git+https://github.com/vuquangtrong/mkdocs-pdf-with-js-plugin.git
       - run: pip install -U mkdocs-git-revision-date-localized-plugin
