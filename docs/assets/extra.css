@@ -688,8 +688,8 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 
 h1.page-title {
-    
-    color: #FF597B;
+
+    color: #0000;
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
     transform: translate(-50%, -50%);
