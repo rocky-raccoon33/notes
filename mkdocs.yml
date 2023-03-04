@@ -34,7 +34,7 @@ theme:
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
-    text: "Noto Sans SC", "Noto Serif"
+    text: Noto Serif
     code: Roboto Mono
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
