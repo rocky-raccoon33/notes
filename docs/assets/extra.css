@@ -688,35 +688,19 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 
 h1.page-title {
-    font-family: 'Fira Mono', 'Noto Sans Simplified Chinese';
-    font-size: 28px;
     color: #FF597B;
-    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 1.5em;
-    padding-bottom: 15px;
-    position: relative;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(gold, gold);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    transition: background-size .7s, background-position .5s ease-in-out;
 }
 
-h1.page-title:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    width: 55px;
-    background-color: #FF597B;
-}
-
-h1.page-title:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    text-transform: uppercase;
-    bottom: 2px;
-    height: 1px;
-    width: 95%;
-    max-width: 255px;
-    background-color: #FF597B;
+h1.page-title:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
 }
