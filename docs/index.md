@@ -50,11 +50,11 @@ From hardware to cloud applications. Step by step.
 
     ::: col
 
-        ![](https://github-readme-stats.vercel.app/api?username=vuquangtrong&count_private=true&show_icons=true&hide_border=true&hide_title=true)
+        ![](https://github-readme-stats.vercel.app/api?username=rocky-raccoon33&count_private=true&show_icons=true&hide_border=true&hide_title=true)
 
     ::: col
 
-        ![](https://github-readme-stats.vercel.app/api/top-langs/?username=vuquangtrong&layout=compact&langs_count=8&hide=html,autoit&hide_border=true&hide_title=true)
+        ![](https://github-readme-stats.vercel.app/api/top-langs/?username=rocky-raccoon33&layout=compact&langs_count=8&hide=html,autoit&hide_border=true&hide_title=true)
 
 
 > Using __GitHub Stats__ and __Top Langs__ by [:material-github: anuraghazra](https://github.com/anuraghazra/github-readme-stats)

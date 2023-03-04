@@ -1,14 +1,9 @@
-#
-# Code Inside Out
-# vuquangtrong.github.io (aka codeinsideout.com)
-#
 site_name: Code Inside Out
 site_url: https://www.codeinsideout.com/ # must have the trailing slash
-site_author: Vũ Quang Trọng (vuquangtrong@gmail.com)
-site_description: Guides, notes and useful stuff for learning embedded systems.
+site_author: Maurice (morse2work@gmail.com)
+site_description: notes and useful stuff for learning things.
 copyright: > # should remain a link to the original theme
   &copy; 2020-2022 Code Inside Out<br>
-  <a href="https://github.com/vuquangtrong/mkdocs-material-blog">Blog Theme</a> /
   <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
 
 #
