@@ -34,7 +34,7 @@ theme:
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
-    text: "Noto Sans SC"
+    text: "Noto Sans SC", "Noto Serif"
     code: Roboto Mono
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
@@ -204,7 +204,7 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 
-  disqus: "rocky-raccoon33.github.io"
+  disqus: "vuquangtrong-github-io"
   generator: false # hide the line "Made with Material for MkDocs"
 
 #
