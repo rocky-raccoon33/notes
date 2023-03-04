@@ -8,7 +8,7 @@ hide:
 
 <style>
     .md-typeset .cover {
-        display: none;
+        display: block;
     }
     .md-typeset .cover + hr {
         display: none;
