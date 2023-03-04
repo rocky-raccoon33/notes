@@ -88,11 +88,11 @@
 }
 
 /* headers */
-h1.page-title {
+/* h1.page-title {
     color: black;
     font-size: 2em;
     margin: 0 0 0.5em 0;
-}
+} */
 
 .md-typeset h2 {
     color: navy;
@@ -688,6 +688,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 
 h1.page-title {
+    
     color: #FF597B;
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;

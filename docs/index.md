@@ -37,11 +37,11 @@ From hardware to cloud applications. Step by step.
 
     ::: col
 
-        ## :material-file-code: Projects
+        ## :material-file-code: Books
 
-        A list of my projects which are done for learning and practicing in free time. Wanna give me a hand ?! Let's do it together.
+        A list of my books I've read.
 
-        [See projects](projects/){.md-button}
+        [See books](projects/){.md-button}
 
 
 ## :material-github: GitHub Stats
