@@ -41,6 +41,6 @@ JavaScript is helpful here. The sequence of handling is as below:
 #### Source code
 
 ``` html title="overrides\404.html"
----8<--- "overrides\404.html"
+ "overrides\404.html"
 ```
 

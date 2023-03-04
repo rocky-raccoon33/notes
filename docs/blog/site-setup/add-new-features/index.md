@@ -25,7 +25,7 @@ The `tags.html` template to include 2 parts:
 -   `tag-list-pages.html`: for each tag, list all pages having that tag to show similar articles together
 
 ``` jinja title="overrides\tags.html"
----8<--- "overrides\tags.html"
+... "overrides\tags.html"
 ```
 
 Tags will have random colors, to easily disguise them to each other. A helper `random_color()` macro that returns a random color looks like:
@@ -65,7 +65,7 @@ The tag cloud shows all tags in different size and color. The bigger a tag is, t
 2. Count the number of pages for each tag then show each tag with different text size and color using `font-size` and `color` attributes.
 
 ``` jinja title="overrides\partials\tag-cloud.html"
----8<--- "overrides\partials\tag-cloud.html"
+... "overrides\partials\tag-cloud.html"
 ```
 
 
@@ -82,7 +82,7 @@ This section is simple as it just needs to loop through the list of pairs `(tag,
 4. A tag block can be opened via URL with hash being the selected tag.
 
 ``` jinja title="overrides\partials\tag-page-list.html"
----8<--- "overrides\partials\tag-page-list.html"
+... "overrides\partials\tag-page-list.html"
 ``` 
 
 
@@ -102,7 +102,7 @@ To override it, add the `main.html` file in the `overrides` folder. Here are thi
 4. Include modified __Page Content__ which renders the content with additional sections (cover, table of content, main content, comments.).
 
 ``` jinja title="overrides\main.html"
----8<--- "overrides\main.html"
+... "overrides\main.html"
 ```
 
 
@@ -111,7 +111,7 @@ To override it, add the `main.html` file in the `overrides` folder. Here are thi
 The sidebar will display the __tag cloud__ based in the page's table of content.
 
 ``` jinja title="overrides\partials\navigation.html"
----8<--- "overrides\partials\navigation.html"
+... "overrides\partials\navigation.html"
 ``` 
 
 
@@ -120,7 +120,7 @@ The sidebar will display the __tag cloud__ based in the page's table of content.
 The page content will be placed in the main block. If there is no content, a list of children posts will be shown.
 
 ``` jinja title="overrides\partials\post-content.html"
----8<--- "overrides\partials\post-content.html"
+... "overrides\partials\post-content.html"
 ```
 
 When printing to a PDF file, the first page should show the post title and its short description. This page is called the cover page which will be created only in printing mode.
@@ -128,7 +128,7 @@ When printing to a PDF file, the first page should show the post title and its s
 Create an element with class `cover` in the `post-cover.html` template to wrap the cover section. In print mode, this element should cover the full height (100%) of the first paper and align its content vertically. After the line of tags, the updated date will be shown to easily check the latest version of the document:
 
 ``` jinja title="overrides\partials\post-cover.html"
----8<--- "overrides\partials\post-cover.html"
+... "overrides\partials\post-cover.html"
 ```
 
 When displaying on a screen, the Table of Content is displayed in the right sidebar. In printed pages, there should be a page to display the table of content too. This page is also only visible in printing.
@@ -136,7 +136,7 @@ When displaying on a screen, the Table of Content is displayed in the right side
 The base Material for MkDocs theme has a partial block for Table of Content section, so I just need to declare it in `post-toc.html` and include it in the `main.html` template, between the cover page and the main content.
 
 ``` jinja title="overrides\partials\post-toc.html"
----8<--- "overrides\partials\post-toc.html"
+... "overrides\partials\post-toc.html"
 ```
 
 !!! hint "Jinja object"
@@ -164,7 +164,7 @@ There should be a page showing the recent posts to help users see what is new an
 Create new `index.md` file inside the `blog` folder. When using the [Section Index](../mkdocs-plugins/#section-index) plugin, this index file will be merged to the Blog section, therefore, when user selects the Blog label, there is a list of recent posts will be shown.
 
 ``` yaml title="docs\blog\index.md" hl_lines="4"
----8<--- "docs\blog\index.md"
+... "docs\blog\index.md"
 ```
 
 This page will use the `blog.html` template in which it scans all posts and check the creation date to make a list of posts. Each post should be displayed in a container and be formatted to show the title, the description (at most 250 character using the `truncate` filter), the creation date, and its tags.
