@@ -1,10 +1,7 @@
 site_name: Code Inside Out
-site_url: https://www.codeinsideout.com/ # must have the trailing slash
+site_url: https://rocky-raccoon33.github.io/notes/ # must have the trailing slash
 site_author: Maurice (morse2work@gmail.com)
 site_description: notes and useful stuff for learning things.
-copyright: > # should remain a link to the original theme
-  &copy; 2020-2022 Code Inside Out<br>
-  <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
 
 #
 # Theme settings
@@ -17,9 +14,23 @@ theme:
   custom_dir: overrides
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+
   palette:
-    primary: white
-    accent: deep orange
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
@@ -161,6 +172,11 @@ markdown_extensions:
       nbsp: true # use \<space> to create &nbsp;
   # - pymdownx.keys # syntax ++ctrl+c++ does not look clear in MD document
   - pymdownx.progressbar
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
   #
   # Extra extensions
