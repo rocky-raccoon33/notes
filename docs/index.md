@@ -19,7 +19,7 @@ hide:
     }
 </style>
 
-# Code Inside Out
+# いけいけ 団長
 
 Interesting stuff in Embedded Systems and IoT Applications.\
 From hardware to cloud applications. Step by step.
