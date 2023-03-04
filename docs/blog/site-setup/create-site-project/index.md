@@ -73,7 +73,7 @@ Steps to install and create a new site:
     ├─ mkdocs.yml    # The configuration file
     └─ docs/         # Other markdown pages
         ├─ index.md  # The documentation homepage
-        └─ ...       # Other files
+        └─ 
     ```
 
 5. Enable _Material for MkDocs_ theme by adding a config into `mkdocs.yml`:

@@ -561,7 +561,7 @@ The [Smarty Pants](https://python-markdown.github.io/extensions/smarty/) extensi
 | `'single quote'`  | 'single quote'  |
 | `"double quote"`  | "double quote"  |
 | `<<angle quote>>` | <<angle quote>> |
-| `ellipses ...`    | ellipses ...    |
+| `ellipses ...`    | ellipses 
 | `N-dash --`       | N-dash --       |
 | `M-dash ---`      | M-dash --       |
 
