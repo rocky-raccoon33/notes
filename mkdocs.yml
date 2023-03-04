@@ -35,7 +35,7 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
     text: "Noto Sans TC"
-    code: Cutive Mono
+    code: Roboto Mono
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
   icon:
