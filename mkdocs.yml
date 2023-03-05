@@ -34,7 +34,7 @@ theme:
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
-    text: Zhi Mang Xing
+    text: Noto Sans
     code: Roboto Mono
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
