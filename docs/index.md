@@ -19,7 +19,7 @@ hide:
     }
 </style>
 
-Interesting stuff in Embedded Systems and IoT Applications.\
+Interesting stuff in Operating System and Web development.\
 From hardware to cloud applications. Step by step.
 (ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧
 
