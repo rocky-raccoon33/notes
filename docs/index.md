@@ -31,7 +31,7 @@ From hardware to cloud applications. Step by step.
 
         ## :material-book: Blog
 
-        Each post is what I've learned, and I wrote them down to share. Hope you'll find something interesting there.
+        学习、工作或者面试时记录下来的问题，帮助巩固知识
 
         [Read news](blog/){.md-button}
 
@@ -39,9 +39,9 @@ From hardware to cloud applications. Step by step.
 
         ## :material-file-code: Books
 
-        A list of my books I've read.
+        持续提升自己的技术能力，需要不断丰富自己的知识体系，阅读就是一个很好的方式
 
-        [See books](projects/){.md-button}
+        [See Notes](projects/){.md-button}
 
 
 ## :material-github: GitHub Stats
