@@ -158,6 +158,35 @@ reverse=True
 			margin-top: 0;
 		}
 	}
+
+	/* pagination */
+	.md-typeset .center {
+		text-align: center;
+	}
+
+	.md-typeset .pagination {
+		display: inline-block;
+		margin-top: 0.5em;
+	}
+
+	.md-typeset .pagination a {
+		color: black;
+		float: left;
+		padding: 0 0.5em;
+		margin: 0 0.1em;
+		text-decoration: none;
+		border-radius: 2em;
+	}
+
+	.md-typeset .pagination a.active {
+		background-color: #4CAF50;
+		color: white;
+		font-weight: bold;
+	}
+
+	.md-typeset .pagination a:hover:not(.active) {
+		background-color: #ddd;
+	}
 </style>
 
 <div class="center">
@@ -205,17 +234,6 @@ reverse=True
 
 <hr>
 
-<div class="center">
-	<div class="pagination" id="pagination-bottom">
-		<!-- <a href="#">&laquo;</a> -->
-		{% for pg_group in blog_pages|slice(page_num) %}
-		<a class="page-number {% if loop.index==1 %}active{% endif%}" href="#page{{ loop.index }}">
-			{{ loop.index }}
-		</a>
-		{% endfor %}
-		<!-- <a href="#">&raquo;</a> -->
-	</div>
-</div>
 
 <hr>
 
