@@ -64,110 +64,99 @@ reverse=True
 
 {# styles #}
 <style>
-	.md-typeset hr {
-		margin: 0;
+	.card {
+		padding: 0.5em 1em;
+		background-color: whitesmoke;
+		margin: 0.5em 0;
 	}
 
-	/* post */
-	.md-typeset .post {
-		margin-bottom: 1rem;
-		padding-bottom: 0.5em;
-		border-bottom: .05rem solid var(--md-default-fg-color--lightest);
+	dt {
+		margin-top: 0 !important;
 	}
 
-	.md-typeset .post .post-category {
+
+	.md-typeset .cover {
+		margin-bottom: 1em;
+	}
+
+	.md-typeset .page-category {
+		color: gray;
+		font-size: large;
+	}
+
+	.md-typeset .page-title {
+		margin-left: -0.0625em;
+	}
+
+	.md-typeset .page-extra {
 		color: gray;
 		font-size: small;
 	}
 
-	.md-typeset .post .post-title {
-		margin: 0.25rem 0;
-		text-decoration: none;
-		font-size: 1.3em;
+	.md-typeset .page-tags {
+		margin: 0;
 	}
 
-	.md-typeset .post .post-info-wrap {
-		display: flex;
-	}
-
-	.md-typeset .post .post-info {
-		width: 100%;
-	}
-
-	.md-typeset .post .post-banner {
-		margin-top: -1rem;
-		height: 100%;
-		max-height: 4rem;
-	}
-
-	@media (max-width: 800px) {
-		.md-typeset .post .post-banner {
-			max-height: 2rem;
-		}
-	}
-
-	.md-typeset .post .post-description {
-		margin: 0 1rem 0 0;
-	}
-
-	.md-typeset .post .post-extra {
-		margin: 0.5rem 1rem 0 0;
-		font-size: small;
-		color: darkgray;
-	}
-
-	.md-typeset .post .post-tags {
+	.md-typeset .page-date {
 		margin: 0;
 		text-align: end;
 	}
 
-	.md-typeset .post .post-date {
-		margin: 0;
+	@media print {
+		.md-typeset .cover {
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.md-typeset .cover+* {
+			margin-top: 0;
+		}
 	}
 
-	.md-typeset .twemoji,
-	.md-typeset .icon-text,
-	.md-typeset .git-revision-date-localized-plugin {
-		vertical-align: middle;
-		display: inline-block;
-	}
-
-	/* page */
-	.md-typeset .pages>.page {
+	.md-typeset .toc {
 		display: none;
 	}
 
-	.md-typeset .pages>.page:target {
-		display: block;
+	.md-typeset .toc label {
+		display: none;
 	}
 
-	/* pagination */
-	.md-typeset .center {
-		text-align: center;
+	.md-typeset .toc .md-nav {
+		font-size: unset;
+		line-height: 1.6;
 	}
 
-	.md-typeset .pagination {
-		display: inline-block;
-		margin-top: 0.5em;
+	.md-typeset .toc .md-nav--secondary {
+		margin-left: -2em;
 	}
 
-	.md-typeset .pagination a {
-		color: black;
-		float: left;
-		padding: 0 0.5em;
-		margin: 0 0.1em;
-		text-decoration: none;
-		border-radius: 2em;
+	.md-typeset .toc .md-nav__list {
+		margin: 0;
 	}
 
-	.md-typeset .pagination a.active {
-		background-color: #4CAF50;
-		color: white;
-		font-weight: bold;
+	.md-typeset .toc ul {
+		list-style: none;
 	}
 
-	.md-typeset .pagination a:hover:not(.active) {
-		background-color: #ddd;
+	@media print {
+		.md-typeset .toc {
+			display: block;
+			page-break-after: always;
+		}
+
+		.md-typeset .toc .md-nav__link {
+			color: var(--md-typeset-a-color);
+		}
+
+		.md-typeset .toc .md-nav__link.md-nav__link--active {
+			font-weight: unset;
+		}
+
+		.md-typeset .toc+* {
+			margin-top: 0;
+		}
 	}
 </style>
 
@@ -194,54 +183,20 @@ reverse=True
 		{% if pg.meta and pg.meta.banner %}
 		{% set pg_image = pg.canonical_url ~ pg.meta.banner %}
 		{% endif %}
-		<div class="post">
-			<h4 class="post-title">
+		<div class="card"></div>
+		<dl>
+			<dt>
 				<a href="{{ pg.canonical_url }}">{{ pg.title }}</a>
 				{% if pg.meta and pg.meta.category %}
-				<span class="post-category">
+				<span class="note-category">
 					« {{ pg.meta.category }} »
 				</span>
 				{% endif %}
-			</h4>
-			<div class="post-info-wrap">
-				<div class="post-info">
-					<p class="post-description">
-						{% if pg.meta and pg.meta.description %}
-						{{ pg.meta.description | truncate(200) }}
-						{% endif %}
-					</p>
-					<div class="post-extra row">
-						<div class="col">
-							<p class="post-date">
-								<span class="twemoji">
-									{% include ".icons/material/calendar.svg" %}
-								</span>
-								<span class="icon-text">
-									{{ pg.date }}
-								</span>
-							</p>
-						</div>
-						<div class="col">
-							{% if pg.meta and pg.meta.tags %}
-							<p class="post-tags">
-								{% for tag in pg.meta.tags %}
-								<a class="tag" href="{{ config.site_url }}tags/#{{tag}}">
-									<span class="tag-name" style="color:{{ color( loop.index%12) }};">
-										&nbsp; #{{ tag }}
-									</span>
-								</a>
-								{% endfor %}
-							</p>
-							{% endif %}
-						</div>
-					</div>
-				</div>
-				{% if pg_image %}
-				<img class="post-banner " src='{{ pg_image }}' />
-				{% endif %}
-			</div>
-		</div>
-		{% endfor %}
+			</dt>
+			<dd>
+				{{ pg.meta.description }}
+			</dd>
+		</dl>
 	</div>
 	{% endfor %}
 </div>
@@ -262,7 +217,7 @@ reverse=True
 
 <hr>
 
-<p class="center">Total <b>{{ blog_pages|count }}</b> posts in {{ page_num }} pages.</p>
+<p class="center">Total <b>{{ blog_pages|count }}</b> notes in {{ page_num }} pages.</p>
 
 <script>
 	function scrollToTop() {
