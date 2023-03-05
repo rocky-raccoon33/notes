@@ -1,6 +1,6 @@
 ---
 title: 最近阅读
-description: The book I've read.
+description: Books I've read.
 template: notes.html
 section: blog
 ---
