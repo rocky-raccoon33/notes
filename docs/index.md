@@ -19,8 +19,6 @@ hide:
     }
 </style>
 
-# いけいけ 団長
-
 Interesting stuff in Embedded Systems and IoT Applications.\
 From hardware to cloud applications. Step by step.
 (ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧
@@ -41,7 +39,7 @@ From hardware to cloud applications. Step by step.
 
         持续提升自己的技术能力，需要不断丰富自己的知识体系，阅读就是一个很好的方式
 
-        [See Notes](projects/){.md-button}
+        [See Notes](notes/){.md-button}
 
 
 ## :material-github: GitHub Stats
