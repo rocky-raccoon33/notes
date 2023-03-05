@@ -1,7 +1,6 @@
 ---
 title: Home
 description: ""
-disqus: ""
 hide:
     - navigation
 ---

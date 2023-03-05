@@ -15,9 +15,9 @@
 <hr>
 
 {# page collection #}
-{% set valid_pages=[./notes] %}
+{% set valid_pages=[] %}
 
-{% for p in pages %}
+{% for p in notes.pages %}
 {% set pg = p.page %}
 {% if pg.meta %}
 {% if pg.meta.date %}
