@@ -158,56 +158,16 @@ reverse=True
 			margin-top: 0;
 		}
 	}
-
-	/* pagination */
-	.md-typeset .center {
-		text-align: center;
-	}
-
-	.md-typeset .pagination {
-		display: inline-block;
-		margin-top: 0.5em;
-	}
-
-	.md-typeset .pagination a {
-		color: black;
-		float: left;
-		padding: 0 0.5em;
-		margin: 0 0.1em;
-		text-decoration: none;
-		border-radius: 2em;
-	}
-
-	.md-typeset .pagination a.active {
-		background-color: #4CAF50;
-		color: white;
-		font-weight: bold;
-	}
-
-	.md-typeset .pagination a:hover:not(.active) {
-		background-color: #ddd;
-	}
 </style>
 
-<div class="center">
-	<div class="pagination" id="pagination-top">
-		<!-- <a href="#">&laquo;</a> -->
-		{% for pg_group in blog_pages|slice(page_num) %}
-		<a class="page-number {% if loop.index==1 %}active{% endif%}" href="#page{{ loop.index }}">
-			{{ loop.index }}
-		</a>
-		{% endfor %}
-		<!-- <a href="#">&raquo;</a> -->
-	</div>
-</div>
 
 <hr>
 
 {# pagination #}
 <div class="pages">
-	{% for pg_group in blog_pages|slice(page_num) %}
+	{% for pg in blog_pages %}
+
 	<div class="page" id="page{{ loop.index }}">
-		{% for pg in pg_group %}
 		{% set pg_image = "" %}
 		{% if pg.meta and pg.meta.banner %}
 		{% set pg_image = pg.canonical_url ~ pg.meta.banner %}
@@ -227,71 +187,6 @@ reverse=True
 				</dd>
 			</dl>
 		</div>
-		{% endfor %}
 	</div>
 	{% endfor %}
 </div>
-
-<hr>
-
-
-<hr>
-
-<p class="center">Total <b>{{ blog_pages|count }}</b> notes in {{ page_num }} pages.</p>
-
-<script>
-	function scrollToTop() {
-		// delay a little for css to calculate windows size
-		setTimeout(function () {
-			window.scrollTo(0, 0);
-		}, 100);
-	}
-
-	function activatePaginationLinks(name) {
-		var pagination = document.getElementById("pagination-" + name);
-		if (pagination) {
-			var links = pagination.getElementsByClassName("page-number");
-			if (links.length) {
-				for (var i = 0; i < links.length; i++) {
-					if (links[i].getAttribute("href") == window.location.hash) {
-						links[i].classList.add("active");
-					} else {
-						links[i].classList.remove("active")
-					}
-				}
-			}
-		}
-	}
-
-	// show page 1 as default
-	window.location.hash = "#page1";
-
-	// listen to hash change
-	window.onhashchange = function () {
-		var hash = window.location.hash;
-		const regexp = /^#page[0-9]+$/;
-		if (regexp.test(hash)) {
-			var num = parseInt(hash.substr(5));
-			var max = parseInt(document.getElementById('page_num').dataset.value);
-			if (num >= 1 && num <= max) {
-				activatePaginationLinks("top");
-				activatePaginationLinks("bottom");
-				scrollToTop();
-				return;
-			}
-		}
-
-		window.location.hash = "#page1";
-	}
-</script>
-
-{% else %}
-<style>
-	.md-typeset .center {
-		text-align: center;
-	}
-</style>
-<p class="center">
-	No page found!
-</p>
-{% endif %}
