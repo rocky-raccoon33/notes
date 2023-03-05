@@ -43,7 +43,8 @@ reverse=True
 )
 %}
 {# do not list homepage, empty pages, hidden pages #}
-{% set hidden = true if (pg.meta and pg.meta.hide and ('in_recent_list' in pg.meta.hide)) %}
+{% set hidden = true if (pg.meta and pg.meta.hide and pg.meta.section == 'notes' and ('in_recent_list' in pg.meta.hide))
+%}
 {% if (not pg.is_homepage) and
 (not pg.markdown == '') and
 (not hidden)
