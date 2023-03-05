@@ -204,7 +204,6 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 
-  disqus: "vuquangtrong-github-io"
   generator: false # hide the line "Made with Material for MkDocs"
 
 #
