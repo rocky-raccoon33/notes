@@ -1,4 +1,13 @@
-# 事务管理
+---
+title: Spring 事务管理
+comments: true
+description: 事务机制 · 声名式事务 · Spring 事务的传播属性 · 数据库隔离级别 · Spring中的隔离级别 · 事务的嵌套
+date: 2022-02-01
+category: Spring
+section: blog
+tags:
+    - Spring
+---
 
 ## `1` 基本原理
 

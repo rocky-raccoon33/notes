@@ -1,3 +1,13 @@
+---
+title: 堆（heap）的实现
+comments: true
+description: 若是满足以下特性，即可称为堆：给定堆中任意节点P和C，若P是C的母节点，那么P的值会小于等于C的值
+date: 2022-04-06
+category: 数据结构
+section: blog
+tags:
+    - 数据结构
+---
 
 ## `1` 堆的特性
 

@@ -1,4 +1,13 @@
-# CAP理论
+---
+title: CAP 理论
+comments: true
+description: CAP理论是在设计分布式系统的过程中，处理数据一致性问题时必须考虑的理论
+date: 2022-04-06
+category: 分布式技术
+section: blog
+tags:
+    - 分布式技术
+---
 
 > 一个分布式系统最多只能满足 `一致性（Consistency）`、`可用性（Availability）`、`分区容忍性（Partition tolorance）`三项中的两项；
 
