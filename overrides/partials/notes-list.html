@@ -183,22 +183,24 @@ reverse=True
 		{% if pg.meta and pg.meta.banner %}
 		{% set pg_image = pg.canonical_url ~ pg.meta.banner %}
 		{% endif %}
-		<div class="card"></div>
-		<dl>
-			<dt>
-				<a href="{{ pg.canonical_url }}">{{ pg.title }}</a>
-				{% if pg.meta and pg.meta.category %}
-				<span class="note-category">
-					« {{ pg.meta.category }} »
-				</span>
-				{% endif %}
-			</dt>
-			<dd>
-				{{ pg.meta.description }}
-			</dd>
-		</dl>
+		<div class="card">
+			<dl>
+				<dt>
+					<a href="{{ pg.canonical_url }}">{{ pg.title }}</a>
+					{% if pg.meta and pg.meta.category %}
+					<span class="note-category">
+						« {{ pg.meta.category }} »
+					</span>
+					{% endif %}
+				</dt>
+				<dd>
+					{{ pg.meta.description }}
+				</dd>
+			</dl>
+		</div>
+		{% endfor %}
 	</div>
-	{% endfor %}
+
 </div>
 
 <hr>
