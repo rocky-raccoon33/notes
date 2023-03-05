@@ -17,7 +17,7 @@
 {# page collection #}
 {% set valid_pages=[] %}
 
-{% for p in notes.pages %}
+{% for p in pages %}
 {% set pg = p.page %}
 {% if pg.meta %}
 {% if pg.meta.date %}
@@ -47,7 +47,9 @@ reverse=True
 %}
 {% if (not pg.is_homepage) and
 (not pg.markdown == '') and
-(not hidden)
+(not hidden) and
+(pg.meta and pg.meta.section == 'notes')
+
 %}
 {{ blog_pages.append(pg) or "" }}
 {% endif %}
