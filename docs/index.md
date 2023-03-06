@@ -17,8 +17,8 @@ hide:
     }
 </style>
 
-- I am a software engineer, currently living in `Nanjing, China`.
-- I love to learn and try `new things` as well as listen to others talk about their experiences as a developer.\
+- `I am a software engineer, currently living in {== Nanjing, China==}`.
+- `I love to learn and try new things as well as listen to others talk about their experiences as a developer.`\
 `(ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧`
 
 ::: row
