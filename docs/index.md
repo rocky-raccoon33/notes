@@ -18,8 +18,8 @@ hide:
     }
 </style>
 
- I am a software engineer, currently living in {++`Nanjing, China`++}.\
- I am passionate about most things related to programming (in particular, {++`server-side development`++}).\
+ I am a software engineer, currently living in {==`Nanjing, China`==}.\
+ I am passionate about most things related to programming (in particular, {==`server-side development`==}).\
  I love to learn and try new things as well as listen to others talk about their experiences as a developer.\
 ` (ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧`
 
@@ -37,7 +37,7 @@ hide:
 
         ## :material-file-code: BOOKS
 
-        Some must-read books in computer science {++`highly subjective`++}.
+        Some must-read books in computer science {==`highly subjective`==}.
 
         [Read notes](notes/){.md-button}
 
