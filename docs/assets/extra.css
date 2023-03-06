@@ -619,8 +619,8 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 /* marker */
 .md-content ul li::marker {
     color: orangered;
-    font-size: 1em;
-    content: '× ';
+    font-size: 1.3em;
+    content: '×  ';
 }
 
 /* button */
