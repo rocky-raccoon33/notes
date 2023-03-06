@@ -18,7 +18,8 @@ hide:
     .md-typeset h1,
     .md-typeset h2 {
         color: black;
-        font-family: sans-serif;
+        font-family: Noto Serif;
+        font-weight: bold;
     }
 </style>
 
