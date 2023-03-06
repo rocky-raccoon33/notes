@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About me
 description: ""
 hide:
     - navigation
@@ -18,27 +18,25 @@ hide:
     }
 </style>
 
-Interesting stuff in Operating System and Web development.\
-From hardware to cloud applications. Step by step.
-(ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧
+ I am a software engineer, currently living in Nanjing, China. I am passionate about most things related to programming (in particular, server-side development). I love to learn and try new things as well as listen to others talk about their experiences as a developer. (ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧
 
 ::: row
 
     ::: col
 
-        ## :material-book: Blog
+        ## :material-book: BLOG
 
-        学习、工作或者面试时记录下来的问题，帮助巩固知识
+        Things I've learned so far.
 
         [Read news](blog/){.md-button}
 
     ::: col
 
-        ## :material-file-code: Books
+        ## :material-file-code: BOOKS
 
-        持续提升自己的技术能力，需要不断丰富自己的知识体系，阅读就是一个很好的方式
+        Some must-read books in computer science (highly subjective).
 
-        [See Notes](notes/){.md-button}
+        [Notes](notes/){.md-button}
 
 
 ## :material-github: GitHub Stats
