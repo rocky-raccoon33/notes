@@ -14,7 +14,6 @@ hide:
     .md-typeset h1,
     .md-typeset h2 {
         color: navy;
-        font-family: Noto Serif;
     }
 </style>
 
