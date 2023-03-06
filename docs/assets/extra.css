@@ -617,10 +617,10 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 }
 
 /* marker */
-ul li::marker {
+.md-content ul li::marker {
     color: orangered;
     font-size: 1.5em;
-    content: '✝ ';
+    content: 'x ';
 }
 
 /* button */
