@@ -620,7 +620,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 .md-content ul li::marker {
     color: orangered;
     font-size: 1.5em;
-    content: 'x ';
+    content: '× ';
 }
 
 /* button */
