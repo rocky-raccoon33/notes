@@ -35,7 +35,7 @@ ___
 
 常规做法：`jmap` 导出堆内存快照 `jmap -dump:format=b，file=filename [pid]` ，然后用 `visualVM` 等工具分析出什么对象占用了大量空间，再查看相关引用找到问题代码 `-XX:+HeapDumpBeforeFullGC`
 
-## 2 垃圾回收器
+## `2` 垃圾回收器
 
 - 评价GC指标
 

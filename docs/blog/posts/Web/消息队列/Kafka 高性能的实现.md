@@ -64,6 +64,7 @@ Kafka是一种高效、可扩展的分布式消息系统，其存储结构主要
 ### `segment`
 
 （分段日志）`Kafka` 中 `Partition` 的物理存储单位，每个 `Segment` 包含一个独立的、不可变的消息序列，并以磁盘文件的形式存储。当 `Segment` 达到一定大小或时间限制时，Kafka会将其关闭并创建一个新的 `Segment`。每个 `Segment` 都有一个基本的索引文件，用于支持消息的快速查找和过滤。
+
 ![](./img/segment.webp)
 
 ### `offset`
