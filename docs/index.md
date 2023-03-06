@@ -27,7 +27,7 @@ hide:
 
         ## :material-book: BLOG
 
-        Things I've learned so far.
+        `Things I've learned so far.`
 
         [Read news](blog/){.md-button}
 
@@ -35,7 +35,7 @@ hide:
 
         ## :material-file-code: BOOKS
 
-        Some must-read books in computer science.
+        `Some must-read books in computer science.`
 
         [Read notes](notes/){.md-button}
 
