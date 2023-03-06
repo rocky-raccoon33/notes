@@ -1,4 +1,5 @@
 ---
+title: "About me"
 hide:
     - navigation
 ---
@@ -16,8 +17,6 @@ hide:
         font-family: Noto Serif;
     }
 </style>
-
-# About me
 
 I am a software engineer, currently living in `Nanjing, China`.\
 I am passionate about most things related to programming (in particular, `server-side` development).\
@@ -38,7 +37,7 @@ I love to learn and try new things as well as listen to others talk about their 
 
         ## :material-file-code: BOOKS
 
-        Some must-read books in computer science {==`highly subjective`==}.
+        Some must-read books in computer science.
 
         [Read notes](notes/){.md-button}
 
