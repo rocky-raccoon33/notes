@@ -695,5 +695,6 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 /* code block */
 .md-typeset pre {
     width: 80%;
+    font-weight: bold;
 
 }

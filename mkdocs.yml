@@ -127,7 +127,6 @@ markdown_extensions:
   - meta # attach arbitrary key-value pairs to a document
   - md_in_html # allow to write Markdown inside HTML elements
   - tables # create tables in Markdown
-  - markdown_fenced_code_tabs
   - toc: # generate a table of contents from documents
       permalink: "#" # anchor
       toc_depth: 4 # header 1 to header 4
@@ -155,7 +154,6 @@ markdown_extensions:
   - pymdownx.emoji: # add inlines bundled and custom icons and emojis
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.superfences # define code blocks and nesting of code
   - pymdownx.highlight: # highlight of code blocks
       linenums_style: pymdownx-inline
       # anchor_linenums: true # create anchor link on each line of code
@@ -173,6 +171,8 @@ markdown_extensions:
   # - pymdownx.keys # syntax ++ctrl+c++ does not look clear in MD document
   - pymdownx.progressbar
   - pymdownx.superfences:
+      linenums: true
+      alternate_style: true
       custom_fences:
         - name: mermaid
           class: mermaid
