@@ -693,7 +693,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 }
 
 /* code block */
-pre {
+.md-typeset pre {
     width: 80%;
 
 }
