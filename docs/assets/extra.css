@@ -84,7 +84,7 @@
 
 /* paragraph */
 .md-typeset {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 /* headers */
@@ -657,7 +657,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 @media print {
     .md-typeset {
-        font-size: .88rem;
+        font-size: .68rem;
     }
 
     .md-typeset .screen-only {
