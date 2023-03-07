@@ -692,9 +692,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
     }
 }
 
-/* code block */
-.md-typeset pre {
-    width: 80%;
-    font-weight: bold;
-
+.md-typeset pre>code {
+    max-height: var(--md-codeblock-height, 5rem);
+    /* 5rem will be used as a fallback value */
 }
