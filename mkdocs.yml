@@ -155,7 +155,7 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight: # highlight of code blocks
-      linenums_style: pymdownx-inline
+      linenums_style: table
       anchor_linenums: true # create anchor link on each line of code
   - pymdownx.inlinehilite # highlight inline code blocks
   - pymdownx.smartsymbols # convert some sequences of characters into their corresponding symbols
