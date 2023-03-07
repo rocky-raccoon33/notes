@@ -84,6 +84,7 @@
 
 /* paragraph */
 .md-typeset {
+    font-family: 'Noto Sans SC', sans-serif;
     font-size: 0.80rem;
 }
 
@@ -690,8 +691,4 @@ html .md-typeset :is(.admonition-title, summary):last-child {
     .md-typeset #disqus_thread {
         display: none;
     }
-}
-
-.md-typeset pre>code {
-    font-family: IBM Plex Sans !important;
 }
