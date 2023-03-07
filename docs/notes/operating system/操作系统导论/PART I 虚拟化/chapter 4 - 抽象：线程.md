@@ -7,9 +7,9 @@
 
 进程 API：
 
-- 创建（ create ）
-- 销毁（ destroy ）
-- 等待（ wait ）
-- 其他控制（ miscellaneous control）
-- 创建（ status ）
+- 创建 `create`
+- 销毁 `destroy`
+- 等待 `wait`
+- 其他控制 `miscellaneous control`
+- 创建 `status`
 

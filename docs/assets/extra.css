@@ -84,6 +84,7 @@
 
 /* paragraph */
 .md-typeset {
+    font-family: Noto Sans Sc, Syne Mono;
     font-size: 0.80rem;
 }
 
