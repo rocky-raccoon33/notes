@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=+Neue&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=+Neue&family=Syne+Mono&display=swap');
 
 /* global variables */
 :root * {
@@ -693,5 +693,5 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 }
 
 .md-typeset pre>code {
-    font-family: Syne Mono !important;
+    font-family: IBM Plex Sans !important;
 }
