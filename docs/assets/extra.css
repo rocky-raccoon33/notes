@@ -691,3 +691,9 @@ html .md-typeset :is(.admonition-title, summary):last-child {
         display: none;
     }
 }
+
+/* code block */
+pre {
+    width: 80%;
+
+}
