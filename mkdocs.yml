@@ -127,10 +127,7 @@ markdown_extensions:
   - meta # attach arbitrary key-value pairs to a document
   - md_in_html # allow to write Markdown inside HTML elements
   - tables # create tables in Markdown
-  - markdown_fenced_code_tabs:
-      single_block_as_tab: True
-      active_class: "active"
-      template: "bootstrap4"
+  - markdown_fenced_code_tabs
   - toc: # generate a table of contents from documents
       permalink: "#" # anchor
       toc_depth: 4 # header 1 to header 4
