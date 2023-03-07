@@ -693,5 +693,5 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 }
 
 .md-typeset pre>code {
-    font-family: Syne Mono;
+    font-family: Syne Mono !important;
 }
