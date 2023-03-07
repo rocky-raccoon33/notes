@@ -657,7 +657,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 @media print {
     .md-typeset {
-        font-size: .68rem;
+        font-size: .88rem;
     }
 
     .md-typeset .screen-only {

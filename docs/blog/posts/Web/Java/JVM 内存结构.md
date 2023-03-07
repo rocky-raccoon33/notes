@@ -6,14 +6,14 @@ date: 2022-05-05
 category: Java
 section: blog
 tags:
-    - Java
+    - JVM
 ---
 
 ## `1` 内存分配策略
 
 ### 异常排查
 
-> OOM 排查
+- OOM 排查
 
 1. 查看堆栈信息：当程序发生 OOM 时，首先需要查看堆栈信息，定位哪个类或方法占用了大量内存。
 
@@ -27,7 +27,7 @@ tags:
 
 ___
 
-> 频繁 FGC 排查
+- 频繁 FGC 排查
 
 1. 内存泄漏
 2. 大对象
@@ -42,39 +42,6 @@ ___
 1. `延迟（Latency）`： 也可以理解为最大停顿时间，即垃圾收集过程中一次 `STW` 的最长时间，越短越好，一定程度上可以接受频次的增大，GC 技术的主要发展方向。
 
 2. `吞吐量（Throughput）`： 应用系统的生命周期内，由于 `GC` 线程会占用 `Mutator` 当前可用的 CPU 时钟周期，吞吐量即为 `Mutator` 有效花费的时间占系统总运行时间的百分比，例如系统运行了 100 min，GC 耗时 1 min，则系统吞吐量为 99%，吞吐量优先的收集器可以接受较长的停顿。
-
-<center>
-
-```mermaid
-%%{init: {'theme':'forest'}}%%
-flowchart TB
-    A---D
-    A---E
-    B---D
-    B---E
-    C---E
-    C---F
-    subgraph sub1[" "]
-        direction LR;
-        A["Serial（Copying）"] 
-        B["ParNew（Copying）"]
-        C["Parallel Scavenge（Copying）"]
-    end
-
-    subgraph sub3[" "]
-        G["G1（Copy/Mark-Compact）"]
-    end
-
-    subgraph sub2[" "]
-        direction LR;
-        D["CMS（Mark-Sweep）"] 
-        E["Serial Old（Mark-Compact）"]
-        F["Parallel Old（Mark-Compact）"]
-    end
-
-```
-
-</center>
 
 ### `2.1` ParNew
 
@@ -96,7 +63,7 @@ java -XX:+UseConcMarkSweepGC -XX:+UseParNewGC
 
 采用 “`标记-清除（Mark and sweep）`” 算法，主要针对`老年代`的垃圾回收，GC 过程可以和应用程序同时运行，减少了应用程序的停顿时间，从而提高了应用程序的响应性能。但是，由于 `CMS` 需要和应用程序共享 `CPU` 和 内存资源，某些情况下会对应用程序的性能产生影响（并发收集、低停顿）
 
-**Command Line Switches**
+> Command Line Switches
 
 ```zsh
 java -XX:+UseConcMarkSweepGC -XX:+UseConcMarkSweepGC
@@ -126,7 +93,7 @@ java -XX:+UseConcMarkSweepGC -XX:+UseConcMarkSweepGC
 #### 存在问题
 
 - 对CPU资源非常敏感
-- 无法处理浮动垃圾(`Floating Garbage`), 浮动垃圾指的是一些对象当前可能是存在引用的, 而在并发标记
-    的过程中失去了引用, 但是该对象在垃圾回收器看来仍然是存活的, 即本次垃圾回收不会回收这些对象, 只
-    能等下一次垃圾回收了, 可能出现 `Concurrent Mode Failure` （判定为老年代空间不足）而导致另一
+- 无法处理浮动垃圾(`Floating Garbage`)，浮动垃圾指的是一些对象当前可能是存在引用的，而在并发标记
+    的过程中失去了引用，但是该对象在垃圾回收器看来仍然是存活的，即本次垃圾回收不会回收这些对象， 只
+    能等下一次垃圾回收了，可能出现 `Concurrent Mode Failure` （判定为老年代空间不足）而导致另一
     次 `Full GC` 的产生

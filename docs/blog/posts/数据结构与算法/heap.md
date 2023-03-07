@@ -116,7 +116,7 @@ graph TB
 
 </center>
 
-- 重复 3-5，直到所有节点都被 `heapify`
+- 重复直到所有节点都被 `heapify`
 
 ```c
 Heapify(array, size, i)
