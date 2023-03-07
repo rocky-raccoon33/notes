@@ -25,7 +25,7 @@ hide:
 
     ::: col
 
-        ## :material-book: BLOG
+        ## :material-book: blog
 
         `Things I've learned so far.`
 
@@ -33,12 +33,11 @@ hide:
 
     ::: col
 
-        ## :material-file-code: BOOKS
+        ## :material-file-code: books
 
         `Some must-read books in computer science.`
 
         [Read notes](notes/){.md-button}
-
 
 ## :material-github: GitHub Stats
 
