@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display:wght@500&display=swap');
 
 /* global variables */
 :root * {
@@ -60,6 +60,7 @@
 .md-tabs__link.md-tabs__link--active,
 .md-nav__link.md-nav__link--active {
     font-weight: 700;
+    font-family: Noto Sans Sc, Major Mono Display;
 }
 
 /* footer */
@@ -84,7 +85,7 @@
 
 /* paragraph */
 .md-typeset {
-    font-family: Noto Sans Sc, Major Mono Display bold;
+    font-family: Noto Sans Sc, Major Mono Display;
     font-size: 0.80rem;
 }
 
