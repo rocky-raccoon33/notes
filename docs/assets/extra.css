@@ -8,6 +8,11 @@
 }
 
 @font-face {
+    font-family: Source Hans Serif;
+    src: url("fonts/SourceHanSerifSC-Regular.otf");
+}
+
+@font-face {
     font-family: "Aurulent";
     src: url("fonts/Aurulent-R.ttf");
 }
@@ -86,7 +91,7 @@
 .note-category,
 .page-category,
 .page-date {
-    font-family: Major Mono Display, WenQuanYi;
+    font-family: Major Mono Display, Source Hans Serif;
 }
 
 /* footer */
@@ -149,7 +154,7 @@
 h2,
 h3,
 h4 {
-    font-family: Major Mono Display, WenQuanYi;
+    font-family: Major Mono Display, Source Hans Serif;
 }
 
 .md-typeset p {
