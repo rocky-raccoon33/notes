@@ -3,7 +3,7 @@
 @font-face {
     font-family: "Averia Serif Libre";
     src: url("fonts/AveriaSerifLibre-Regular.ttf");
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 @font-face {
@@ -134,18 +134,18 @@
 }
 
 .md-typeset h2 {
-    color: navy;
+    color: orangered;
     font-size: 1.6em;
     margin: 1.6em 0 0.5em 0;
     padding-bottom: 0.125em;
-    border-bottom: 2px solid navy;
+    border-bottom: 2px solid orangered;
 }
 
 .md-typeset h3 {
-    color: navy;
+    color: orangered;
     font-size: 1.4em;
     margin: 1.6em 0 0.5em 0;
-    border-bottom: 1px dashed navy;
+    border-bottom: 1px dashed orangered;
 }
 
 .md-typeset h4 {
