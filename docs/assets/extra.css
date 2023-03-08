@@ -8,8 +8,8 @@
 }
 
 @font-face {
-    font-family: Source Hans Serif;
-    src: url("fonts/SourceHanSerifSC-Regular.otf");
+    font-family: Source Han Sans;
+    src: url("fonts/SourceHanSansCN-Regular.otf");
 }
 
 @font-face {
@@ -90,8 +90,9 @@
 .md-nav__link,
 .note-category,
 .page-category,
-.page-date {
-    font-family: Major Mono Display, Source Hans Serif;
+.page-date,
+.icon-text {
+    font-family: Major Mono Display, Source Han Sans;
 }
 
 /* footer */
@@ -154,7 +155,7 @@
 h2,
 h3,
 h4 {
-    font-family: Major Mono Display, Source Hans Serif;
+    font-family: Major Mono Display, Source Han Sans;
 }
 
 .md-typeset p {
