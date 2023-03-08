@@ -13,13 +13,12 @@ hide:
     }
     .md-typeset h1,
     .md-typeset h2 {
-        color: navy;
+        color: orangered;
     }
 </style>
 
 - I am a software engineer, currently living in {== Nanjing, China==}.\
-- I love to learn and try new things as well as listen to others talk about their experiences as a developer.\
-`(ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧
+- I love to learn and try new things as well as listen to others talk about their experiences as a developer. (ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧
 
 ::: row
 

@@ -81,7 +81,7 @@
 
 .md-tabs__link,
 .md-nav__title,
-.locallink {
+.localLink {
     font-weight: bold;
     font-family: Major Mono Display, WenQuanYi;
 }
@@ -109,7 +109,7 @@
 /* paragraph */
 .md-typeset {
     font-family: Major Mono Display, WenQuanYi;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
 }
 
 /* headers */
@@ -190,7 +190,7 @@ h4 {
 
 /* code */
 .md-typeset strong code {
-    color: darkorange;
+    color: orangered;
     font-weight: normal;
 }
 
