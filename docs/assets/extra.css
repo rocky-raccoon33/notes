@@ -119,6 +119,13 @@
     text-underline-offset: 0.25em;
 }
 
+.md-typeset h1,
+h2,
+h3,
+h4 {
+    font-family: Noto Sans Sc, Major Mono Display;
+}
+
 .md-typeset p {
     text-align: justify;
 }
