@@ -60,6 +60,9 @@
 .md-tabs__link.md-tabs__link--active,
 .md-nav__link.md-nav__link--active {
     font-weight: 700;
+}
+
+.md-tabs__link {
     font-family: Noto Sans Sc, Major Mono Display;
 }
 
