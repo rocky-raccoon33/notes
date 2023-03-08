@@ -72,7 +72,7 @@
 
 .md-tabs__link,
 .md-nav__title,
-localLink {
+.localLink {
     font-weight: bold;
     font-family: Major Mono Display, WenQuanYi;
 }
