@@ -663,7 +663,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
     font-family: WenQuanYi;
     color: black;
     font-size: 1em;
-    content: '×  ';
+    content: '× ';
 }
 
 /* button */
