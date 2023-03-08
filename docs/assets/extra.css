@@ -4,7 +4,7 @@
 @font-face {
     font-family: "Major Mono Display";
     src: url("fonts/MajorMonoDisplay-Regular.ttf");
-    font-weight: bolder;
+    font-weight: 600;
 }
 
 @font-face {
