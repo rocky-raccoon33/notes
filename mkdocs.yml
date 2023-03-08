@@ -159,7 +159,6 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
       # anchor_linenums: true # create anchor link on each line of code
-  - pymdownx.inlinehilite # highlight inline code blocks
   - pymdownx.smartsymbols # convert some sequences of characters into their corresponding symbols
   - pymdownx.snippets: #  embed content from arbitrary files into a document
       check_paths: true
