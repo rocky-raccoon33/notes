@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&display=swap');
+@font-face {
+    font-family: "Major Mono";
+    src: url("https: //fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&display=swap");
+}
 
 @font-face {
     font-family: "Aurulent";
@@ -75,7 +78,7 @@
 .md-tabs__link,
 .md-nav__title {
     font-weight: bold;
-    font-family: Major Mono Display, WenQuanYi;
+    font-family: Major Mono, WenQuanYi;
 }
 
 /* footer */
@@ -100,7 +103,7 @@
 
 /* paragraph */
 .md-typeset {
-    font-family: Major Mono Display, WenQuanYi;
+    font-family: Major Mono, WenQuanYi;
     font-size: 0.75rem;
 }
 
@@ -139,7 +142,7 @@
 h2,
 h3,
 h4 {
-    font-family: Major Mono Display, WenQuanYi;
+    font-family: Major Mono, WenQuanYi;
 }
 
 .md-typeset p {
