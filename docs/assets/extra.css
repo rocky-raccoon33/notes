@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 
 
@@ -119,7 +119,7 @@
 /* paragraph */
 .md-typeset {
     font-size: 0.8rem;
-    font-family: Open Sans, Source Han Sans;
+    font-family: Bree Serif, Source Han Sans;
 }
 
 /* headers */
