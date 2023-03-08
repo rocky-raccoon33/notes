@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Averia+Serif+Libre&display=swap');
 
-
+@font-face {
+    font-family: "Averia Serif Libre";
+    src: url("fonts/AveriaSerifLibre-Regular.ttf");
+    font-size: 2rem;
+}
 
 @font-face {
     font-family: "Major Mono Display";
