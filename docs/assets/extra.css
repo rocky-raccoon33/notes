@@ -4,7 +4,7 @@
 @font-face {
     font-family: "Major Mono Display";
     src: url("fonts/MajorMonoDisplay-Regular.ttf");
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 @font-face {
@@ -114,7 +114,7 @@
 
 /* headers */
 .md-typeset h1 {
-    color: black;
+    color: orangered;
     font-size: 1.8em;
     margin: 0 0 0.5em 0;
 }
@@ -659,7 +659,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 /* button */
 .md-typeset .md-button {
     /* background-color: orangered; */
-    color: darkorange;
+    color: orangered;
     border: 1px solid navy;
     padding: 0.125em 0.5em;
     font-weight: unset;
