@@ -75,7 +75,7 @@
 .md-tabs__link,
 .md-nav__title {
     font-weight: bold;
-    font-family: Major Mono Display, WenQuanYi, ;
+    font-family: Major Mono Display, WenQuanYi;
 }
 
 /* footer */
@@ -100,7 +100,7 @@
 
 /* paragraph */
 .md-typeset {
-    font-family: Major Mono Display, WenQuanYi, ;
+    font-family: Major Mono Display, WenQuanYi;
     font-size: 0.75rem;
 }
 
@@ -139,7 +139,7 @@
 h2,
 h3,
 h4 {
-    font-family: Major Mono Display, WenQuanYi, ;
+    font-family: Major Mono Display, WenQuanYi;
 }
 
 .md-typeset p {
