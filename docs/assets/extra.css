@@ -1,3 +1,5 @@
+@import url('https: //fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&display=swap');
+
 @font-face {
     font-family: "Aurulent";
     src: url("fonts/Aurulent-R.ttf");
@@ -72,7 +74,7 @@
 
 .md-tabs__link,
 .md-nav__title,
-.localLink {
+.locallink {
     font-weight: bold;
     font-family: Major Mono Display, WenQuanYi;
 }
