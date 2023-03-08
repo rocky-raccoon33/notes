@@ -62,7 +62,9 @@
     font-weight: 700;
 }
 
-.md-tabs__link {
+.md-tabs__link,
+.md-nav__title {
+    font-weight: bold;
     font-family: Noto Sans Sc, Major Mono Display;
 }
 
@@ -95,7 +97,7 @@
 /* headers */
 .md-typeset h1 {
     color: black;
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 0 0 0.5em 0;
 }
 
