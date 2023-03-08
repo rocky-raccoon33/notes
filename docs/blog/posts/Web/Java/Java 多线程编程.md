@@ -3,7 +3,7 @@ title: Java 多线程编程
 comments: true
 description: Java为多线程编程提供了良好、考究并且一致的编程模型，使开发人员能够更加专注于问题的解决，即为所遇到的问题建立合适的模型，而不是绞尽脑汁地考虑如何将其多线程化
 date: 2022-11-21
-category: Java
+category: Programming
 section: blog
 tags:
     - Java
