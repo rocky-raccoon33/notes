@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=+Neue&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Major+Mono+Display&display=swap');
 
 /* global variables */
 :root * {
@@ -84,7 +84,7 @@
 
 /* paragraph */
 .md-typeset {
-    font-family: Noto Sans Sc, Syne Mono;
+    font-family: Noto Sans Sc, Major Mono Display;
     font-size: 0.80rem;
 }
 
