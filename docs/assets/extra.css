@@ -75,7 +75,7 @@
 .md-tabs__link,
 .md-nav__title {
     font-weight: bold;
-    font-family: Noto Sans Sc, Major Mono Display;
+    font-family: WenQuanYi, Major Mono Display;
 }
 
 /* footer */
@@ -100,7 +100,7 @@
 
 /* paragraph */
 .md-typeset {
-    font-family: Noto Sans SC, Major Mono Display;
+    font-family: WenQuanYi, Major Mono Display;
     font-size: 0.75rem;
 }
 
@@ -139,7 +139,7 @@
 h2,
 h3,
 h4 {
-    font-family: Noto Sans SC, Major Mono Display;
+    font-family: WenQuanYi, Major Mono Display;
 }
 
 .md-typeset p {
@@ -642,7 +642,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 /* marker */
 .md-content ul li::marker {
-    font-family: Noto Sans SC;
+    font-family: WenQuanYi;
     color: black;
     font-size: 1em;
     content: '×  ';
