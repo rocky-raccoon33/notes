@@ -1,5 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&display=swap');
- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 
 @font-face {
     font-family: "Major Mono Display";
@@ -118,6 +119,7 @@
 /* paragraph */
 .md-typeset {
     font-size: 0.8rem;
+    font-family: Open Sans, Source Han Sans;
 }
 
 /* headers */
