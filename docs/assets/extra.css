@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&display=swap');
 
-
-@font-face {
-    font-family: 'Major Mono Display Bold';
-    src: url('https: //fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&display=swap');
-    font-weight: 600;
-}
-
 /* global variables */
 :root * {
     --md-tasklist-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14z"/></svg>');
@@ -72,7 +65,7 @@
 .md-tabs__link,
 .md-nav__title {
     font-weight: bold;
-    font-family: Noto Sans Sc, Major Mono Display Bold;
+    font-family: Noto Sans Sc, Major Mono Display;
 }
 
 /* footer */
@@ -97,7 +90,7 @@
 
 /* paragraph */
 .md-typeset {
-    font-family: Noto Sans SC, Major Mono Display Bold;
+    font-family: Noto Sans SC, Major Mono Display;
     font-size: 0.80rem;
 }
 
@@ -136,7 +129,7 @@
 h2,
 h3,
 h4 {
-    font-family: Noto Sans SC, Major Mono Display Bold;
+    font-family: Noto Sans SC, Major Mono Display;
 }
 
 .md-typeset p {
@@ -179,7 +172,7 @@ h4 {
 
 /* code */
 .md-typeset strong code {
-    color: darkmagenta;
+    color: darkorange;
     font-weight: normal;
 }
 
