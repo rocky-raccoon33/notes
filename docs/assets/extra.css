@@ -82,7 +82,10 @@
 .md-tabs__link,
 .md-nav__title,
 .localLink,
-.md-nav__link {
+.md-nav__link,
+.note-category,
+.page-category,
+.page-date {
     font-family: Major Mono Display, WenQuanYi;
 }
 
