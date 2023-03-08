@@ -9,7 +9,7 @@ tags:
     - 数据结构
 ---
 
-## `1` 堆的特性
+## 1 堆的特性
 
 堆数据结构是满足堆属性的完全二叉树，也称为二叉堆。
 
@@ -68,7 +68,7 @@ graph TB
 
 ___
 
-## `2` 构建堆
+## 2 构建堆
 
 - 输入数组：
 
@@ -97,7 +97,7 @@ graph TB
 ```
 </center>
 
-- 从索引为`n/2 - 1`的非叶节点的第一个索引开始。`heapify` 将当前元素i设置为 `largest`
+- 从索引为n/2 - 1的非叶节点的第一个索引开始。heapify将当前元素i设置为 largest
 - 左子索引由`2i + 1`给出，右子索引由`2i + 2`给出。 如果`leftChild`大于`currentElement`，则将`leftChildIndex`设置为最大。 如果`rightChild`大于`largest`中的元素，将`rightChildIndex`设置为`largest`
 - 将`largest`与`currentElement`交换
 
@@ -116,7 +116,7 @@ graph TB
 
 </center>
 
-- 重复直到所有节点都被 `heapify`
+- 重复直到所有节点都被 heapify
 
 ```c
 Heapify(array, size, i)
@@ -139,7 +139,7 @@ MaxHeap(array, size)
 
 ___
 
-## `3` 插入节点
+## 3 插入节点
 
 ```c
 If there is no node, 
@@ -154,7 +154,7 @@ heapify the array
 - 对树建堆
 ___
 
-## `4` 删除节点
+## 4 删除节点
 
 ```c
 If nodeToBeDeleted is the leafNode
@@ -166,7 +166,7 @@ heapify the array
 ```
 ___
 
-## `5` 实现
+## 5 实现
 
 ```java title="Heap.java"
  // Max-Heap data structure in Java

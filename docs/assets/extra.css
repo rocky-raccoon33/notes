@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&display=swap');
 
 /* global variables */
 :root * {
@@ -628,7 +628,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 .md-content ul li::marker {
     color: black;
     font-size: 1.2em;
-    content: '×';
+    content: '× ';
 }
 
 /* button */
