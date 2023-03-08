@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&display=swap');
 
 /* global variables */
 :root * {
@@ -85,7 +85,7 @@
 
 /* paragraph */
 .md-typeset {
-    font-family: Noto Sans Sc, Major Mono Display;
+    font-family: Noto Sans SC, Major Mono Display;
     font-size: 0.80rem;
 }
 
@@ -124,7 +124,7 @@
 h2,
 h3,
 h4 {
-    font-family: Noto Sans Sc, Major Mono Display;
+    font-family: Noto Sans SC, Major Mono Display;
 }
 
 .md-typeset p {
