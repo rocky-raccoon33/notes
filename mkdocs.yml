@@ -16,21 +16,9 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
 
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: white
-      accent: deep orange
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    scheme: dracula # This is how to enables the Dracula theme for dark. For light, it will use default Material with some tweaks.
+    primary: deep purple # Primary colors
+    accent: deep purple # accent color
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
@@ -74,6 +62,7 @@ theme:
 #
 plugins:
   - search # must be included at the first place
+  - mkdocs_pymdownx_material_extras
   # - tags: # we have our own internal tag feature
   # tags_file: tags.md # generated links do not work
   - awesome-pages:

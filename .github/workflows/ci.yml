@@ -21,7 +21,7 @@ jobs:
       - run: pip install -U mkdocs-encryptcontent-plugin
       - run: pip install -U mkdocs-exclude
       - run: pip install -U markdown-captions
-      - run: pip install -U markdown-customblocks
+      - run: pip install -U markdown-customblocks mkdocs_pymdownx_material_extras
       - run: pip install -U git+https://github.com/vuquangtrong/cell_row_span.git
 
       - run: mkdocs gh-deploy --force
