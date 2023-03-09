@@ -129,18 +129,18 @@
 }
 
 .md-typeset h2 {
-    color: navy;
+    color: orangered;
     font-size: 1.6em;
     margin: 1.6em 0 0.5em 0;
     padding-bottom: 0.125em;
-    border-bottom: 2px solid navy;
+    border-bottom: 2px solid orangered;
 }
 
 .md-typeset h3 {
-    color: navy;
+    color: orangered;
     font-size: 1.4em;
     margin: 1.6em 0 0.5em 0;
-    border-bottom: 1px dashed navy;
+    border-bottom: 1px dashed orangered;
 }
 
 .md-typeset h4 {
@@ -224,14 +224,14 @@ h4 {
     box-shadow: none;
 } */
 
-.md-typeset :not(pre)>code {
+/* .md-typeset :not(pre)>code {
     background-color: initial;
     border: 1px solid;
     padding: 2px;
     box-shadow: 2px 1px;
     margin: 3px;
     font-family: Aurulent, Source Han Sans;
-}
+} */
 
 .md-typeset .md-annotation__index:after {
     animation: none;
@@ -651,13 +651,13 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 }
 
 #mkdocs-decrypt-form :is(input, button) {
-    border: 1px solid navy;
+    border: 1px solid orangered;
     padding: 0.25em 0.5em;
     font-size: revert;
 }
 
 #mkdocs-decrypt-form button {
-    background-color: navy;
+    background-color: orangered;
     color: white;
 }
 
@@ -671,16 +671,16 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 /* button */
 .md-typeset .md-button {
     /* background-color: orangered; */
-    color: navy;
-    border: 1px solid navy;
+    color: orangered;
+    border: 1px solid orangered;
     padding: 0.125em 0.5em;
     font-weight: unset;
     font-size: revert;
 }
 
 .md-typeset .md-button:hover {
-    background-color: navy;
-    border: 1px solid navy;
+    background-color: orangered;
+    border: 1px solid orangered;
     color: white;
 }
 

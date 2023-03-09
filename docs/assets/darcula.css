@@ -1070,12 +1070,13 @@ mjx-container:not([display]) {
 }
 
 .md-typeset :not(pre)>code {
-	margin: 0;
-	padding: 0 .2941176471em;
+	margin: 2px;
+	padding: 2px;
 	color: var(--md-code-fg-color);
 	background-color: var(--md-code-inline-bg-color);
 	border-radius: .1rem;
-	box-shadow: none
+	box-shadow: 2px 1px;
+	font-family: Aurulent, Source Han Sans;
 }
 
 .md-typeset a>code {
