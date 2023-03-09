@@ -204,7 +204,7 @@ h4 {
 
 /* code */
 .md-typeset code {
-    border-color: lightgrey;
+    border-color: grey;
     border: 1px solid;
     color: black;
     font-weight: normal;
