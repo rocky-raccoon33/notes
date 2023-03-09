@@ -11,7 +11,7 @@ theme:
   name: material
 
   # https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
-  custom_dir: overrides
+  custom_dir: docs/theme
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
 
