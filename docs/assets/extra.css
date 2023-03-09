@@ -22,11 +22,6 @@
     src: url("fonts/Aurulent-R.ttf");
 }
 
-@font-face {
-    font-family: "WenQuanYi";
-    src: url("fonts/WenQuanYi\ Micro\ Hei\ Mono\ Regular.ttf");
-}
-
 /* global variables */
 :root * {
     --md-tasklist-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14z"/></svg>');
@@ -185,6 +180,7 @@ h4 {
 }
 
 .md-typeset li::marker {
+    font-family: Source Han Sans;
     font-weight: 700;
 }
 
@@ -204,7 +200,7 @@ h4 {
 
 /* code */
 .md-typeset strong code {
-    color: black;
+    color: orangered;
     font-weight: normal;
 }
 
@@ -229,13 +225,12 @@ h4 {
 }
 
 .md-typeset :not(pre)>code {
-    color: black;
     background-color: initial;
     border: 1px solid;
     padding: 2px;
     box-shadow: 2px 1px;
     margin: 3px;
-    font-family: Averia Serif Libre, Source Han Sans;
+    font-family: Aurulent, Source Han Sans;
 }
 
 .md-typeset .md-annotation__index:after {
@@ -668,7 +663,6 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 /* marker */
 .md-content ul li::marker {
-    font-family: WenQuanYi;
     color: black;
     font-size: 1em;
     content: '× ';
