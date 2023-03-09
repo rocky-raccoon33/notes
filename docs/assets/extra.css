@@ -230,11 +230,12 @@ h4 {
 
 .md-typeset :not(pre)>code {
     color: black;
+    font-weight: bold;
     background-color: initial;
     border: 1px solid;
     padding: 3px;
     box-shadow: 3px 2px;
-    margin-right: 3px;
+    margin: 3px;
 }
 
 .md-typeset .md-annotation__index:after {
