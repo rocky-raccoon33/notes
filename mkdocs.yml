@@ -16,24 +16,21 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
 
   palette:
-    scheme: dracula
-    primary: deep purple
-    accent: deep purple
-    # # Palette toggle for light mode
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: default
-    #   primary: white
-    #   accent: deep orange
-    #   toggle:
-    #     icon: material/brightness-7
-    #     name: Switch to dark mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 
-    # # Palette toggle for dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: slate
-    #   toggle:
-    #     icon: material/brightness-4
-    #     name: Switch to light mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
@@ -180,30 +177,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.blocks.admonition:
-      types:
-        - new
-        - settings
-        - note
-        - abstract
-        - info
-        - tip
-        - success
-        - question
-        - warning
-        - failure
-        - danger
-        - bug
-        - example
-        - quote
-  - pymdownx.blocks.details:
-  - pymdownx.blocks.html:
-  - pymdownx.blocks.definition:
-  - pymdownx.blocks.tab:
-      alternate_style: True
-  - tools.collapse_code:
-      expand_text: ""
-      collapse_text: ""
+
   #
   # Extra extensions
   #
@@ -245,8 +219,3 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - assets/view-bigimg.js
   - assets/extra.js
-  - https://unpkg.com/mermaid@9.4.0/dist/mermaid.min.js
-  # - https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - assets/pymdownx-extras/extra-loader-52693605.js
