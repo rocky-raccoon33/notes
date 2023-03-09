@@ -204,10 +204,9 @@ h4 {
 
 /* code */
 .md-typeset code {
-    border-color: grey;
-    border: 1px solid;
-    color: black;
-    font-weight: normal;
+    padding: 0 5px 2px;
+    font-size: .8em;
+    background: grey
 }
 
 .md-typeset pre code {
