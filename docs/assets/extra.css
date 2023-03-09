@@ -264,7 +264,7 @@ h4 {
 /* admonitions */
 .md-typeset :is(.admonition, details) {
     border: none !important;
-    background-color: aliceblue !important;
+    background-color: aliceblue;
     box-shadow: none;
     font-size: unset;
     margin: 1em 0;
