@@ -597,19 +597,19 @@ body[data-md-prefers-color-scheme=true] .md-icon .unknown-mode {
 [data-md-color-scheme=dracula] .md-typeset .admonition>.admonition-title,
 [data-md-color-scheme=dracula] .md-typeset details>.admonition-title,
 [data-md-color-scheme=dracula] .md-typeset details>summary {
-	background-color: var(--md-admonition-bg-color--note)
+	background-color: var(--md-default-fg-color)
 }
 
 [data-md-color-scheme=dracula] .md-typeset .admonition>.admonition-title::before,
 [data-md-color-scheme=dracula] .md-typeset details>.admonition-title::before,
 [data-md-color-scheme=dracula] .md-typeset details>summary::before {
-	background-color: var(--md-admonition-icon-color--note)
+	background-color: var(--md-default-fg-color)
 }
 
 [data-md-color-scheme=dracula] .md-typeset .admonition>.admonition-title::after,
 [data-md-color-scheme=dracula] .md-typeset details>.admonition-title::after,
 [data-md-color-scheme=dracula] .md-typeset details>summary::after {
-	color: var(--md-admonition-icon-color--note)
+	color: var(--md-default-fg-color)
 }
 
 [data-md-color-scheme=dracula] .md-typeset .admonition.note,
