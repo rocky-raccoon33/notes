@@ -986,6 +986,16 @@ mjx-container:not([display]) {
 	color: #000
 }
 
+/* admonitions */
+[data-md-color-scheme=dracula] .md-typeset :is(.admonition, details) {
+	border: none !important;
+	background-color: --md-default-bg-color--dark;
+	box-shadow: none;
+	font-size: unset;
+	margin: 1em 0;
+	padding: 0.5em 1em;
+}
+
 [data-md-color-scheme=dracula] .CtxtMenu_Info,
 [data-md-color-scheme=dracula] .CtxtMenu_Menu,
 [data-md-color-scheme=slate] .CtxtMenu_Info,
