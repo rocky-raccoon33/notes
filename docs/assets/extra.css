@@ -203,11 +203,9 @@ h4 {
 }
 
 /* code */
-.md-typeset code {
-    border: 2px solid;
-    padding: 10px;
-    box-shadow: 6px 4px;
-    background-color: gray;
+.md-typeset strong code {
+    color: black;
+    font-weight: normal;
 }
 
 .md-typeset pre code {
@@ -232,8 +230,9 @@ h4 {
 
 .md-typeset :not(pre)>code {
     background-color: initial;
-    font-size: 1em;
-    padding: 0;
+    border: 1px solid;
+    padding: 3px;
+    box-shadow: 3px 2px;
 }
 
 .md-typeset .md-annotation__index:after {
