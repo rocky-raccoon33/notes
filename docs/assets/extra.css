@@ -336,12 +336,12 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 /* tabs */
 .md-typeset .tabbed-set {
-	background-color: whitesmoke;
+	background-color: var(--md-accent-bg-color);
 }
 
 .md-typeset .tabbed-block {
 	padding: 0.5em 0 0.5em 1em;
-	background: white;
+	background: var(--md-accent-bg-color);
 }
 
 .md-typeset .tabbed-labels>label {
