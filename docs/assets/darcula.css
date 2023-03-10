@@ -1088,7 +1088,8 @@ mjx-container:not([display]) {
 .md-typeset :not(pre)>code {
 	margin: 2px;
 	padding: 2px;
-	color: var(--md-code-fg-color);
+	/* color: var(--md-code-fg-color); */
+	color: orangered;
 	background-color: var(--md-code-inline-bg-color);
 	border-radius: .1rem;
 	box-shadow: 2px 1px;
