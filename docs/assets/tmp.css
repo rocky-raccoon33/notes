@@ -14,7 +14,7 @@
 	--md-code-hl-tag-color: var(--md-code-hl-keyword-color);
 	--md-code-hl-builtin-color: var(--md-code-hl-constant-color);
 	--md-code-hl-class-color: var(--md-code-hl-function-color);
-	--md-typeset-a-color: #00bcd4;
+	--md-typeset-a-color: hsl(209, 69%, 32%);
 	--md-progress-stripe: var(--md-default-bg-color--lighter);
 	--md-progress-100: #00e676;
 	--md-progress-80: #00e676;
@@ -81,7 +81,7 @@
 	--md-code-special-bg-color: #1c1e26;
 	--md-code-alternate-bg-color: #3d3e49;
 	--md-code-link-bg-color: #364653;
-	--md-typeset-a-color: hsl(191, 97%, 77%);
+	--md-typeset-a-color: hsl(209, 69%, 32%);
 	--md-typeset-mark-color: #6e7252;
 	--md-typeset-del-color: #734568;
 	--md-typeset-ins-color: #36724e;
