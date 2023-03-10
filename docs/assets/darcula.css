@@ -989,7 +989,7 @@ mjx-container:not([display]) {
 /* admonitions */
 .md-typeset :is(.admonition, details) {
 	border: none !important;
-	background-color: aliceblue;
+	background-color: aliceblue !important;
 	background-color: var(--md-code-bg-color);
 	box-shadow: none;
 	font-size: unset;
