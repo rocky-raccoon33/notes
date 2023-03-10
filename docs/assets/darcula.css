@@ -989,7 +989,6 @@ mjx-container:not([display]) {
 /* admonitions */
 [data-md-color-scheme=default].md-typeset :is(.admonition, details) {
 	background-color: aliceblue !important;
-
 }
 
 .md-typeset :is(.admonition, details) {
