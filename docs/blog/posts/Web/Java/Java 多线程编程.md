@@ -75,7 +75,7 @@ AQS 中的一个内部类，用于表示一个等待获取锁的线程。在 Nod
 
 #### Sync
 
-AQS 的抽象类，它定义了 AQS 的主要接口和状态，是 AQS 实现的核心。在 Sync 中，定义了一系列方法，用于实现锁的获取和释放，包括tryAcquire tryRelease acquire release
+AQS 的抽象类，它定义了 AQS 的主要接口和状态，是 AQS 实现的核心。在 Sync 中，定义了一系列方法，用于实现锁的获取和释放，包括`tryAcquire` `tryRelease` `acquire` `release`
 
 #### 实现锁的方式
 
@@ -88,4 +88,4 @@ AQS通过维护一个 FIFO 的等待队列，来实现锁的获取和释放。�
 5. 释放成功：尝试唤醒等待队列中的下一个节点。
 
 AQS提供了一种通用的同步状态机制，可以用于实现多种不同的锁和同步工具
-例如 ReentrantLock Semaphore CountDownLatch
+例如 `ReentrantLock` `Semaphore` `CountDownLatch`
