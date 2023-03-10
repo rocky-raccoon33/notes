@@ -14,7 +14,7 @@
 	--md-code-hl-tag-color: var(--md-code-hl-keyword-color);
 	--md-code-hl-builtin-color: var(--md-code-hl-constant-color);
 	--md-code-hl-class-color: var(--md-code-hl-function-color);
-	--md-typeset-a-color: #00bcd4;
+	--md-typeset-a-color: var(--md-accent-fg-color);
 	--md-progress-stripe: var(--md-default-bg-color--lighter);
 	--md-progress-100: #00e676;
 	--md-progress-80: #00e676;
@@ -989,12 +989,18 @@ mjx-container:not([display]) {
 /* admonitions */
 .md-typeset :is(.admonition, details) {
 	border: none !important;
+	background-color: aliceblue;
 	background-color: var(--md-code-bg-color);
 	box-shadow: none;
 	font-size: unset;
 	margin: 1em 0;
 	padding: 0.5em 1em;
 }
+
+[data-md-color-scheme=dracula] .md-typeset :is(.admonition, details) {
+	background-color: var(--md-code-bg-color);
+}
+
 
 [data-md-color-scheme=dracula] .CtxtMenu_Info,
 [data-md-color-scheme=dracula] .CtxtMenu_Menu,
