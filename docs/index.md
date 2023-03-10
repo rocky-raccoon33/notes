@@ -11,10 +11,6 @@ hide:
     .md-typeset .cover + hr {
         display: none;
     }
-    .md-typeset h1,
-    .md-typeset h2 {
-        color: orangered;
-    }
 </style>
 
 - I am a software engineer, currently living in {== Nanjing, China==}.\
