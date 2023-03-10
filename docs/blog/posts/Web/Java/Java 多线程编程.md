@@ -13,43 +13,34 @@ tags:
 
 ### 1.1 线程状态
 
-1. deadlock：死锁线程，一般指多个线程调用期间进入了相互资源占用，导致一直等待无法释放的情况。
+`deadlock`：死锁线程，一般指多个线程调用期间进入了相互资源占用，导致一直等待无法释放的情况。
 
-2. runnable：一般指该线程正在执行状态中。
+`runnable`：一般指该线程正在执行状态中。
 
-3. blocked：线程正处于阻塞状态。
+`blocked`：线程正处于阻塞状态。
 
-4. waiting on condition：线程正处于等待资源或等待某个条件的发生，具体的原因需要结合堆栈信息进行分析。
+`waiting on condition`：线程正处于等待资源或等待某个条件的发生，具体的原因需要结合堆栈信息进行分析。
 
 - 可能是在等待锁资源
 - 可能是在 sleep
 - 可能是网络资源不足，这个要结合系统的使用信息来看。
 - waiting for monitor entry 或 in Object.wait()
-java中 synchronized 的重量级锁借助 Moniter 来实现。Moniter 有两个队列。一个是 entry set，另一个是 wait set。当 synchronized 升级到重量级锁后，竞争锁失败的线程将记录到 entry set 中，这时线程状态是 waiting for monitor entry；而竞争到锁的线程若调用锁对象的 wait 方法时，则记录 到 wait set 中，这时线程状态是 in Object.wait()。
+
+:    java中 synchronized 的重量级锁借助 Moniter 来实现。Moniter 有两个队列。一个是 entry set，另一个是 wait set。当 synchronized 升级到重量级锁后，竞争锁失败的线程将记录到 entry set 中，这时线程状态是 waiting for monitor entry；而竞争到锁的线程若调用锁对象的 wait 方法时，则记录 到 wait set 中，这时线程状态是 in Object.wait()。
 
 ### 1.2 线程池的状态
 
-> RUNNING（运行状态）
+`RUNNING`：线程池处于正常的工作状态，可以接收新的任务，也可以处理已有的任务
 
-线程池处于正常的工作状态，可以接收新的任务，也可以处理已有的任务
+`SHUTDOWN`：线程池停止接收新的任务，但是会继续处理已有的任务，等所有任务都完成之后，线程池就会转换到TERMINATED状态
 
-> SHUTDOWN（关闭状态）
+`STOP`：线程池停止接收新的任务，并且会尝试中断正在处理的任务，等所有任务都完成之后，线程池就会转换到 TERMINATED 状态
 
-线程池停止接收新的任务，但是会继续处理已有的任务，等所有任务都完成之后，线程池就会转换到TERMINATED状态
+`TIDYING`：线程池中的所有任务都已经完成，但是线程池中的线程还没有全部销毁，正在执行一些清理工作
 
-> STOP（停止状态）
+`TERMINATED`：线程池中的所有任务都已经完成，线程池中的所有线程都已经销毁
 
-线程池停止接收新的任务，并且会尝试中断正在处理的任务，等所有任务都完成之后，线程池就会转换到 TERMINATED 状态
-
-> TIDYING（整理状态）
-
-线程池中的所有任务都已经完成，但是线程池中的线程还没有全部销毁，正在执行一些清理工作
-
-> TERMINATED（终止状态）
-
-线程池中的所有任务都已经完成，线程池中的所有线程都已经销毁
-
-> **线程池的状态转换过程如下：**
+线程池的状态转换过程如下：
 
 - 初始状态 RUNNING
 - shutdown() -> SHUTDOWN
@@ -59,11 +50,11 @@ java中 synchronized 的重量级锁借助 Moniter 来实现。Moniter 有两个
 
 ## 2 线程同步
 
-> 线程同步可以有效避免多个线程访问共享资源时产生的冲突和不一致问题，从而确保程序的正确性。过多的同步也可能降低程序的性能，使用线程同步需要权衡性能和正确性
+线程同步可以有效避免多个线程访问共享资源时产生的冲突和不一致问题，从而确保程序的正确性。过多的同步也可能降低程序的性能，使用线程同步需要权衡性能和正确性。
 
 ### 2.1 synchronized
 
-> 保证多线程访问共享资源时的安全性和一致性
+`保证多线程访问共享资源时的安全性和一致性`
 
 当一个线程进入 synchronized 块时，它会尝试获取锁，如果该锁被其他线程持有，则该线程就会被阻塞，直到该锁被释放。
 当一个线程退出 synchronized 块时，它会释放持有的锁，从而允许其他线程进入该块
@@ -75,8 +66,8 @@ Java 的内存模型保证，一个线程释放锁之前，对共享变量所做
 
 ### 2.2 AQS
 
-> AbstractQueuedSynchronizer 是 Java 中实现锁的基础框架，提供了一种实现同步状态的机制。
-> AQS 的实现主要依赖于两个类：Node 和 Sync
+`AbstractQueuedSynchronizer` 是 Java 中实现锁的基础框架，提供了一种实现同步状态的机制。
+AQS `的实现主要依赖于两个类：Node` 和 `Sync`
 
 ####  Node
 
