@@ -13,9 +13,7 @@
 - 其他控制 `miscellaneous control`
 - 创建 `status`
 
-##### fork()：创建子进程
-##### wait()：等待子进程执行完毕
-##### exec()：执行与父进程不同的程序
+
 
 ```c
 #include <stdio.h>
@@ -24,6 +22,10 @@
 
 int main(int argc, char *argv[])
 {
+    // fork()：创建子进程
+    // wait()：等待子进程执行完毕
+    // exec()：执行与父进程不同的程序
+
 	printf("hello world (pid:%d)\n", (int)getpid());
 	int rc = fork();
 	if (rc < 0)
@@ -45,7 +47,7 @@ int main(int argc, char *argv[])
 
 输出结果：
 
-```dotnetcli
+```zsh
 hello world (pid:33414)
 hello, I am parent of 33435(pid:33414)
 hello world (pid:33414)

@@ -147,7 +147,8 @@ h2,
 h3,
 h4 {
 	font-family: Major Mono Display, Source Han Sans;
-	color: var(--md-accent-fg-color)
+	color: var(--md-accent-fg-color);
+	font-weight: bold;
 }
 
 .md-typeset p {
