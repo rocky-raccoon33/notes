@@ -34,7 +34,7 @@ hide:
 
         [Read notes](notes/){.md-button}
 
-## :material-github: GitHub Stats
+<!-- ## :material-github: GitHub Stats
 
 ::: row
 
@@ -47,4 +47,4 @@ hide:
         ![](https://github-readme-stats.vercel.app/api/top-langs/?username=rocky-raccoon33&layout=compact&langs_count=8&hide=html,autoit&hide_border=true&hide_title=true)
 
 
-> Using __GitHub Stats__ and __Top Langs__ by [:material-github: anuraghazra](https://github.com/anuraghazra/github-readme-stats)
+> Using __GitHub Stats__ and __Top Langs__ by [:material-github: anuraghazra](https://github.com/anuraghazra/github-readme-stats) -->
