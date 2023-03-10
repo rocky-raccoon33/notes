@@ -644,7 +644,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 /* marker */
 .md-content ul li::marker {
-	color: orangered;
+	color: var(--md-accent-fg-color);
 	font-size: 0.7em;
 	content: '×  ';
 }
@@ -652,16 +652,16 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 /* button */
 .md-typeset .md-button {
 	/* background-color: orangered; */
-	color: orangered;
-	border: 1px solid orangered;
+	color: var(--md-accent-fg-color);
+	border: 1px solid var(--md-accent-fg-color);
 	padding: 0.125em 0.5em;
 	font-weight: unset;
 	font-size: revert;
 }
 
 .md-typeset .md-button:hover {
-	background-color: orangered;
-	border: 1px solid orangered;
+	background-color: var(--md-accent-fg-color);
+	border: 1px solid var(--md-accent-fg-color);
 	color: white;
 }
 
