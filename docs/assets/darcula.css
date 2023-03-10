@@ -987,15 +987,19 @@ mjx-container:not([display]) {
 }
 
 /* admonitions */
+[data-md-color-scheme=default].md-typeset :is(.admonition, details) {
+	background-color: aliceblue !important;
+
+}
+
 .md-typeset :is(.admonition, details) {
 	border: none !important;
-	background-color: aliceblue !important;
-	background-color: var(--md-code-bg-color);
 	box-shadow: none;
 	font-size: unset;
 	margin: 1em 0;
 	padding: 0.5em 1em;
 }
+
 
 [data-md-color-scheme=dracula] .md-typeset :is(.admonition, details) {
 	background-color: var(--md-code-bg-color);
@@ -1089,7 +1093,7 @@ mjx-container:not([display]) {
 	margin: 2px;
 	padding: 2px;
 	/* color: var(--md-code-fg-color); */
-	color: #770000;
+	color: deeppink;
 	background-color: var(--md-code-inline-bg-color);
 	border-radius: .1rem;
 	box-shadow: 2px 1px;
