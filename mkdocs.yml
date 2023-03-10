@@ -20,7 +20,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: white
-      accent: deep purple
+      accent: deep orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -215,6 +215,7 @@ extra:
 extra_css:
   - assets/view-bigimg.css
   - assets/extra.css
+  - assets/darcula.css
 extra_javascript:
   - assets/mathjax.js # must be before mathjax
   - https://polyfill.io/v3/polyfill.min.js?features=es6
