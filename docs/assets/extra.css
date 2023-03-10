@@ -460,7 +460,6 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 
 .md-typeset .tree-view li pre {
 	margin-bottom: 0;
-	;
 	font-size: small;
 }
 
@@ -645,8 +644,9 @@ html .md-typeset :is(.admonition-title, summary):last-child {
 /* marker */
 .md-content ul li::marker {
 	color: var(--md-accent-fg-color);
+	font-weight: bold;
 	font-size: 0.7em;
-	content: '×  ';
+	content: '×   ';
 }
 
 /* button */
