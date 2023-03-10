@@ -173,8 +173,8 @@
 	--md-primary-bg-color--light: var(--md-default-bg-color--light)
 }
 
-[data-md-color-scheme=dracula] :not([data-md-color-scheme])[data-md-color-primary=cyan],
-[data-md-color-scheme=dracula][data-md-color-primary=cyan] {
+[data-md-color-scheme=dracula] :not([data-md-color-scheme])[data-md-color-primary=navy],
+[data-md-color-scheme=dracula][data-md-color-primary=navy] {
 	--md-primary-code-bg-color: #364653;
 	--md-primary-fg-color: hsla(191deg, 97%, 77%, 1);
 	--md-primary-fg-color--transparent: hsla(191deg, 97%, 77%, 0.1);
@@ -335,8 +335,8 @@
 	--md-accent-bg-color--light: var(--md-default-bg-color--light)
 }
 
-[data-md-color-scheme=dracula] :not([data-md-color-scheme])[data-md-color-primary=cyan],
-[data-md-color-scheme=dracula][data-md-color-accent=cyan] {
+[data-md-color-scheme=dracula] :not([data-md-color-scheme])[data-md-color-primary=navy],
+[data-md-color-scheme=dracula][data-md-color-accent=navy] {
 	--md-code-link-accent-bg-color: #324553;
 	--md-accent-fg-color: hsla(191deg, 97%, 72%, 1);
 	--md-accent-fg-color--transparent: hsla(191deg, 97%, 72%, 0.1);

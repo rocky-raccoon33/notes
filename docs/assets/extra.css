@@ -1,10 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Averia+Serif+Libre&display=swap'); */
-
-@font-face {
-    font-family: "Averia Serif Libre";
-    src: url("fonts/AveriaSerifLibre-Regular.ttf");
-    font-size: 1rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 
 @font-face {
     font-family: "Major Mono Display";
@@ -118,7 +112,7 @@
 /* paragraph */
 .md-typeset {
     font-size: 0.8rem;
-    font-family: Averia Serif Libre, Source Han Sans;
+    font-family: Sono, Source Han Sans;
 }
 
 /* headers */
