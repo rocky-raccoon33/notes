@@ -1102,9 +1102,9 @@ mjx-container:not([display]) {
 	transition: background-color 125ms
 }
 
-/* .md-typeset a>code * {
+.md-typeset a>code * {
 	color: var(--md-typeset-a-color) !important
-} */
+}
 
 .md-typeset a>code:hover {
 	background-color: var(--md-code-link-accent-bg-color) !important
