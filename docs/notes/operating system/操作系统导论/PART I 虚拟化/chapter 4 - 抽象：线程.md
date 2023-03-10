@@ -13,9 +13,9 @@
 - 其他控制 `miscellaneous control`
 - 创建 `status`
 
-#### fork()：创建子进程
-#### wait()：等待子进程执行完毕
-#### exec()：执行与父进程不同的程序
+##### fork()：创建子进程
+##### wait()：等待子进程执行完毕
+##### exec()：执行与父进程不同的程序
 
 ```c
 #include <stdio.h>

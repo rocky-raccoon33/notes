@@ -1001,7 +1001,7 @@ mjx-container:not([display]) {
 
 
 [data-md-color-scheme=dracula] .md-typeset :is(.admonition, details) {
-	background-color: var(--md-code-bg-color);
+	background-color: var(--md-code-bg-color) !important;
 }
 
 
