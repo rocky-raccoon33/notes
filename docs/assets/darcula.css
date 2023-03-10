@@ -1086,11 +1086,10 @@ mjx-container:not([display]) {
 }
 
 .md-typeset :not(pre)>code {
-	font-weight: bold;
 	margin: 2px;
 	padding: 2px;
 	/* color: var(--md-code-fg-color); */
-	color: orangered;
+	color: #770000;
 	background-color: var(--md-code-inline-bg-color);
 	border-radius: .1rem;
 	box-shadow: 2px 1px;

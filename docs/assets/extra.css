@@ -191,7 +191,7 @@ h4 {
 
 /* code */
 .md-typeset strong code {
-	color: var(--md-accent-fg-color);
+	color: darkmagenta;
 	font-weight: normal;
 }
 
