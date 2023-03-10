@@ -1086,6 +1086,7 @@ mjx-container:not([display]) {
 }
 
 .md-typeset :not(pre)>code {
+	font-weight: bold;
 	margin: 2px;
 	padding: 2px;
 	/* color: var(--md-code-fg-color); */
