@@ -989,7 +989,7 @@ mjx-container:not([display]) {
 /* admonitions */
 [data-md-color-scheme=dracula] .md-typeset :is(.admonition, details) {
 	border: none !important;
-	background-color: --md-default-bg-color--dark;
+	background-color: var(--md-code-bg-color);
 	box-shadow: none;
 	font-size: unset;
 	margin: 1em 0;
