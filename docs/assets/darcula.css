@@ -14,7 +14,7 @@
 	--md-code-hl-tag-color: var(--md-code-hl-keyword-color);
 	--md-code-hl-builtin-color: var(--md-code-hl-constant-color);
 	--md-code-hl-class-color: var(--md-code-hl-function-color);
-	--md-typeset-a-color: var(--md-accent-fg-color);
+	--md-typeset-a-color: hsl(209, 69%, 32%);
 	--md-progress-stripe: var(--md-default-bg-color--lighter);
 	--md-progress-100: #00e676;
 	--md-progress-80: #00e676;
