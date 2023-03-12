@@ -727,3 +727,8 @@ html .md-typeset :is(.admonition-title, summary):last-child {
         display: none;
     }
 }
+
+.highlight .kc,
+.highlight .n {
+    color: black;
+}
