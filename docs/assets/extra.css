@@ -157,20 +157,6 @@ h4 {
     font-family: Phudu, Source Han Sans;
 }
 
-[data-md-color-scheme=dracula] .md-typeset h1,
-h2,
-h3,
-h4 {
-    color: aliceblue !important;
-}
-
-[data-md-color-scheme=default] .md-typeset h1,
-h2,
-h3,
-h4 {
-    color: black !important;
-}
-
 .md-typeset p {
     text-align: justify;
 }
