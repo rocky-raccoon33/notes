@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono&display&family=Phudu=swap');
 
 @font-face {
     font-family: "Major Mono Display";
@@ -79,7 +79,6 @@
 }
 
 .md-tabs__link,
-.md-nav__title,
 .localLink,
 .md-nav__link,
 .note-category,
@@ -87,6 +86,11 @@
 .page-date,
 .icon-text {
     font-family: Major Mono Display, Source Han Sans;
+}
+
+.md-nav__title,
+.md-tabs__link {
+    font-family: Phudu;
 }
 
 /* footer */
@@ -147,7 +151,6 @@ h2,
 h3,
 h4 {
     font-family: Major Mono Display, Source Han Sans;
-    font-weight: bold;
 }
 
 [data-md-color-scheme=dracula] .md-typeset h1,
