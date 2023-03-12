@@ -146,25 +146,28 @@
     text-underline-offset: 0.25em;
 }
 
-.md-typeset h1,
-h2,
+.md-typeset h1.page-title {
+    font-family: Major Mono Display, Source Han Sans;
+}
+
+.md-typeset h2,
 h3,
 h4 {
-    font-family: Major Mono Display, Source Han Sans;
+    font-family: Phudu, Source Han Sans;
 }
 
 [data-md-color-scheme=dracula] .md-typeset h1,
 h2,
 h3,
 h4 {
-    color: darkmagenta;
+    color: darkmagenta !important;
 }
 
 [data-md-color-scheme=default] .md-typeset h1,
 h2,
 h3,
 h4 {
-    color: black;
+    color: black !important;
 }
 
 .md-typeset p {
