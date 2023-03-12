@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sono&family=Phudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono&family=Trade Gothic&display=swap');
 
 @font-face {
     font-family: "Major Mono Display";
@@ -14,6 +14,11 @@
 @font-face {
     font-family: "Aurulent";
     src: url("fonts/Aurulent-R.ttf");
+}
+
+@font-face {
+    font-family: "Trade Gothic";
+    src: url("fonts/Trade\ Gothic\ LT.ttf");
 }
 
 /* global variables */
@@ -91,7 +96,7 @@
 .md-nav__title,
 .md-ellipsis,
 .md-tabs__link {
-    font-family: Phudu, Source Han Sans;
+    font-family: Trade Gothic, Source Han Sans;
 }
 
 /* footer */
@@ -154,7 +159,7 @@
 .md-typeset h2,
 h3,
 h4 {
-    font-family: Phudu, Source Han Sans;
+    font-family: Trade Gothic, Source Han Sans;
 }
 
 .md-typeset p {
