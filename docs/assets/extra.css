@@ -89,6 +89,7 @@
 .md-nav__link,
 .icon-text,
 .md-nav__title,
+.md-ellipsis,
 .md-tabs__link {
     font-family: Phudu, Source Han Sans;
 }
@@ -736,9 +737,4 @@ html .md-typeset :is(.admonition-title, summary):last-child {
     .md-typeset #disqus_thread {
         display: none;
     }
-}
-
-.md-ellipsis {
-    font-family: Major Mono Display;
-    font-weight: bold;
 }

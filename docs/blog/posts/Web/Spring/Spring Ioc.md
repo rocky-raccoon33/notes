@@ -3,7 +3,7 @@ title: Ioc 容器
 comments: true
 description: IOC 容器具有依赖注入功能的容器，它可以创建对象，IOC 容器负责实例化、定位、配置应用程序中的对象及建立这些对象间的依赖
 date: 2022-02-01
-category: Spring
+category: Web Development
 section: blog
 tags:
     - Spring
