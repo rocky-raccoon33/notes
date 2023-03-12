@@ -78,16 +78,16 @@
     font-weight: 700;
 }
 
-.md-tabs__link,
-.localLink,
+
 .note-category,
 .page-category,
-.page-date,
-.icon-text {
+.page-date {
     font-family: Major Mono Display, Source Han Sans;
 }
 
+.localLink,
 .md-nav__link,
+.icon-text,
 .md-nav__title,
 .md-tabs__link {
     font-family: Phudu, Source Han Sans;
@@ -160,7 +160,7 @@ h4 {
 h2,
 h3,
 h4 {
-    color: darkmagenta !important;
+    color: aliceblue !important;
 }
 
 [data-md-color-scheme=default] .md-typeset h1,
