@@ -1095,7 +1095,6 @@ mjx-container:not([display]) {
 	background-color: var(--md-code-inline-bg-color);
 	border-radius: .1rem;
 	box-shadow: 2px 1px;
-	font-size: 1rem;
 	font-family: Aurulent, Source Han Sans;
 }
 
