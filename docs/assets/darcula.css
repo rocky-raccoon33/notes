@@ -1761,15 +1761,15 @@ dt {
 }
 
 [data-md-color-scheme=dracula] .md-typeset h1,
-h2,
-h3,
-h4 {
+[data-md-color-scheme=dracula] .md-typeset h2,
+[data-md-color-scheme=dracula] .md-typeset h3,
+[data-md-color-scheme=dracula] .md-typeset h4 {
 	color: aliceblue !important;
 }
 
 [data-md-color-scheme=default] .md-typeset h1,
-h2,
-h3,
-h4 {
+[data-md-color-scheme=default] .md-typeset h2,
+[data-md-color-scheme=default] .md-typeset h3,
+[data-md-color-scheme=default] .md-typeset h4 {
 	color: black !important;
 }
