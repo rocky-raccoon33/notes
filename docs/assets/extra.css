@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: "intelo";
+    font-family: "Caecilia";
     src: url("fonts/Caecilia-RomanOsF.ttf");
 }
 
@@ -94,7 +94,7 @@
 .md-nav__title,
 .md-ellipsis,
 .md-tabs__link {
-    font-family: intelo, Source Han Sans;
+    font-family: Caecilia, Source Han Sans;
 }
 
 /* footer */
@@ -120,7 +120,7 @@
 /* paragraph */
 .md-typeset {
     font-size: 0.8rem;
-    font-family: intelo, Source Han Sans;
+    font-family: Caecilia, Source Han Sans;
 }
 
 /* headers */
@@ -157,7 +157,7 @@
 .md-typeset h2,
 h3,
 h4 {
-    font-family: intelo, Source Han Sans;
+    font-family: Caecilia, Source Han Sans;
 }
 
 .md-typeset p {
