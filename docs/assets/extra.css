@@ -728,7 +728,7 @@ html .md-typeset :is(.admonition-title, summary):last-child {
     }
 }
 
-.highlight .kc,
-.highlight .n {
-    color: black;
+[data-md-color-scheme=default] .highlight .kc,
+[data-md-color-scheme=default] .highlight .n {
+    color: #24292f;
 }
