@@ -11,7 +11,7 @@ tags:
 
 ## LRU Cache implemented in C++
 
-```cpp title="LRLCache.cpp" linenums="1"
+```cpp title="LRUCache.cpp" linenums="1"
 #include <iostream>
 #include <list>
 #include <unordered_map>
