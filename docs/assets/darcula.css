@@ -1090,10 +1090,11 @@ mjx-container:not([display]) {
 
 .md-typeset :not(pre)>code {
 	padding: 1px 8px;
+	margin-left: 2px;
+	margin-right: 2px;
 	color: var(--md-code-fg-color);
 	background-color: var(--md-code-inline-bg-color);
 	border: 1px solid #d5d5d5;
-	box-shadow: 2px 1px;
 	font-weight: 400;
 	font-family: Aurulent, Source Han Sans;
 }
