@@ -1089,12 +1089,12 @@ mjx-container:not([display]) {
 }
 
 .md-typeset :not(pre)>code {
-	margin: 4px;
-	padding: 2px;
+	padding: 1px 8px;
 	color: var(--md-code-fg-color);
 	background-color: var(--md-code-inline-bg-color);
-	border-radius: .1rem;
+	border: 1px solid #d5d5d5;
 	box-shadow: 2px 1px;
+	font-weight: 400;
 	font-family: Aurulent, Source Han Sans;
 }
 
