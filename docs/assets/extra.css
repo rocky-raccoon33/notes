@@ -15,11 +15,6 @@
 }
 
 @font-face {
-    font-family: "Aurulent";
-    src: url("fonts/clincher-code.ttf");
-}
-
-@font-face {
     font-family: "Caecilia";
     src: url("fonts/Caecilia-RomanOsF.ttf");
 }
@@ -209,35 +204,6 @@ h4 {
     color: darkmagenta;
     font-weight: normal;
 }
-
-/* .md-typeset pre code {
-    white-space: pre-wrap;
-    word-break: break-word;
-    font-size: 0.9em;
-}
-
-.md-typeset .highlight pre {
-    margin-bottom: 2em;
-}
-
-.md-typeset .highlight span.filename {
-    font-weight: initial;
-}
-
-.md-typeset .highlight [data-linenos]:before {
-    background-color: unset;
-    color: lightgray;
-    box-shadow: none;
-} */
-
-/* .md-typeset :not(pre)>code {
-    background-color: initial;
-    border: 1px solid;
-    padding: 2px;
-    box-shadow: 2px 1px;
-    margin: 3px;
-    font-family: Aurulent, Source Han Sans;
-} */
 
 .md-typeset .md-annotation__index:after {
     animation: none;
