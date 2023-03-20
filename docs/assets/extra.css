@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: "ComicMono";
+    src: url("fonts/ComicMono.ttf");
+}
+
+@font-face {
     font-family: Source Han Sans;
     src: url("fonts/SourceHanSansCN-Regular.otf");
 }

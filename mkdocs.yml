@@ -37,7 +37,7 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
     text: Source Han Sans
-    code: Aurulent
+    code: ComicMono
 
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
   icon:

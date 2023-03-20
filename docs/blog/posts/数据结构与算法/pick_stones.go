@@ -22,7 +22,7 @@ func main() {
 	n := 150000
 	output := "win"
 	if !pick_stone(n) {
-		output = "false"
+		output = "lose"
 	}
-	fmt.Printf("input total stones %d: your %s", n, output)
+	fmt.Printf("input total stones %d: your %s！", n, output)
 }
