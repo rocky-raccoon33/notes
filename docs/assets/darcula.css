@@ -1096,7 +1096,8 @@ mjx-container:not([display]) {
 	background-color: var(--md-code-inline-bg-color);
 	border: 1px solid #d5d5d5;
 	font-weight: 400;
-	font-family: CodeMono, Source Han Sans;
+	font-size: 1rem;
+	font-family: ComicMono, Source Han Sans;
 }
 
 .md-typeset a>code {
