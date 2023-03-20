@@ -19,11 +19,11 @@ RM：Resource Manager（资源管理器Cohort），例如订单系统、支付�
 
 {== 只有 TM 有超时 ==}，Work Flow 如下
 
-### 第一阶段：pre-commit
+#### 第一阶段：pre-commit
 
 TM 发送提交请求给所有相关的 RM，RMs 开启事务但不会提交，事务开启后所有资源加锁
 
-### 第二阶段：do-commit
+#### 第二阶段：do-commit
 
 - 所有 RM 在预提交阶段成功，TM 向 RMs 发送 commit 消息，提交事务
 
@@ -50,19 +50,19 @@ Images From [Patterns for distributed transactions within a microservices archit
 {== RM 和 TM 均有超时 ==}，Work Flow 如下
 
 
-### 第一阶段：can-commit
+#### 第一阶段：can-commit
 
 TM 发送 CanCommit 请求消息，询问各个参与者节点，参与者节点各自评估本地事务是否可以执行并回复消息（可以执行则回复 YES，否则回复 NO），此阶段不执行事务，只做判断
 
-### 第二阶段：pre-commit
+#### 第二阶段：pre-commit
 
-TM 根据上一阶段收集的反馈决定通知各个参与者节点执行（但不提交）或中止本地事务；有两种可能：
+TM 根据上一阶段收集的反馈决定通知各个参与者节点执行（但不提交）或中止本地事务。有两种可能：
 
 1. 所有回复都是 YES，则发送 PreCommit 请求消息，要求所有参与者执行事务并追加记录到 undo 和 redo 日志，如果事务执行成功则参与者回复 ACK 响应消息，并等待下一阶段的指令；
 
 2. 反馈消息中只要有一个 NO，或者等待超时之后 TM 都没有收到参与者的回复，那么TM会中止事务，发送 Abort 请求消息给所有参与者，参与者收到该请求后中止本地事务，或者参与者超时等待仍未收到 TM 的消息，同样也中止当前本地事务。
 
-### 第三阶段：do-commit
+#### 第三阶段：do-commit
 
 TM 根据上一阶段收集到的反馈决定通知各个参与者节点提交或回滚本地事务，分三种情况：
 
