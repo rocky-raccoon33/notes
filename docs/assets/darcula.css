@@ -1119,7 +1119,6 @@ mjx-container:not([display]) {
 }
 
 .md-typeset pre>code {
-	font-size: 0.8rem;
 	outline: 0
 }
 
@@ -1774,4 +1773,8 @@ dt {
 [data-md-color-scheme=default] .md-typeset h3,
 [data-md-color-scheme=default] .md-typeset h4 {
 	color: black !important;
+}
+
+.highlighttable {
+	font-size: 0.8rem;
 }
