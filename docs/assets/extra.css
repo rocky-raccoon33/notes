@@ -11,6 +11,11 @@
 }
 
 @font-face {
+    font-family: Courier Prime;
+    src: url("fonts/Courier\ Prime.ttf");
+}
+
+@font-face {
     font-family: Aurulent;
     src: url("fonts/Aurulent-R.ttf");
 }
