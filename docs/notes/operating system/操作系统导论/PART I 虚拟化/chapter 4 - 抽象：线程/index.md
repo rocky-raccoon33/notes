@@ -1,3 +1,12 @@
+---
+title: chapter 4 - 抽象：线程
+description: There are some useful Markdown extensions that brings more convenience for you while working with writing, especially in editing technical documents. Let's take a look at all extensions and new syntaxes which are being used in this site.
+date: 2021-05-02
+banner: markdown.jpg
+tags:
+    - markdown
+---
+
 
 `关键问题：操作系统如何提供有多个 CPU 的假象？`
 
