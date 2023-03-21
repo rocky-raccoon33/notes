@@ -1,14 +1,11 @@
 ---
-title: chapter 4 - 抽象：线程
-description: There are some useful Markdown extensions that brings more convenience for you while working with writing, especially in editing technical documents. Let's take a look at all extensions and new syntaxes which are being used in this site.
-date: 2021-05-02
-banner: markdown.jpg
-tags:
-    - markdown
+title: 4 - 抽象：线程
+description: 进程的非正式定义：进程就是运行中的程序，程序本身是没有生命周期的，它是存储在磁盘上的一些指令（也可能是一些静态数据），操作系统让这些字节运行起来，让程序发挥作用。
+
 ---
 
 
-`关键问题：操作系统如何提供有多个 CPU 的假象？`
+#### 关键问题：操作系统如何提供有多个 CPU 的假象？
 
 {== 虚拟化CPU：通常让一个进程只运行一个时间片，然后切换到其他进程 [时分共享（time sharing）CPU技术] ==}，潜在的开销是性能损失。
 
