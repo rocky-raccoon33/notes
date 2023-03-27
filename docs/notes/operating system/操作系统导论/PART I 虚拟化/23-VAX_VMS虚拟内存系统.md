@@ -1,5 +1,5 @@
 ---
-title: 第二十三章 VAX/VMS虚拟内存系统
+title: 23 VAX/VMS虚拟内存系统
 description: 
 
 ---
