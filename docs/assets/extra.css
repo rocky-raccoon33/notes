@@ -114,7 +114,7 @@
 
 /* paragraph */
 .md-typeset {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-family: Caecilia, Source Han Sans;
 }
 
@@ -153,6 +153,7 @@
 h3,
 h4 {
     font-family: Caecilia, Source Han Sans;
+    font-weight: bold;
 }
 
 .md-typeset p {
