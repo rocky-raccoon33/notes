@@ -1,0 +1,194 @@
+{% from "partials/colors.html" import color %}
+
+{# title #}
+{% if not "\x3ch1" in page.content %}
+<h1>{{ page.title | d(config.site_name, true) }}</h1>
+{% endif %}
+
+{# description #}
+{% if page.meta and page.meta.description %}
+<p>
+	{{ page.meta.description }}
+</p>
+{% endif %}
+
+{# page collection #}
+{% set valid_pages=[] %}
+
+{% for p in pages %}
+{% set pg = p.page %}
+{% if pg.meta %}
+{% if pg.meta.date %}
+{% if pg.meta.date is string %}
+{% set _ = pg.__setattr__('date', pg.meta.date) %}
+{% else %}
+{% set _ = pg.__setattr__('date', pg.meta.date.strftime('%Y-%m-%d')) %}
+{% endif %}
+{# use "" to not add spaces in content #}
+{{ valid_pages.append(pg) or "" }}
+{% elif pg.meta.git_creation_date_localized_raw_iso_date %}
+{% set _ = pg.__setattr__('date', pg.meta.git_creation_date_localized_raw_iso_date) %}
+{{ valid_pages.append(pg) or "" }}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% set blog_pages=[] %}
+
+{% for pg in valid_pages|sort(
+attribute='date',
+reverse=True
+)
+%}
+{# do not list homepage, empty pages, hidden pages #}
+{% set hidden = true if (pg.meta and pg.meta.hide and ('in_recent_list' in pg.meta.hide))
+%}
+{% if (not pg.is_homepage) and
+(not pg.markdown == '') and
+(not hidden) and
+(pg.meta and pg.meta.section == 'note')
+
+%}
+{{ blog_pages.append(pg) or "" }}
+{% endif %}
+{% endfor %}
+
+{% if blog_pages|count > 0 %}
+
+{# count the number of pages #}
+{% set page_num = (blog_pages|count / 10)|round(method='ceil')|int %}
+
+{# styles #}
+<style>
+	/* .card {
+		padding: 0.5em 1em;
+		background-color: whitesmoke;
+		margin: 0.5em 0;
+	}
+
+	dt {
+		margin-top: 0 !important;
+	}
+
+	.md-typeset .note .note-category {
+		color: gray;
+		font-size: small;
+	} */
+
+
+	.md-typeset .cover {
+		margin-bottom: 1em;
+	}
+
+	.md-typeset .page-category {
+		color: gray;
+		font-size: large;
+	}
+
+	.md-typeset .page-title {
+		margin-left: -0.0625em;
+	}
+
+	.md-typeset .page-extra {
+		color: gray;
+		font-size: small;
+	}
+
+	.md-typeset .page-tags {
+		margin: 0;
+	}
+
+	.md-typeset .page-date {
+		margin: 0;
+		text-align: end;
+	}
+
+	@media print {
+		.md-typeset .cover {
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.md-typeset .cover+* {
+			margin-top: 0;
+		}
+	}
+
+	.md-typeset .toc {
+		display: none;
+	}
+
+	.md-typeset .toc label {
+		display: none;
+	}
+
+	.md-typeset .toc .md-nav {
+		font-size: unset;
+		line-height: 1.6;
+	}
+
+	.md-typeset .toc .md-nav--secondary {
+		margin-left: -2em;
+	}
+
+	.md-typeset .toc .md-nav__list {
+		margin: 0;
+	}
+
+	.md-typeset .toc ul {
+		list-style: none;
+	}
+
+	@media print {
+		.md-typeset .toc {
+			display: block;
+			page-break-after: always;
+		}
+
+		.md-typeset .toc .md-nav__link {
+			color: var(--md-typeset-a-color);
+		}
+
+		.md-typeset .toc .md-nav__link.md-nav__link--active {
+			font-weight: unset;
+		}
+
+		.md-typeset .toc+* {
+			margin-top: 0;
+		}
+	}
+</style>
+
+
+<hr>
+
+{# pagination #}
+<div class="pages">
+	{% for pg in blog_pages %}
+
+	<div class="page" id="page{{ loop.index }}">
+		{% set pg_image = "" %}
+		{% if pg.meta and pg.meta.banner %}
+		{% set pg_image = pg.canonical_url ~ pg.meta.banner %}
+		{% endif %}
+		<div class="card">
+			<dl>
+				<dt>
+					<a href="{{ pg.canonical_url }}">{{ pg.title }}</a>
+					{% if pg.meta and pg.meta.category %}
+					<span class="note-category">
+						« {{ pg.meta.category }} »
+					</span>
+					{% endif %}
+				</dt>
+				<dd>
+					{{ pg.meta.description }}
+				</dd>
+			</dl>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% endif %}
