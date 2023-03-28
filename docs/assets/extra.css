@@ -8,6 +8,7 @@
 @font-face {
     font-family: Source Han Sans;
     src: url("fonts/SourceHanSerifSC-VF.otf");
+    font-weight: 600;
 }
 
 @font-face {
